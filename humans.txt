@@ -1,26 +1,26 @@
 # Humans.txt - Website Team and Technology Information
-# Lackawanna County Golf Carts - Website Development Credits
+# Rehoboth Golf Carts - Website Development Credits
 
 ## WEBSITE TEAM TRANSPARENCY
 
 ### Business Information
-Company: Lackawanna County Golf Carts
-Website: https://lackawannagolfcarts.com
+Company: Rehoboth Golf Carts
+Website: https://rehobothgolfcarts.com
 Industry: Electric Golf Cart Sales and Service
-Location: Lackawanna County, Pennsylvania, USA
+Location: Sussex County, Delaware, USA
 Established: Serving the community with excellence
 
 ### Business Leadership
 Business Focus: Premium electric golf cart sales, service, rentals, and parts
 Market Specialization: DENAGO and EVOLUTION electric golf cart brands
-Service Area: All 19 Lackawanna County municipalities
+Service Area: All 27 Sussex County municipalities
 Customer Commitment: Professional service and customer satisfaction
 
 ### Contact Information
-Primary Email: info@lackawannagolfcarts.com
+Primary Email: info@rehobothgolfcarts.com
 Business Phone: 1-844-844-6638
-Service Area: Lackawanna County, Pennsylvania
-Coverage: Scranton, Carbondale, Clarks Summit, and all local municipalities
+Service Area: Sussex County, Delaware
+Coverage: Rehoboth Beach, Lewes, Georgetown, Seaford, and all local municipalities
 
 ## DEVELOPMENT TEAM CREDITS
 
@@ -43,7 +43,7 @@ Images: Professional showroom photography integration
 Search Optimization: Comprehensive SEO strategy implementation
 Analytics: Google Tag Manager (GTM-NSN3ZJPP) and Analytics (G-QJVWEK6RT8)
 Schema Markup: Complete structured data implementation
-Local SEO: Municipality-specific pages for all 19 locations
+Local SEO: Municipality-specific pages for all 27 locations
 Content Strategy: Educational and service-focused content
 
 ## TECHNOLOGY STACK INFORMATION

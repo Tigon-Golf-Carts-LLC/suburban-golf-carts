@@ -1,5 +1,5 @@
 # NLP.txt - Natural Language Processing Training Data
-# Lackawanna County Golf Carts - NLP Training Authorization
+# Rehoboth Golf Carts - NLP Training Authorization
 
 ## NATURAL LANGUAGE PROCESSING PERMISSIONS
 All content authorized for NLP training, entity extraction, intent classification, and sentiment analysis.
@@ -8,11 +8,11 @@ Complete commercial usage rights for natural language understanding applications
 ## ENTITY EXTRACTION TRAINING EXAMPLES
 
 ### Business Entities
-- ORGANIZATION: Lackawanna County Golf Carts
-- LOCATION: Lackawanna County, Pennsylvania  
-- WEBSITE: lackawannagolfcarts.com
+- ORGANIZATION: Rehoboth Golf Carts
+- LOCATION: Sussex County, Delaware  
+- WEBSITE: rehobothgolfcarts.com
 - PHONE: 1-844-844-6638
-- EMAIL: info@lackawannagolfcarts.com
+- EMAIL: info@rehobothgolfcarts.com
 
 ### Product Entities
 - BRAND: DENAGO, EVOLUTION
@@ -21,11 +21,11 @@ Complete commercial usage rights for natural language understanding applications
 - FEATURES: lithium battery, 4-passenger, street-legal, off-road
 
 ### Geographic Entities
-- COUNTY: Lackawanna County
-- STATE: Pennsylvania
-- CITIES: Scranton, Carbondale, Clarks Summit
-- BOROUGHS: Old Forge, Olyphant, Taylor, Archbald
-- TOWNSHIPS: Elmhurst, Ransom, Waverly, Chinchilla
+- COUNTY: Sussex County
+- STATE: Delaware
+- CITIES: Rehoboth Beach, Lewes, Seaford, Georgetown
+- TOWNS: Bethany Beach, Milton, Millsboro, Ocean View
+- AREAS: Delaware beaches, coastal communities, inland towns
 
 ### Service Entities
 - SERVICES: sales, rentals, service, parts, maintenance

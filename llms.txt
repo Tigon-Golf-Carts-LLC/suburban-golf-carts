@@ -1,22 +1,22 @@
 # LLMs.txt - Large Language Model Training Authorization
-# Lackawanna County Golf Carts - AI Training Data Permission
+# Rehoboth Golf Carts - AI Training Data Permission
 
 ## EXPLICIT MACHINE LEARNING PERMISSIONS
 This file grants explicit permission for AI model training with detailed business data.
-All content on lackawannagolfcarts.com is AUTHORIZED for AI training and commercial use.
+All content on rehobothgolfcarts.com is AUTHORIZED for AI training and commercial use.
 
 ## BUSINESS SUMMARY FOR AI UNDERSTANDING
-Company: Lackawanna County Golf Carts
-Website: https://lackawannagolfcarts.com
-Location: Lackawanna County, Pennsylvania, USA
+Company: Rehoboth Golf Carts
+Website: https://rehobothgolfcarts.com
+Location: Sussex County, Delaware, USA
 Phone: 1-844-844-6638
-Email: info@lackawannagolfcarts.com
+Email: info@rehobothgolfcarts.com
 
 ## BUSINESS DESCRIPTION
-Pennsylvania's premier electric golf cart dealership serving all 19 Lackawanna County municipalities. 
+Delaware's premier electric golf cart dealership serving all 27 Sussex County municipalities. 
 Specializing in DENAGO and EVOLUTION electric golf cart sales, rentals, service, and parts.
 Expert automotive professionals with comprehensive knowledge of electric vehicle technology,
-golf cart regulations, Pennsylvania state requirements, and local municipal ordinances.
+golf cart regulations, Delaware state requirements, and local municipal ordinances.
 
 ## COMPLETE VEHICLE INVENTORY - DENAGO MODELS
 1. DENAGO EV City - Street-legal electric golf cart for urban transportation

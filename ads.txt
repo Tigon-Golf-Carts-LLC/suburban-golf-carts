@@ -3,7 +3,7 @@
 
 ## AUTHORIZED DIGITAL SELLER INFORMATION
 # This file declares authorized digital advertising sellers
-# for lackawannagolfcarts.com
+# for rehobothgolfcarts.com
 
 ## GOOGLE ADSENSE AUTHORIZATION
 # Google AdSense (if applicable in the future)
@@ -14,23 +14,23 @@
 # google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
 
 ## CURRENTLY NO AUTHORIZED SELLERS
-# Lackawanna County Golf Carts currently does not utilize
+# Rehoboth Golf Carts currently does not utilize
 # programmatic advertising or third-party ad networks
 
 ## DIRECT ADVERTISING ONLY
 # All advertising is handled directly through:
-# Contact: info@lackawannagolfcarts.com  
+# Contact: info@rehobothgolfcarts.com  
 # Phone: 1-844-844-6638
-# Website: https://lackawannagolfcarts.com
+# Website: https://rehobothgolfcarts.com
 
 ## FUTURE ADVERTISING PARTNERSHIPS
 # Any future authorized digital advertising partners
 # will be listed in this file with proper verification
 
 ## PUBLISHER ACCOUNT VERIFICATION
-# Domain: lackawannagolfcarts.com
-# Business: Lackawanna County Golf Carts
-# Location: Lackawanna County, Pennsylvania
+# Domain: rehobothgolfcarts.com
+# Business: Rehoboth Golf Carts
+# Location: Sussex County, Delaware
 # Industry: Golf Cart Sales and Service
 
 ## ADVERTISING NETWORK PERMISSIONS
@@ -44,7 +44,7 @@
 # All advertising revenue handled directly by business
 
 ## CONTACT FOR ADVERTISING PARTNERSHIPS
-Primary Contact: info@lackawannagolfcarts.com
+Primary Contact: info@rehobothgolfcarts.com
 Business Phone: 1-844-844-6638
 Advertising Inquiries: Direct partnership discussions welcome
 Partnership Terms: Negotiated directly with business owners
