@@ -30,8 +30,8 @@ I want iterative development. Ask before making major changes.
 - **Location-based Services**: Integration of Google Maps embeds with accurate Sussex County coordinates.
 
 ## External Dependencies
-- **Google Tag Manager (GTM)**: Used for analytics and marketing tag deployment (GTM-NSN3ZJPP).
-- **Google Analytics 4 (GA4)**: Integrated for website analytics (G-QJVWEK6RT8).
+- **Google Tag Manager (GTM)**: Used for analytics and marketing tag deployment (GTM-NG5LKDC2).
+- **Google Analytics 4 (GA4)**: Integrated for website analytics (G-DTDH7LVGPN).
 - **Google Maps**: Embedded for displaying dealership and service area locations.
 - **TIGON Golf Carts**: External links for purchase and financing options.
 
@@ -40,7 +40,7 @@ I want iterative development. Ask before making major changes.
 ### ✅ Complete Branding Transformation (January 2025)
 - **New Brand Identity**: Rehoboth Golf Carts professional logos, favicons, and showroom imagery
 - **Domain Migration**: Complete transition to rehobothgolfcarts.com
-- **Analytics Integration**: Google Tag Manager (GTM-NSN3ZJPP) and Google Analytics (G-QJVWEK6RT8)
+- **Analytics Integration**: Google Tag Manager (GTM-NG5LKDC2) and Google Analytics (G-DTDH7LVGPN)
 - **Professional Photography**: 8 new Sussex County showroom background images implemented
 
 ### ✅ Comprehensive SEO & AI Optimization Suite (January 2025)  
