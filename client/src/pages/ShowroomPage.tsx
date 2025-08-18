@@ -10,41 +10,28 @@ import { SUSSEX_COUNTY_MUNICIPALITIES } from "@/data/sussexCountyMunicipalities"
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON GOLF CARS POCONO PA",
-      address: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
-      phone: "570-643-0152",
-      coordinates: "41.10286354605563, -75.48758590250345",
-      googleMapsUrl: "https://www.google.com/maps?cid=17137841834562046914",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsPoconos/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPoconosPA",
-      websiteUrl: "https://tigongolfcarts.com/pocono/",
-      reviewUrl: "https://g.page/r/CcJL5i1Z2NXtEBM/review",
-      city: "Pocono Pines",
+      name: "TIGON Golf Carts",
+      address: "5158 N Dupont Hwy, Dover, DE 19901",
+      phone: "302-546-0010",
+      coordinates: "39.22044318468275, -75.57452048907642",
+      googleMapsUrl: "https://www.google.com/maps?cid=12843447677705895190",
+      facebookUrl: "https://www.facebook.com/TigonGolfCartsDover/",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDoverDE",
+      websiteUrl: "https://tigongolfcarts.com/dover/",
+      reviewUrl: "https://g.page/r/CRa9-YidFz2yEBM/review",
+      city: "Dover",
       type: "physical"
     },
     {
-      name: "TIGON GOLF CARS SCRANTON-WILKES-BARRE PA",
-      address: "1225 N Keyser Ave #2, Scranton, PA 18504",
-      phone: "570-344-4443",
-      coordinates: "41.4374075,-75.6835104",
-      googleMapsUrl: "https://www.google.com/maps?cid=13243686786001524416",
-      facebookUrl: "https://www.facebook.com/TigonGolfCartsScranton/",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsScrantonWilkesPA",
-      websiteUrl: "https://tigongolfcarts.com/scranton-wilkes-barre/",
-      reviewUrl: "https://g.page/r/CcDWJ7z2Bsu3EBM/review",
-      city: "Scranton",
-      type: "physical"
-    },
-    {
-      name: "TIGON GOLF CARTS PENNSYLVANIA",
-      address: "Pennsylvania",
+      name: "TIGON Golf Carts Delaware",
+      address: "Delaware",
       phone: "1-844-844-6638",
-      coordinates: "41.1169824,-77.6047047",
-      googleMapsUrl: "https://www.google.com/maps?cid=13935683838976847185",
-      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsPennsylvania",
-      websiteUrl: "https://tigongolfcarts.com/pennsylvania/",
-      reviewUrl: "https://g.page/r/CVHtXfydfmXBEBM/review",
-      city: "Pennsylvania",
+      coordinates: "39.145324,-75.386594",
+      googleMapsUrl: "https://www.google.com/maps?cid=11044789483047204293",
+      youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDelaware",
+      websiteUrl: "https://tigongolfcarts.com/delaware/",
+      reviewUrl: "https://g.page/r/CcW1_1uE-UaZEBM/review",
+      city: "Delaware",
       type: "online"
     }
   ];
@@ -84,10 +71,10 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Three convenient locations serving all of Pennsylvania</p>
+            <p className="text-xl text-gray-600">Serving all of Delaware with expert golf cart sales and service</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {locations.map((location, index) => (
               <Card key={index} className="hover:shadow-xl transition-shadow border border-gray-200 hover:border-theme-orange h-full">
                 <CardHeader className="pb-3">
@@ -286,7 +273,7 @@ export default function ShowroomPage() {
             Ready to Visit Our Showroom?
           </h2>
           <p className="text-xl mb-8">
-            Visit our TIGON Golf Carts showrooms in Pocono Pines or Scranton, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
+            Visit our TIGON Golf Carts showroom in Dover, DE, or call us to see our full inventory of DENAGO and EVOLUTION golf carts.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
