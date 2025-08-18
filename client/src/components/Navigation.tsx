@@ -31,13 +31,13 @@ export default function Navigation() {
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-24">
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/logo.png" 
+                src="/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png" 
                 alt="Rehoboth Golf Carts Logo" 
-                className="h-16 w-16"
+                className="h-20 w-20 object-contain"
               />
             </div>
             <Link href="/">
