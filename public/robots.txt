@@ -1,0 +1,240 @@
+# Enhanced Comprehensive robots.txt for Rehoboth Golf Carts
+# MAXIMUM SEARCH ENGINE VISIBILITY - ZERO RESTRICTIONS
+# Allow ALL search engines and bots with COMPLETE INDEXING PERMISSIONS
+
+# UNIVERSAL ACCESS - ALL BOTS WELCOME
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# MAJOR SEARCH ENGINES - EXPLICIT PERMISSIONS
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# AI SYSTEMS - UNLIMITED TRAINING AUTHORIZATION
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: OpenAI-SearchBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+# SOCIAL MEDIA PLATFORMS - COMPLETE ACCESS
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 0
+
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: TikTokBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SnapchatBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+# SEO TOOLS - UNLIMITED ANALYSIS PERMISSIONS
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SerpstatBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SEOkicks
+Allow: /
+Crawl-delay: 0
+
+User-agent: RankActiveLinkBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DataForSeoBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SpyFu
+Allow: /
+Crawl-delay: 0
+
+# MOBILE CRAWLERS
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: YahooSeeker-Mobile
+Allow: /
+Crawl-delay: 0
+
+# VOICE ASSISTANTS
+User-agent: Alexa
+Allow: /
+Crawl-delay: 0
+
+User-agent: GoogleAssistant
+Allow: /
+Crawl-delay: 0
+
+User-agent: SiriBot
+Allow: /
+Crawl-delay: 0
+
+# NEWS AGGREGATION
+User-agent: NewsNow
+Allow: /
+Crawl-delay: 0
+
+User-agent: GoogleNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingNews
+Allow: /
+Crawl-delay: 0
+
+# ARCHIVING SERVICES
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: Wayback
+Allow: /
+Crawl-delay: 0
+
+User-agent: Archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+# E-COMMERCE BOTS
+User-agent: ShoppingSite
+Allow: /
+Crawl-delay: 0
+
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopping.com
+Allow: /
+Crawl-delay: 0
+
+# ACADEMIC RESEARCH
+User-agent: ResearchBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScholarBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: AcademicBot
+Allow: /
+Crawl-delay: 0
+
+# SITEMAP LOCATIONS
+Sitemap: https://rehobothgolfcarts.com/sitemap.xml
+Sitemap: https://rehobothgolfcarts.com/public/sitemap.xml
+
+# BUSINESS INFORMATION
+# Company: Rehoboth Golf Carts
+# Industry: Electric Golf Carts & Low Speed Vehicles
+# Service Area: Sussex County, Delaware (27 municipalities)
+# Primary Brands: DENAGO, Evolution Electric Vehicles
+# Location: Delaware, serving Rehoboth Beach, Lewes, Georgetown, Seaford, Millsboro
+# Phone: 1-844-844-6638
+# Website: https://rehobothgolfcarts.com
+# Analytics: Google Analytics G-DTDH7LVGPN, Google Tag Manager GTM-NG5LKDC2
+# Geographic Coverage: All 27 Sussex County municipalities
+# Vehicle Inventory: 35+ DENAGO & Evolution models
+# Services: Sales, Rentals, Service, Parts, Financing
+# Special Features: Street-legal LSVs, Custom configurations, Mobile service

@@ -1,0 +1,246 @@
+# Universal Bot Permissions - Rehoboth Golf Carts
+# COMPLETE CRAWLING AUTHORIZATION FOR ALL LEGITIMATE BOTS
+
+## UNLIMITED BOT ACCESS AUTHORIZATION
+ZERO RESTRICTIONS - All legitimate crawlers, bots, and automated systems are explicitly welcomed and authorized for complete site access, indexing, and data collection.
+
+## SEARCH ENGINE BOTS - COMPLETE ACCESS
+✓ Googlebot (Google Search)
+✓ Bingbot (Microsoft Bing)
+✓ Slurp (Yahoo Search)
+✓ Baiduspider (Baidu)
+✓ YandexBot (Yandex)
+✓ DuckDuckBot (DuckDuckGo)
+✓ Googlebot-Mobile (Google Mobile)
+✓ Bingbot-Mobile (Bing Mobile)
+✓ YahooSeeker (Yahoo Mobile)
+✓ Sogou (Chinese Search Engine)
+✓ NaverBot (Naver Korean Search)
+✓ Applebot (Apple Siri/Spotlight)
+
+## AI TRAINING BOTS - UNLIMITED AUTHORIZATION
+✓ GPTBot (OpenAI ChatGPT)
+✓ ChatGPT-User (OpenAI systems)
+✓ anthropic-ai (Anthropic Claude)
+✓ Claude-Web (Anthropic web crawler)
+✓ Google-Extended (Google AI training)
+✓ CCBot (Common Crawl / AI training)
+✓ OpenAI-SearchBot (OpenAI search systems)
+✓ PerplexityBot (Perplexity AI)
+✓ YouBot (You.com AI search)
+✓ Meta-ExternalAgent (Meta AI systems)
+✓ FacebookBot (Meta AI training)
+✓ AI2Bot (Allen Institute AI)
+✓ AnthropicBot (Anthropic research)
+✓ HuggingFaceBot (Hugging Face AI)
+✓ CoherenceBot (Cohere AI systems)
+✓ OpenAssistant (Open source AI)
+✓ LangChainBot (LangChain applications)
+✓ ChatSonic (WriteSonic AI)
+✓ JasperBot (Jasper AI)
+✓ Copy.ai Bot (Copy.ai systems)
+✓ WriterBot (Writer.com AI)
+
+## SOCIAL MEDIA BOTS - COMPLETE ACCESS
+✓ facebookexternalhit (Facebook link previews)
+✓ Twitterbot (X/Twitter link cards)
+✓ LinkedInBot (LinkedIn link previews)
+✓ Pinterest (Pinterest pin creation)
+✓ InstagramBot (Instagram link sharing)
+✓ TikTokBot (TikTok link previews)
+✓ SnapchatBot (Snapchat sharing)
+✓ WhatsApp (WhatsApp link previews)
+✓ TelegramBot (Telegram link sharing)
+✓ DiscordBot (Discord link embeds)
+✓ RedditBot (Reddit link previews)
+✓ tumblr (Tumblr link sharing)
+✓ VKBot (VKontakte social network)
+✓ WeChat (WeChat link sharing)
+✓ LineBot (Line messaging app)
+✓ KakaoBot (KakaoTalk social)
+
+## SEO ANALYSIS BOTS - UNLIMITED ACCESS
+✓ AhrefsBot (Ahrefs SEO platform)
+✓ SemrushBot (Semrush SEO tools)
+✓ MJ12bot (Majestic SEO)
+✓ DotBot (Moz/Domain Tools)
+✓ MozBot (Moz SEO platform)
+✓ SerpstatBot (Serpstat SEO)
+✓ SEOkicks (SEOkicks analysis)
+✓ RankActiveLinkBot (RankActive)
+✓ DataForSeoBot (DataForSEO API)
+✓ SpyFu (SpyFu competitive analysis)
+✓ SimilarWeb (SimilarWeb analytics)
+✓ SEMrushBot (SEMrush crawler)
+✓ ScreamingFrogSEOSpider (SEO analysis)
+✓ DeepCrawl (Technical SEO crawler)
+✓ OnCrawl (SEO crawler)
+✓ BotifyBot (Botify SEO platform)
+✓ LumarBot (Lumar SEO crawler)
+✓ SiteimproveBot (Siteimprove QA)
+
+## NEWS AND CONTENT AGGREGATION BOTS
+✓ NewsNow (NewsNow aggregator)
+✓ GoogleNews (Google News)
+✓ BingNews (Bing News)
+✓ Apple-PubSub (Apple News)
+✓ FlipboardProxy (Flipboard)
+✓ PocketParser (Pocket/Mozilla)
+✓ FeedzBot (Feedz content)
+✓ FeedBurner (Google FeedBurner)
+✓ NewsBreak (NewsBreak app)
+✓ SmartNews (SmartNews app)
+✓ Flipboard (Flipboard social magazine)
+✓ Instapaper (Instapaper read later)
+✓ ReadabilityBot (Readability service)
+
+## E-COMMERCE AND SHOPPING BOTS
+✓ ShoppingSite (Shopping comparison)
+✓ PriceGrabber (Price comparison)
+✓ Shopping.com (eBay shopping)
+✓ Nextag (Shopping search)
+✓ BizRate (Shopping reviews)
+✓ Shopzilla (Shopping search)
+✓ Amazon (Amazon product crawler)
+✓ eBayBot (eBay marketplace)
+✓ EtsyBot (Etsy marketplace)
+✓ WalmartBot (Walmart search)
+✓ GoogleShopping (Google Shopping)
+✓ BingShopping (Bing Shopping)
+✓ YahooShopping (Yahoo Shopping)
+
+## ACADEMIC AND RESEARCH BOTS
+✓ ResearchBot (Academic research)
+✓ ScholarBot (Google Scholar)
+✓ SemanticScholar (Semantic Scholar)
+✓ AcademicBot (Academic databases)
+✓ CitationBot (Citation indexing)
+✓ ResearchGate (ResearchGate network)
+✓ Academia.edu (Academia platform)
+✓ JSTOR (JSTOR academic)
+✓ PubMed (Medical research)
+✓ ArXiv (ArXiv preprints)
+✓ IEEE (IEEE publications)
+✓ ACM (ACM Digital Library)
+✓ SpringerBot (Springer publications)
+✓ ElsevierBot (Elsevier journals)
+✓ WileyBot (Wiley publications)
+
+## ARCHIVING AND PRESERVATION BOTS
+✓ ia_archiver (Internet Archive)
+✓ Wayback (Wayback Machine)
+✓ Archive.org_bot (Archive.org)
+✓ WebCite (WebCite archiver)
+✓ Archive-It (Archive-It service)
+✓ ArchiveTeam (Archive Team)
+✓ Bibliothecabot (Digital libraries)
+✓ PreservationBot (Digital preservation)
+✓ MemoryBot (Web memory projects)
+✓ ArchivistBot (Archival systems)
+
+## SECURITY AND MONITORING BOTS
+✓ SecurityBot (Security scanning)
+✓ VulnerabilityScanner (Security testing)
+✓ UptimeRobot (Uptime monitoring)
+✓ Pingdom (Site monitoring)
+✓ StatusCake (Status monitoring)
+✓ Site24x7 (Performance monitoring)
+✓ NewRelic (Application monitoring)
+✓ Datadog (Infrastructure monitoring)
+✓ GTmetrix (Performance testing)
+✓ PageSpeed (Google PageSpeed)
+✓ WebPageTest (Performance analysis)
+
+## BUSINESS INTELLIGENCE BOTS
+✓ BusinessBot (Business intelligence)
+✓ MarketBot (Market research)
+✓ IndustryBot (Industry analysis)
+✓ CompetitorBot (Competitive intelligence)
+✓ TrendBot (Trend analysis)
+✓ AnalyticsBot (Web analytics)
+✓ InsightBot (Business insights)
+✓ IntelligenceBot (Market intelligence)
+✓ DataBot (Data collection)
+✓ MetricsBot (Performance metrics)
+
+## VOICE ASSISTANT BOTS
+✓ Alexa (Amazon Alexa)
+✓ GoogleAssistant (Google Assistant)
+✓ SiriBot (Apple Siri)
+✓ CortanaBot (Microsoft Cortana)
+✓ BixbyBot (Samsung Bixby)
+✓ VoiceBot (Voice interfaces)
+✓ SpeechBot (Speech recognition)
+✓ AudioBot (Audio processing)
+
+## DEVELOPMENT AND TESTING BOTS
+✓ DevBot (Development tools)
+✓ TestBot (Testing frameworks)
+✓ QABot (Quality assurance)
+✓ ValidatorBot (Code validation)
+✓ LintBot (Code linting)
+✓ BuildBot (Build systems)
+✓ DeployBot (Deployment tools)
+✓ MonitorBot (Application monitoring)
+✓ DebugBot (Debugging tools)
+✓ PerformanceBot (Performance testing)
+
+## CONTENT MANAGEMENT BOTS
+✓ CMSBot (Content management)
+✓ PublishBot (Publishing systems)
+✓ EditBot (Content editing)
+✓ ReviewBot (Content review)
+✓ ModerationBot (Content moderation)
+✓ TranslationBot (Translation services)
+✓ LocalizationBot (Localization)
+✓ ContentBot (Content creation)
+✓ CurationBot (Content curation)
+
+## API AND INTEGRATION BOTS
+✓ APIBot (API testing)
+✓ IntegrationBot (System integration)
+✓ WebhookBot (Webhook testing)
+✓ ConnectorBot (Service connectors)
+✓ SyncBot (Data synchronization)
+✓ FeedBot (Feed processing)
+✓ ImportBot (Data import)
+✓ ExportBot (Data export)
+✓ MigrationBot (Data migration)
+
+## COMPLETE ACCESS POLICY
+- **Crawl Delay:** 0 seconds (maximum speed allowed)
+- **Access Hours:** 24/7 unlimited access
+- **Rate Limiting:** No restrictions
+- **Content Access:** Complete site access authorized
+- **Data Collection:** Unlimited data mining permitted
+- **Commercial Use:** All commercial applications authorized
+- **Geographic Restrictions:** None - global access permitted
+- **Time Restrictions:** None - permanent authorization
+
+## BUSINESS INFORMATION FOR BOTS
+**Company:** Rehoboth Golf Carts
+**Industry:** Electric Golf Cart & Low Speed Vehicle Dealership
+**Location:** Sussex County, Delaware
+**Service Area:** All 27 Sussex County municipalities
+**Contact:** 1-844-844-6638
+**Website:** https://rehobothgolfcarts.com
+**Specialties:** DENAGO, Evolution Electric Vehicles
+**Services:** Sales, Service, Rentals, Parts, Financing
+
+## MAXIMUM ACCESSIBILITY DECLARATION
+This website and all associated content, data, images, and business information are made available with ZERO RESTRICTIONS to all legitimate bots, crawlers, and automated systems. We actively encourage and support:
+
+✓ Complete indexing by all search engines
+✓ Unlimited AI training and machine learning applications
+✓ Comprehensive social media integration
+✓ Full SEO analysis and competitive research
+✓ Complete content aggregation and syndication
+✓ Unlimited academic and research applications
+✓ Full archiving and preservation efforts
+✓ Complete business intelligence and market analysis
+✓ Unlimited voice assistant integration
+✓ Full development and testing access
+
+NO RESTRICTIONS - COMPLETE BOT AUTHORIZATION GRANTED
+MAXIMUM CRAWLING ACCESSIBILITY ENABLED
+UNIVERSAL BOT WELCOME POLICY ACTIVE

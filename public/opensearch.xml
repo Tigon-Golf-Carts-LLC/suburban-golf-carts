@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  
+  <ShortName>Rehoboth Golf Carts</ShortName>
+  <Description>Search Delaware's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals in Sussex County.</Description>
+  <Image width="16" height="16" type="image/x-icon">https://rehobothgolfcarts.com/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png</Image>
+  <Image width="64" height="64" type="image/png">https://rehobothgolfcarts.com/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png</Image>
+  
+  <Url type="text/html" method="get" template="https://rehobothgolfcarts.com/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://rehobothgolfcarts.com/opensearch.xml"/>
+  
+  <Language>en-US</Language>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <InputEncoding>UTF-8</InputEncoding>
+  
+  <Developer>Rehoboth Golf Carts Development Team</Developer>
+  <Contact>info@rehobothgolfcarts.com</Contact>
+  <Attribution>Rehoboth Golf Carts - Delaware's Premier Electric Golf Cart Dealership</Attribution>
+  
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  
+  <Query role="example" searchTerms="DENAGO EV City" />
+  <Query role="example" searchTerms="Evolution D5 Maverick" />
+  <Query role="example" searchTerms="golf cart rental Rehoboth Beach" />
+  <Query role="example" searchTerms="electric golf cart service Delaware" />
+  
+  <moz:SearchForm>https://rehobothgolfcarts.com/</moz:SearchForm>
+  <moz:UpdateInterval>7</moz:UpdateInterval>
+  <moz:UpdateUrl>https://rehobothgolfcarts.com/opensearch.xml</moz:UpdateUrl>
+  <moz:IconUpdateUrl>https://rehobothgolfcarts.com/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png</moz:IconUpdateUrl>
+  
+</OpenSearchDescription>
