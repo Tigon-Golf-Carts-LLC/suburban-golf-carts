@@ -41,9 +41,11 @@ export default function Navigation() {
               />
             </div>
             <Link href="/">
-              <div className="cursor-pointer flex flex-col">
-                <div className="text-lg font-bold text-theme-primary leading-tight">DELAWARE</div>
-                <div className="text-lg font-bold text-theme-primary leading-tight">GOLF CARTS</div>
+              <div className="cursor-pointer">
+                <div className="flex flex-col items-start">
+                  <span className="text-lg font-bold text-theme-primary block">DELAWARE</span>
+                  <span className="text-lg font-bold text-theme-primary block -mt-1">GOLF CARTS</span>
+                </div>
               </div>
             </Link>
           </div>
