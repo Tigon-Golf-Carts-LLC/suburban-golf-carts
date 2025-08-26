@@ -6,7 +6,7 @@ import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 // Import financing option images
 import yardCardImage from "@assets/generated_images/Yard_Card_financing_option_31032702.png";
-import sheffieldImage from "@assets/generated_images/Sheffield_Financial_option_9e89bd23.png";
+import sheffieldImage from "@assets/generated_images/Sheffield_Financial_redesigned_card_483cf627.png";
 import rentToOwnImage from "@assets/generated_images/Rent_to_Own_option_c87b7549.png";
 import dllFinancialImage from "@assets/generated_images/DLL_Financial_option_4384747b.png";
 import gllFinancialImage from "@assets/generated_images/GLL_Financial_option_9c78da4e.png";
@@ -28,8 +28,8 @@ export default function FinancingPage() {
     },
     {
       title: "Prequalify Now!",
-      subtitle: "Get prequalified with no impact to your credit.*",
-      description: "Check your financing options without affecting your credit score",
+      subtitle: "Get prequalified with Sheffield Financial with no impact to your credit.*",
+      description: "Check your Sheffield financing options without affecting your credit score",
       buttonText: "Quick Apply⟶", 
       url: "https://prequalify.sheffieldfinancial.com/Apply/Dealer/56712?source=web",
       image: sheffieldImage,
