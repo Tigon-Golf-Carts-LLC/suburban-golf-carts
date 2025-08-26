@@ -105,6 +105,11 @@ export default function Navigation() {
                     </Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
+                    <Link href="/financing" className="w-full">
+                      Financing
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
                     <Link href="/eco-impact" className="w-full">
                       Eco-Impact Calculator
                     </Link>
@@ -187,6 +192,13 @@ export default function Navigation() {
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       About Us
+                    </Link>
+                    <Link
+                      href="/financing"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Financing
                     </Link>
                     <Link
                       href="/eco-impact"

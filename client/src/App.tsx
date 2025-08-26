@@ -21,6 +21,7 @@ import NewInventoryPage from "@/pages/NewInventoryPage";
 import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
 import EcoImpactPage from "@/pages/EcoImpactPage";
+import FinancingPage from "@/pages/FinancingPage";
 
 // Delaware County Pages
 import NewCastleCountyPage from "@/pages/counties/NewCastleCountyPage";
@@ -159,6 +160,7 @@ export default function App() {
             <Route path="/contact" component={ContactPage} />
             <Route path="/thank-you" component={ThankYouPage} />
             <Route path="/showroom" component={ShowroomPage} />
+            <Route path="/financing" component={FinancingPage} />
             <Route path="/eco-impact" component={EcoImpactPage} />
             <Route path="/privacy" component={PrivacyPolicyPage} />
             <Route path="/terms" component={TermsOfServicePage} />
