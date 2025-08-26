@@ -1,8 +1,8 @@
-# ads.txt - Rehoboth Golf Carts
+# ads.txt - Delaware Golf Carts
 # Authorized Digital Sellers Declaration
 
 # ADVERTISING TRANSPARENCY DECLARATION
-# This file identifies authorized digital advertising sellers for rehobothgolfcarts.com
+# This file identifies authorized digital advertising sellers for delawaregolfcarts.com
 # in compliance with IAB Tech Lab ads.txt standard
 
 # BUSINESS ADVERTISING AUTHORIZATION

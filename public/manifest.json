@@ -1,7 +1,7 @@
 {
-  "name": "Rehoboth Golf Carts",
-  "short_name": "Rehoboth Golf Carts",
-  "description": "Delaware's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals in Sussex County.",
+  "name": "Delaware Golf Carts",
+  "short_name": "Delaware Golf Carts",
+  "description": "Delaware's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals statewide.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -74,7 +74,7 @@
     {
       "name": "Golf Cart Rentals",
       "short_name": "Rentals",
-      "description": "Rent golf carts for Sussex County beach destinations",
+      "description": "Rent golf carts for Delaware beach destinations",
       "url": "/rentals",
       "icons": [
         {
@@ -145,7 +145,7 @@
       "sizes": "1920x1080",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Rehoboth Golf Carts Delaware Showroom"
+      "label": "Delaware Golf Carts Showroom"
     },
     {
       "src": "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg",
