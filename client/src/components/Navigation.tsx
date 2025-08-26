@@ -42,9 +42,9 @@ export default function Navigation() {
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="flex flex-col items-start">
-                  <span className="text-lg font-bold text-theme-primary block">DELAWARE</span>
-                  <span className="text-lg font-bold text-theme-primary block -mt-1">GOLF CARTS</span>
+                <div className="text-lg font-bold text-theme-primary" style={{lineHeight: '1.1'}}>
+                  DELAWARE<br />
+                  GOLF CARTS
                 </div>
               </div>
             </Link>
