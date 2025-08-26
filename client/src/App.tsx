@@ -22,6 +22,11 @@ import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
 import EcoImpactPage from "@/pages/EcoImpactPage";
 
+// Delaware County Pages
+import NewCastleCountyPage from "@/pages/counties/NewCastleCountyPage";
+import KentCountyPage from "@/pages/counties/KentCountyPage";
+import SussexCountyPage from "@/pages/counties/SussexCountyPage";
+
 // Sussex County Location Pages
 import {
   BethanyBeachPage,
@@ -116,6 +121,11 @@ export default function App() {
             <Route path="/eco-impact" component={EcoImpactPage} />
             <Route path="/privacy" component={PrivacyPolicyPage} />
             <Route path="/terms" component={TermsOfServicePage} />
+            
+            {/* Delaware County Pages */}
+            <Route path="/new-castle-county-golf-carts" component={NewCastleCountyPage} />
+            <Route path="/kent-county-golf-carts" component={KentCountyPage} />
+            <Route path="/sussex-county-golf-carts" component={SussexCountyPage} />
 
             {/* Policy Pages */}
             <Route path="/policies/terms-conditions" component={TermsConditionsPage} />

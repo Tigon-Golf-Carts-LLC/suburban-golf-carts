@@ -19,17 +19,17 @@ export default function LocationSchema({
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Rehoboth Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Sussex County, Delaware. Premium DENAGO and Evolution electric golf carts available.`,
-      "url": `https://rehobothgolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "image": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+      "name": `Delaware Golf Carts - ${municipalityName} ${municipalityType}`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Delaware. Premium DENAGO and Evolution electric golf carts available.`,
+      "url": `https://delawaregolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
+      "logo": "https://delawaregolfcarts.com/attached_assets/Delaware Golf Carts_logo.png",
+      "image": "https://delawaregolfcarts.com/attached_assets/Delaware Golf Carts_logo.png",
       "telephone": "1-844-844-6638",
-      "email": "info@rehobothgolfcarts.com",
+      "email": "info@delawaregolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": municipalityName,
-        "addressRegion": "PA",
+        "addressRegion": "DE",
         "addressCountry": "US"
       },
       "geo": {
@@ -42,7 +42,7 @@ export default function LocationSchema({
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
           "@type": "AdministrativeArea",
-          "name": "Sussex County",
+          "name": "Delaware",
           "containedInPlace": {
             "@type": "State",
             "name": "Delaware"
@@ -97,7 +97,7 @@ export default function LocationSchema({
         "@type": ["LocalBusiness", "RentalCarAgency"],
         "name": `Golf Cart Rentals - ${municipalityName} ${municipalityType}`,
         "description": `Professional golf cart rentals in ${municipalityName} ${municipalityType}, Montgomery County. Daily, weekly, and monthly rental options available for events, recreation, and personal use.`,
-        "url": `https://montcogolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
+        "url": `https://delawaregolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-rentals`,
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": `Golf Cart Rental Services in ${municipalityName} ${municipalityType}`,

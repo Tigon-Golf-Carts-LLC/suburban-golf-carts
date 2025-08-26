@@ -36,13 +36,13 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src="/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png" 
-                alt="Rehoboth Golf Carts Logo" 
+                alt="Delaware Golf Carts Logo" 
                 className="h-20 w-20 object-contain"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary">REHOBOTH</div>
+                <div className="text-lg font-bold text-theme-primary">DELAWARE</div>
                 <div className="text-lg font-bold text-theme-primary -mt-1">GOLF CARTS</div>
               </div>
             </Link>
@@ -64,6 +64,31 @@ export default function Navigation() {
                   {item.label}
                 </Link>
               ))}
+              
+              {/* Counties Dropdown */}
+              <DropdownMenu>
+                <DropdownMenuTrigger className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
+                  Counties
+                  <ChevronDown className="ml-1 h-4 w-4" />
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuItem asChild>
+                    <Link href="/new-castle-county-golf-carts" className="w-full">
+                      New Castle County
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/kent-county-golf-carts" className="w-full">
+                      Kent County
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/sussex-county-golf-carts" className="w-full">
+                      Sussex County
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               
               {/* About Dropdown */}
               <DropdownMenu>
@@ -120,6 +145,34 @@ export default function Navigation() {
                       {item.label}
                     </Link>
                   ))}
+                  
+                  {/* Mobile Counties Section */}
+                  <div className="border-t pt-4">
+                    <div className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
+                      Counties
+                    </div>
+                    <Link
+                      href="/new-castle-county-golf-carts"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      New Castle County
+                    </Link>
+                    <Link
+                      href="/kent-county-golf-carts"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Kent County
+                    </Link>
+                    <Link
+                      href="/sussex-county-golf-carts"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Sussex County
+                    </Link>
+                  </div>
                   
                   {/* Mobile About Section */}
                   <div className="border-t pt-4">

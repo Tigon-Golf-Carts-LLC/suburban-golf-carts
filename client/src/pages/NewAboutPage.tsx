@@ -4,7 +4,8 @@ import { Badge } from "@/components/ui/badge";
 import { Users, Award, Target, Heart, Phone, Mail, MapPin, Calendar } from "lucide-react";
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
-import { SUSSEX_COUNTY_MUNICIPALITIES, type Municipality } from "../data/sussexCountyMunicipalities";
+import { DELAWARE_MUNICIPALITIES_LIST, type Municipality } from "../data/allDelawareMunicipalities";
+import { DELAWARE_COUNTIES } from "../data/delawareCounties";
 import heroImage from "@assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -14,7 +15,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing Sussex County with the best golf cart experience in Delaware's premier coastal region."
+      description: "Passionate about providing all Delaware counties with the best golf cart experience throughout the First State."
     },
     {
       name: "Sarah Martinez",
@@ -50,7 +51,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve Sussex County, Delaware with personalized, community-focused service."
+      description: "Proud to serve all Delaware counties with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -62,10 +63,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Rehoboth Golf Carts - Your Premier Delaware Golf Cart Dealer"
-        description="Learn about Rehoboth Golf Carts, Delaware's trusted golf cart dealer serving all Sussex County municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Sussex County golf carts, about us, golf cart dealer Delaware, DENAGO dealer, EVOLUTION dealer, Rehoboth Beach"
-        canonicalUrl="https://rehobothgolfcarts.com/about"
+        title="About Delaware Golf Carts - Your Premier Delaware Golf Cart Dealer"
+        description="Learn about Delaware Golf Carts, Delaware's trusted golf cart dealer serving all Delaware counties with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Delaware golf carts, about us, golf cart dealer Delaware, DENAGO dealer, EVOLUTION dealer, New Castle Kent Sussex County"
+        canonicalUrl="https://delawaregolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -75,12 +76,12 @@ export default function NewAboutPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat overflow-hidden" style={getHeroBackgroundStyle("about")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
-              About Rehoboth Golf Carts
+              About Delaware Golf Carts
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto drop-shadow-md">
-              Since 2010, we've been Sussex County's premier destination for premium golf carts, 
+              Since 2010, we've been Delaware's premier destination for premium golf carts, 
               exceptional service, and unmatched customer care. Serving all municipalities 
-              across Delaware's coastal region with pride and professionalism.
+              across New Castle, Kent, and Sussex Counties with pride and professionalism.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
@@ -105,44 +106,44 @@ export default function NewAboutPage() {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                 <div className="space-y-4 text-gray-600">
                   <p>
-                    Founded in 2010 in Sussex County, Delaware, Rehoboth Golf Carts began with a simple mission: 
-                    to provide high-quality golf carts and exceptional service to customers throughout Delaware's 
-                    most vibrant coastal county and beach communities.
+                    Founded in 2010 in Delaware, Delaware Golf Carts began with a simple mission: 
+                    to provide high-quality golf carts and exceptional service to customers throughout all 
+                    of Delaware's three counties and diverse communities.
                   </p>
                   <p>
-                    Sussex County stands as Delaware's largest and most diverse county, encompassing 
-                    everything from the famous resort town of Rehoboth Beach to the historic city of Lewes, from the 
-                    scenic coastal communities of Bethany Beach and Fenwick Island to the charming inland towns of Georgetown and Milton.
+                    Delaware stands as a unique state with just three counties, encompassing 
+                    everything from Wilmington's urban energy in New Castle County to Dover's political center in Kent County, and from the 
+                    famous resort communities of Rehoboth Beach and Bethany Beach to historic towns like Lewes and New Castle.
                   </p>
                   <p>
-                    Our county holds a special place in American history as the birthplace of Delaware, with Lewes being 
-                    the "First Town in the First State." Today, Sussex County is equally 
-                    renowned for its pristine beaches, championship golf courses, beautiful resort communities, and thriving businesses that appreciate 
+                    Delaware holds a special place in American history as the "First State" to ratify the Constitution, with communities like Lewes being 
+                    the "First Town in the First State." Today, Delaware is equally 
+                    renowned for its pristine beaches, championship golf courses, beautiful communities from Wilmington to the coast, and thriving businesses that appreciate 
                     premium recreational vehicles.
                   </p>
                   <p>
-                    With Rehoboth Beach's bustling boardwalk, proximity to major highways including Route 1 and Route 9, 
-                    and Delaware's most beautiful coastal and inland communities, Sussex County attracts residents and visitors who 
+                    With Delaware's excellent highway system including I-95, Route 1, and Route 13, 
+                    and the state's beautiful coastal and inland communities from Wilmington to Rehoboth Beach, Delaware attracts residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
-                    From the beach towns of Dewey Beach and Ocean View to the inland communities of Seaford and Milford, we proudly serve all 
-                    Sussex County municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
-                    less than the finest quality and service throughout Delaware's premier county.
+                    From the beach towns of Dewey Beach and Ocean View to the urban centers of Wilmington and Dover, we proudly serve all 
+                    Delaware municipalities with premium EVOLUTION and DENAGO golf carts, understanding that our customers expect nothing 
+                    less than the finest quality and service throughout the First State.
                   </p>
                 </div>
 
                 <div className="mt-8 grid grid-cols-3 gap-4">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">15+</div>
-                    <div className="text-sm text-gray-600">Years Serving Sussex County</div>
+                    <div className="text-sm text-gray-600">Years Serving Delaware</div>
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-theme-orange">1000+</div>
                     <div className="text-sm text-gray-600">Satisfied Customers</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-theme-orange">27</div>
+                    <div className="text-2xl font-bold text-theme-orange">{DELAWARE_MUNICIPALITIES_LIST.length}</div>
                     <div className="text-sm text-gray-600">Municipalities Served</div>
                   </div>
                 </div>
@@ -151,24 +152,24 @@ export default function NewAboutPage() {
               <div className="relative">
                 <div className="w-full h-64 sm:h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195876.91772958!2d-75.3327!3d38.6270!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b8e0b1e1c1e1e1%3A0x1c7e1e8e8e8e8e8e!2sSussex%20County%2C%20DE%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195876.91772958!2d-75.5!3d39.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1e6a1b7b7b%3A0x6f5e8c5e8c5e8c5e!2sDelaware%2C%20USA!5e0!3m2!1sen!2sus!4v1753817570000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Sussex County Service Area Map"
+                    title="Delaware Service Area Map"
                   ></iframe>
                 </div>
                 <div className="mt-6 text-center">
-                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Sussex County Golf Carts Service</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-gray-900">Delaware Golf Carts Service</h3>
                   <div className="grid md:grid-cols-1 gap-4 text-sm">
                     <div className="bg-white p-4 rounded-lg shadow">
-                      <h4 className="font-semibold text-theme-orange">Rehoboth Golf Carts</h4>
-                      <p className="text-gray-600">Serving all Sussex County, DE</p>
+                      <h4 className="font-semibold text-theme-orange">Delaware Golf Carts</h4>
+                      <p className="text-gray-600">Serving all Delaware counties</p>
                       <p className="text-gray-700">1-844-844-6638</p>
-                      <p className="text-gray-600">info@rehobothgolfcarts.com</p>
+                      <p className="text-gray-600">info@delawaregolfcarts.com</p>
                     </div>
                   </div>
                 </div>
@@ -277,7 +278,7 @@ export default function NewAboutPage() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-center mb-6">Complete Sussex County Coverage</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 text-sm text-gray-600">
-                {SUSSEX_COUNTY_MUNICIPALITIES.map((municipality: Municipality, index: number) => (
+                {DELAWARE_MUNICIPALITIES_LIST.map((municipality: Municipality, index: number) => (
                   <div key={index} className="text-center py-2">
                     <Link href={municipality.url}>
                       <span className="text-theme-orange font-medium hover:text-orange-600 cursor-pointer transition-colors">

@@ -10,7 +10,8 @@ import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { SUSSEX_COUNTY_MUNICIPALITIES, type Municipality } from "@/data/sussexCountyMunicipalities";
+import { DELAWARE_MUNICIPALITIES_LIST, type Municipality } from "@/data/allDelawareMunicipalities";
+import { DELAWARE_COUNTIES } from "@/data/delawareCounties";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function HomePage() {
@@ -24,31 +25,31 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="Rehoboth Golf Carts - Premier Electric Golf Cart Dealership in Delaware"
-        description="Discover premium electric golf carts from Denago and Evolution at Rehoboth Golf Carts. Expert sales, service, rentals, and financing throughout Sussex County, Delaware."
-        keywords="golf carts Sussex County DE, electric golf carts Delaware, Denago golf carts, Evolution golf carts, Rehoboth Beach golf carts, golf cart sales service rentals"
-        canonicalUrl="https://rehobothgolfcarts.com/"
+        title="Delaware Golf Carts - Premier Electric Golf Cart Dealership in Delaware"
+        description="Discover premium electric golf carts from Denago and Evolution at Delaware Golf Carts. Expert sales, service, rentals, and financing throughout all Delaware counties."
+        keywords="golf carts Delaware, electric golf carts Delaware, Denago golf carts, Evolution golf carts, Delaware golf cart sales service rentals, New Castle Kent Sussex County"
+        canonicalUrl="https://delawaregolfcarts.com/"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Rehoboth Golf Carts - Premier Electric Golf Cart Dealership in Delaware",
-          description: "Discover premium electric golf carts from Denago and Evolution at Rehoboth Golf Carts. Expert sales, service, rentals, and financing throughout Sussex County, Delaware.",
-          url: "https://rehobothgolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://rehobothgolfcarts.com/" }],
+          title: "Delaware Golf Carts - Premier Electric Golf Cart Dealership in Delaware",
+          description: "Discover premium electric golf carts from Denago and Evolution at Delaware Golf Carts. Expert sales, service, rentals, and financing throughout all Delaware counties.",
+          url: "https://delawaregolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://delawaregolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Rehoboth Golf Carts helped me find the perfect cart for my needs in Rehoboth Beach.",
+              reviewBody: "Excellent service and quality golf carts. The team at Delaware Golf Carts helped me find the perfect cart for my needs in Rehoboth Beach.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Sussex County.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts in Delaware.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -69,11 +70,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Rehoboth Golf Carts - Premier Delaware Dealership
+                Delaware Golf Carts - Statewide Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving all Sussex County municipalities with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Rehoboth Beach to Seaford. 
-                Serving Sussex County, Delaware and all surrounding towns, cities, and Delaware communities including Bethany Beach, Lewes, Milton, and Georgetown.
+                Serving all Delaware counties with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Wilmington to Rehoboth Beach. 
+                Serving New Castle, Kent, and Sussex Counties with all Delaware towns, cities, and communities including Wilmington, Dover, and Rehoboth Beach.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -103,7 +104,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Rehoboth Golf Carts?
+            Why Choose Delaware Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your partner in golf cart ownership 
@@ -158,7 +159,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Rehoboth Golf Carts - Top Golf Cart and LSV Brands
+            Delaware Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
             We carry the most trusted names in Golf Carts and Low Speed Vehicles
@@ -383,14 +384,14 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Sussex County Municipality
+            Golf Carts for Every Delaware Municipality
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to your town or city throughout Sussex County, Delaware
+            Professional golf cart services delivered to your town or city throughout New Castle, Kent, and Sussex Counties
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
             {/* Complete Lackawanna County Municipality List - dynamically generated */}
-            {SUSSEX_COUNTY_MUNICIPALITIES.map((municipality: Municipality) => (
+            {DELAWARE_MUNICIPALITIES_LIST.slice(0, 24).map((municipality: Municipality) => (
               <Link 
                 key={municipality.slug} 
                 href={municipality.url} 
@@ -404,7 +405,7 @@ export default function HomePage() {
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all {SUSSEX_COUNTY_MUNICIPALITIES.length} Sussex County municipalities! Professional golf cart sales, service, and rentals delivered throughout Delaware's premier coastal region.
+            Serving all {DELAWARE_MUNICIPALITIES_LIST.length} Delaware municipalities! Professional golf cart sales, service, and rentals delivered throughout all three Delaware counties.
           </p>
         </div>
       </section>
@@ -422,23 +423,23 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Rehoboth Beach</h3>
-              <p className="text-sm text-gray-600 mb-2">Delaware's premier beach resort community</p>
-              <p className="text-theme-orange font-semibold">Service Area</p>
+              <h3 className="font-semibold text-gray-900 mb-2">New Castle County</h3>
+              <p className="text-sm text-gray-600 mb-2">Wilmington, Newark, Middletown and all municipalities</p>
+              <p className="text-theme-orange font-semibold">Northern Delaware</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Sussex County</h3>
-              <p className="text-sm text-gray-600 mb-2">Serving all municipalities from Lewes to Seaford</p>
-              <p className="text-theme-orange font-semibold">Full Coverage</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Kent County</h3>
+              <p className="text-sm text-gray-600 mb-2">Dover, Milford, and all central Delaware towns</p>
+              <p className="text-theme-orange font-semibold">Central Delaware</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Delaware Beaches</h3>
-              <p className="text-sm text-gray-600 mb-2">Bethany Beach, Dewey Beach, Fenwick Island</p>
-              <p className="text-theme-orange font-semibold">Beach Communities</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Sussex County</h3>
+              <p className="text-sm text-gray-600 mb-2">Rehoboth Beach, Georgetown, and coastal communities</p>
+              <p className="text-theme-orange font-semibold">Southern Delaware</p>
             </div>
           </div>
 
