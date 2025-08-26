@@ -36,24 +36,12 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// Lehigh County Town Pages
+// Eastern Coastline State Pages
 import {
-  AlburtisPage, AllentownPage, BreinigsvillePage, CatasauquaPage, CenterValleyPage,
-  CoopersburgPage, CoplayPage, EastTexasPage, EmmausPage, FogelsvillePage,
-  GermansvillePage, LaurysStationPage, LimeportPage, MacungiePage, NeffsPage,
-  NewTripoliPage, OldZionsvillePage, OrefieldPage, SchnecksvillePage, SlatedalePage,
-  SlatingtonPage, TrexlertownPage, WhitehallPage, ZionsvillePage
-} from "@/pages/towns/LehighCountyTownPages";
-
-// Lehigh County Rental Pages
-import {
-  AlburtisRentalPage, AllentownRentalPage, BreinigsvilleRentalPage, CatasauquaRentalPage,
-  CenterValleyRentalPage, CoopersburgRentalPage, CoplayRentalPage, EastTexasRentalPage,
-  EmmausRentalPage, FogelsvilleRentalPage, GermansvilleRentalPage, LaurysStationRentalPage,
-  LimeportRentalPage, MacungieRentalPage, NeffsRentalPage, NewTripoliRentalPage,
-  OldZionsvilleRentalPage, OrefieldRentalPage, SchnecksvilleRentalPage, SlatedaleRentalPage,
-  SlatingtonRentalPage, TrexlertownRentalPage, WhitehallRentalPage, ZionsvilleRentalPage
-} from "@/pages/rentals/LehighCountyMunicipalityRentals";
+  MainePage, NewHampshirePage, MassachusettsPage, RhodeIslandPage, ConnecticutPage,
+  NewYorkPage, NewJerseyPage, DelawarePage, MarylandPage, VirginiaPage,
+  NorthCarolinaPage, SouthCarolinaPage, GeorgiaPage, FloridaPage
+} from "@/pages/locations/EasternCoastlineStatePages";
 
 // Vehicle Detail Pages
 import DenagoEvCityPage from "@/pages/vehicles/DenagoEvCityPage";
@@ -116,57 +104,21 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
             
-            {/* Lehigh County Municipality Pages */}
-            <Route path="/towns/alburtis" component={AlburtisPage} />
-            <Route path="/towns/allentown" component={AllentownPage} />
-            <Route path="/towns/breinigsville" component={BreinigsvillePage} />
-            <Route path="/towns/catasauqua" component={CatasauquaPage} />
-            <Route path="/towns/center-valley" component={CenterValleyPage} />
-            <Route path="/towns/coopersburg" component={CoopersburgPage} />
-            <Route path="/towns/coplay" component={CoplayPage} />
-            <Route path="/towns/east-texas" component={EastTexasPage} />
-            <Route path="/towns/emmaus" component={EmmausPage} />
-            <Route path="/towns/fogelsville" component={FogelsvillePage} />
-            <Route path="/towns/germansville" component={GermansvillePage} />
-            <Route path="/towns/laurys-station" component={LaurysStationPage} />
-            <Route path="/towns/limeport" component={LimeportPage} />
-            <Route path="/towns/macungie" component={MacungiePage} />
-            <Route path="/towns/neffs" component={NeffsPage} />
-            <Route path="/towns/new-tripoli" component={NewTripoliPage} />
-            <Route path="/towns/old-zionsville" component={OldZionsvillePage} />
-            <Route path="/towns/orefield" component={OrefieldPage} />
-            <Route path="/towns/schnecksville" component={SchnecksvillePage} />
-            <Route path="/towns/slatedale" component={SlatedalePage} />
-            <Route path="/towns/slatington" component={SlatingtonPage} />
-            <Route path="/towns/trexlertown" component={TrexlertownPage} />
-            <Route path="/towns/whitehall" component={WhitehallPage} />
-            <Route path="/towns/zionsville" component={ZionsvillePage} />
-            
-            {/* Lehigh County Rental Pages */}
-            <Route path="/rentals/alburtis" component={AlburtisRentalPage} />
-            <Route path="/rentals/allentown" component={AllentownRentalPage} />
-            <Route path="/rentals/breinigsville" component={BreinigsvilleRentalPage} />
-            <Route path="/rentals/catasauqua" component={CatasauquaRentalPage} />
-            <Route path="/rentals/center-valley" component={CenterValleyRentalPage} />
-            <Route path="/rentals/coopersburg" component={CoopersburgRentalPage} />
-            <Route path="/rentals/coplay" component={CoplayRentalPage} />
-            <Route path="/rentals/east-texas" component={EastTexasRentalPage} />
-            <Route path="/rentals/emmaus" component={EmmausRentalPage} />
-            <Route path="/rentals/fogelsville" component={FogelsvilleRentalPage} />
-            <Route path="/rentals/germansville" component={GermansvilleRentalPage} />
-            <Route path="/rentals/laurys-station" component={LaurysStationRentalPage} />
-            <Route path="/rentals/limeport" component={LimeportRentalPage} />
-            <Route path="/rentals/macungie" component={MacungieRentalPage} />
-            <Route path="/rentals/neffs" component={NeffsRentalPage} />
-            <Route path="/rentals/new-tripoli" component={NewTripoliRentalPage} />
-            <Route path="/rentals/old-zionsville" component={OldZionsvilleRentalPage} />
-            <Route path="/rentals/orefield" component={OrefieldRentalPage} />
-            <Route path="/rentals/schnecksville" component={SchnecksvilleRentalPage} />
-            <Route path="/rentals/slatedale" component={SlatedaleRentalPage} />
-            <Route path="/rentals/slatington" component={SlatingtonRentalPage} />
-            <Route path="/rentals/trexlertown" component={TrexlertownRentalPage} />
-            <Route path="/rentals/whitehall" component={WhitehallRentalPage} />
-            <Route path="/rentals/zionsville" component={ZionsvilleRentalPage} />
+            {/* Eastern Coastline State Pages */}
+            <Route path="/maine-golf-carts" component={MainePage} />
+            <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
+            <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />
+            <Route path="/rhode-island-golf-carts" component={RhodeIslandPage} />
+            <Route path="/connecticut-golf-carts" component={ConnecticutPage} />
+            <Route path="/new-york-golf-carts" component={NewYorkPage} />
+            <Route path="/new-jersey-golf-carts" component={NewJerseyPage} />
+            <Route path="/delaware-golf-carts" component={DelawarePage} />
+            <Route path="/maryland-golf-carts" component={MarylandPage} />
+            <Route path="/virginia-golf-carts" component={VirginiaPage} />
+            <Route path="/north-carolina-golf-carts" component={NorthCarolinaPage} />
+            <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
+            <Route path="/georgia-golf-carts" component={GeorgiaPage} />
+            <Route path="/florida-golf-carts" component={FloridaPage} />
             
             {/* Vehicle Detail Pages */}
             {/* DENAGO Vehicles */}

@@ -15,17 +15,17 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Lackawanna County Golf Carts",
+  "name": "Shoreside Golf Carts",
   "alternateName": "CCGC",
   "description": "Premier golf cart dealer in Lackawanna County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://lackawannagolfcarts.com",
-  "logo": "https://lackawannagolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
+  "url": "https://shoresidegolfcarts.com",
+  "logo": "https://shoresidegolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
   "image": [
-    "https://lackawannagolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
-    "https://lackawannagolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+    "https://shoresidegolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
+    "https://shoresidegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "sales@tigongolfcarts.com",
+  "email": "info@shoresidegolfcarts.com",
   "address": {
     "@type": "PostalAddress",
     "addressRegion": "PA",
@@ -85,12 +85,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://lackawannagolfcarts.com/#localbusiness",
-  "name": "Lehigh County Golf Carts",
+  "@id": "https://shoresidegolfcarts.com/#localbusiness",
+  "name": "Shoreside Golf Carts",
   "description": "Premier golf cart dealer serving all 24 Lehigh County municipalities with electric vehicle sales, service, and rentals.",
-  "url": "https://lackawannagolfcarts.com",
+  "url": "https://shoresidegolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "sales@tigongolfcarts.com",
+  "email": "info@shoresidegolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -144,21 +144,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://lackawannagolfcarts.com/#website",
-  "name": "Lehigh County Golf Carts",
-  "description": "Official website for Lehigh County Golf Carts - Pennsylvania's premier electric golf cart dealer",
-  "url": "https://lackawannagolfcarts.com",
+  "@id": "https://shoresidegolfcarts.com/#website",
+  "name": "Shoreside Golf Carts",
+  "description": "Official website for Shoreside Golf Carts - Pennsylvania's premier electric golf cart dealer",
+  "url": "https://shoresidegolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://lackawannagolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://shoresidegolfcarts.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Lehigh County Golf Carts"
+    "name": "Shoreside Golf Carts"
   }
 });
 
@@ -176,7 +176,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://lackawannagolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -184,7 +184,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://lackawannagolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://shoresidegolfcarts.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -192,11 +192,11 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Lehigh County Golf Carts",
+      "name": "Shoreside Golf Carts",
       "telephone": "1-844-844-6638",
       "email": "info@lackawannagolfcarts.com"
     },
-    "url": `https://lackawannagolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -240,7 +240,7 @@ export const generateServiceSchema = () => ({
   "description": "Comprehensive golf cart sales, service, repair, and rental services in Lehigh County, Pennsylvania",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Lehigh County Golf Carts"
+    "name": "Shoreside Golf Carts"
   },
   "areaServed": {
     "@type": "State",
@@ -297,12 +297,12 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://lackawannagolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://shoresidegolfcarts.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://lackawannagolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
   }))
 });
 
@@ -311,7 +311,7 @@ export const generateContactPageSchema = () => ({
   "@type": "ContactPage",
   "name": "Contact Ocean County Golf Carts",
   "description": "Get in touch with Ocean County Golf Carts for sales, service, rentals, and support",
-  "url": "https://lackawannagolfcarts.com/contact",
+  "url": "https://shoresidegolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
     "name": "Ocean County Golf Carts",
@@ -325,7 +325,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "sales@tigongolfcarts.com",
+        "email": "info@shoresidegolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -338,10 +338,10 @@ export const generateTownPageSchema = (townName: string) => ({
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
   "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Lehigh County, Pennsylvania`,
-  "url": `https://lackawannagolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "url": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Lehigh County Golf Carts",
+    "name": "Shoreside Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
@@ -362,13 +362,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://lackawannagolfcarts.com"
+        "item": "https://shoresidegolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://lackawannagolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { DELAWARE_MUNICIPALITIES_LIST } from "@/data/allDelawareMunicipalities";
+import { EASTERN_COASTLINE_STATES, generateAllBeachUrls } from "@/data/easternCoastlineStates";
 
 export default function Footer() {
   return (
@@ -10,8 +10,8 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Delaware's premier golf cart dealership serving customers across 
-              all Delaware counties with quality carts and expert service.
+              Eastern Coastline's premier golf cart dealership serving customers across 
+              all coastal states from Maine to Florida with quality carts and expert service.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="md:hidden">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: info@delawaregolfcarts.com</p>
+              <p className="text-gray-600 text-sm">Email: info@shoresidegolfcarts.com</p>
               <div className="text-gray-600 text-sm">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
@@ -65,8 +65,8 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Delaware's premier golf cart dealership serving customers across 
-                all Delaware counties with quality carts and expert service.
+                Eastern Coastline's premier golf cart dealership serving customers across 
+                all coastal states from Maine to Florida with quality carts and expert service.
               </p>
             </div>
 
@@ -126,7 +126,7 @@ export default function Footer() {
               </ul>
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: info@delawaregolfcarts.com</p>
+                <p className="text-gray-600 text-sm">Email: info@shoresidegolfcarts.com</p>
                 <div className="text-gray-600 text-sm">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -137,19 +137,33 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Towns Served - Lackawanna County */}
+        {/* Coastal States Served */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Delaware Locations We Serve
+            Eastern Coastline States We Serve
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-center">
-            {DELAWARE_MUNICIPALITIES_LIST.map((municipality, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-7 gap-3 text-center mb-6">
+            {EASTERN_COASTLINE_STATES.map((state, index) => (
               <Link 
-                key={`${municipality.slug}-${index}`}
-                href={municipality.url} 
-                className="text-gray-600 text-sm hover:text-blue-600 transition-colors"
+                key={`${state.slug}-${index}`}
+                href={`/${state.slug}-golf-carts`} 
+                className="text-gray-600 text-sm hover:text-blue-600 transition-colors font-semibold"
               >
-                {municipality.name} Golf Carts
+                {state.name}
+              </Link>
+            ))}
+          </div>
+          <h4 className="text-md font-semibold text-gray-700 mb-4 text-center">
+            Featured Coastal Locations
+          </h4>
+          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2 text-center">
+            {generateAllBeachUrls().slice(0, 40).map((beach, index) => (
+              <Link 
+                key={`${beach.slug}-${index}`}
+                href={beach.url} 
+                className="text-gray-600 text-xs hover:text-blue-600 transition-colors"
+              >
+                {beach.name}
               </Link>
             ))}
           </div>
@@ -159,12 +173,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Delaware Golf Carts. All rights reserved. | 
+              © 2025 Shoreside Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Delaware Golf Carts - Serving all Delaware locations with premium golf carts and exceptional service.
+              Shoreside Golf Carts - Serving all Eastern Coastline locations from Maine to Florida with premium golf carts and exceptional service.
             </div>
           </div>
         </div>
