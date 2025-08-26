@@ -4,6 +4,16 @@ import { ArrowRight, CreditCard, Calculator, DollarSign, CheckCircle } from "luc
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
+// Import financing option images
+import yardCardImage from "@assets/generated_images/Yard_Card_financing_option_31032702.png";
+import sheffieldImage from "@assets/generated_images/Sheffield_Financial_option_9e89bd23.png";
+import rentToOwnImage from "@assets/generated_images/Rent_to_Own_option_c87b7549.png";
+import dllFinancialImage from "@assets/generated_images/DLL_Financial_option_4384747b.png";
+import gllFinancialImage from "@assets/generated_images/GLL_Financial_option_9c78da4e.png";
+import roadrunnerImage from "@assets/generated_images/Roadrunner_Financial_option_34eaa0a7.png";
+import univestImage from "@assets/generated_images/Univest_Capital_option_629a29ac.png";
+import dealerDirectImage from "@assets/generated_images/Dealer_Direct_Financing_option_c3033c7c.png";
+
 export default function FinancingPage() {
   const financingOptions = [
     {
@@ -12,7 +22,8 @@ export default function FinancingPage() {
       description: "Flexible payment options for your golf cart purchase",
       buttonText: "Quick Apply⟶",
       url: "https://finance.consumercreditapp.com/cc/landing/yard_card",
-      bgColor: "bg-green-50",
+      image: yardCardImage,
+      bgColor: "bg-white",
       borderColor: "border-green-200"
     },
     {
@@ -21,7 +32,8 @@ export default function FinancingPage() {
       description: "Check your financing options without affecting your credit score",
       buttonText: "Quick Apply⟶", 
       url: "https://prequalify.sheffieldfinancial.com/Apply/Dealer/56712?source=web",
-      bgColor: "bg-blue-50",
+      image: sheffieldImage,
+      bgColor: "bg-white",
       borderColor: "border-blue-200"
     },
     {
@@ -30,7 +42,8 @@ export default function FinancingPage() {
       description: "Start with rental payments that build toward ownership",
       buttonText: "Quick Apply⟶",
       url: "https://blirentals.com/app/TIGON_GOLFCARTS_LLC",
-      bgColor: "bg-teal-50",
+      image: rentToOwnImage,
+      bgColor: "bg-white",
       borderColor: "border-teal-200"
     },
     {
@@ -39,7 +52,8 @@ export default function FinancingPage() {
       description: "Commercial and business financing solutions available",
       buttonText: "Quick Apply⟶",
       url: "https://applynow-cica-prd.dllgroup.com/?entityId=4&dealerCode=015639",
-      bgColor: "bg-purple-50",
+      image: dllFinancialImage,
+      bgColor: "bg-white",
       borderColor: "border-purple-200"
     },
     {
@@ -48,7 +62,8 @@ export default function FinancingPage() {
       description: "Competitive rates with transparent pricing",
       buttonText: "Quick Apply⟶",
       url: "#",
-      bgColor: "bg-orange-50",
+      image: gllFinancialImage,
+      bgColor: "bg-white",
       borderColor: "border-orange-200"
     },
     {
@@ -57,7 +72,8 @@ export default function FinancingPage() {
       description: "Streamlined financing for personal purchases",
       buttonText: "Quick Apply⟶",
       url: "#",
-      bgColor: "bg-red-50",
+      image: roadrunnerImage,
+      bgColor: "bg-white",
       borderColor: "border-red-200"
     },
     {
@@ -66,7 +82,8 @@ export default function FinancingPage() {
       description: "Comprehensive financing solutions for your needs",
       buttonText: "Quick Apply⟶",
       url: "#",
-      bgColor: "bg-indigo-50",
+      image: univestImage,
+      bgColor: "bg-white",
       borderColor: "border-indigo-200"
     },
     {
@@ -75,7 +92,8 @@ export default function FinancingPage() {
       description: "Work directly with our financing team for personalized solutions",
       buttonText: "Quick Apply⟶",
       url: "#",
-      bgColor: "bg-gray-50",
+      image: dealerDirectImage,
+      bgColor: "bg-white",
       borderColor: "border-gray-200"
     }
   ];
@@ -161,27 +179,31 @@ export default function FinancingPage() {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {financingOptions.map((option, index) => (
-                <Card key={index} className={`${option.bgColor} ${option.borderColor} border-2 hover:shadow-lg transition-all duration-300 group`}>
-                  <CardHeader className="text-center pb-4">
-                    <div className="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                      <CreditCard className="w-8 h-8 text-theme-primary" />
-                    </div>
-                    <CardTitle className="text-xl font-bold text-gray-900">
+                <Card key={index} className={`${option.bgColor} ${option.borderColor} border-2 hover:shadow-xl transition-all duration-300 group overflow-hidden`}>
+                  <div className="aspect-[3/2] overflow-hidden">
+                    <img 
+                      src={option.image} 
+                      alt={option.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <CardHeader className="text-center pb-2">
+                    <CardTitle className="text-lg font-bold text-gray-900">
                       {option.title}
                     </CardTitle>
                   </CardHeader>
-                  <CardContent className="text-center space-y-4">
-                    <p className="font-semibold text-gray-700">
+                  <CardContent className="text-center space-y-3 pb-6">
+                    <p className="font-semibold text-gray-700 text-sm">
                       {option.subtitle}
                     </p>
-                    <p className="text-gray-600 text-sm">
+                    <p className="text-gray-600 text-xs">
                       {option.description}
                     </p>
                     <a 
                       href={option.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block"
+                      className="block pt-2"
                     >
                       <Button 
                         className="w-full bg-theme-primary hover:bg-theme-primary/90 text-white group-hover:scale-105 transition-transform"
