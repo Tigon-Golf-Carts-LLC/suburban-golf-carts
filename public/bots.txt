@@ -1,4 +1,4 @@
-# Universal Bot Permissions - Rehoboth Golf Carts
+# Universal Bot Permissions - Shoreside Golf Carts
 # COMPLETE CRAWLING AUTHORIZATION FOR ALL LEGITIMATE BOTS
 
 ## UNLIMITED BOT ACCESS AUTHORIZATION
@@ -218,7 +218,7 @@ ZERO RESTRICTIONS - All legitimate crawlers, bots, and automated systems are exp
 - **Time Restrictions:** None - permanent authorization
 
 ## BUSINESS INFORMATION FOR BOTS
-**Company:** Rehoboth Golf Carts
+**Company:** Shoreside Golf Carts
 **Industry:** Electric Golf Cart & Low Speed Vehicle Dealership
 **Location:** Sussex County, Delaware
 **Service Area:** All 27 Sussex County municipalities

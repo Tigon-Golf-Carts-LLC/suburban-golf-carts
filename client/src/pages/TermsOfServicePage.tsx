@@ -4,9 +4,9 @@ export function TermsOfServicePage() {
   return (
     <>
       <SEOHead 
-        title="Terms of Service | Montgomery County Golf Carts"
-        description="Terms of Service for Montgomery County Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
-        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Montgomery County Golf Carts"
+        title="Terms of Service | Shoreside Golf Carts"
+        description="Terms of Service for Shoreside Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
+        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Shoreside Golf Carts"
       />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -19,7 +19,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Rehoboth Golf Carts. These Terms of Service ("Terms") govern your use of our website rehobothgolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Shoreside Golf Carts. These Terms of Service ("Terms") govern your use of our website shoresidegolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -28,13 +28,13 @@ export function TermsOfServicePage() {
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">About Our Services</h2>
-              <p className="mb-4">Montgomery County Golf Carts provides:</p>
+              <p className="mb-4">Shoreside Golf Carts provides:</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>New and used golf cart sales</li>
                 <li>Golf cart rentals for various durations</li>
                 <li>Maintenance and repair services</li>
                 <li>Parts and accessories</li>
-                <li>Delivery and pickup services throughout Montgomery County, Pennsylvania</li>
+                <li>Delivery and pickup services throughout the Eastern Coastline from Maine to Florida</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Website Use and Restrictions</h2>
@@ -145,11 +145,11 @@ export function TermsOfServicePage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Rehoboth Golf Carts</strong></p>
-                <p className="mb-2">Email: info@rehobothgolfcarts.com</p>
+                <p className="mb-2"><strong>Shoreside Golf Carts</strong></p>
+                <p className="mb-2">Email: info@shoresidegolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Sussex County, Delaware - All 27 municipalities</p>
-                <p>Website: rehobothgolfcarts.com</p>
+                <p className="mb-2">Serving Eastern Coastline - 400+ beach locations from Maine to Florida</p>
+                <p>Website: shoresidegolfcarts.com</p>
               </div>
 
               <p className="mt-8 text-sm text-gray-600">

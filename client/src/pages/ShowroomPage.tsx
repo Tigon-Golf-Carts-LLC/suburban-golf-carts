@@ -55,7 +55,7 @@ export default function ShowroomPage() {
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Visit our premier Delaware showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
-            Serving all Sussex County municipalities from Rehoboth Beach to Seaford.
+            Serving the entire Eastern Coastline from Maine to Florida with 400+ beach locations.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

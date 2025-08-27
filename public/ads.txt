@@ -1,14 +1,14 @@
-# ads.txt - Delaware Golf Carts
+# ads.txt - Shoreside Golf Carts
 # Authorized Digital Sellers Declaration
 
 # ADVERTISING TRANSPARENCY DECLARATION
-# This file identifies authorized digital advertising sellers for delawaregolfcarts.com
+# This file identifies authorized digital advertising sellers for shoresidegolfcarts.com
 # in compliance with IAB Tech Lab ads.txt standard
 
 # BUSINESS ADVERTISING AUTHORIZATION
-# Company: Rehoboth Golf Carts
+# Company: Shoreside Golf Carts
 # Industry: Electric Golf Cart & Low Speed Vehicle Dealership
-# Website: https://rehobothgolfcarts.com
+# Website: https://shoresidegolfcarts.com
 # Contact: 1-844-844-6638
 
 # GOOGLE ADVERTISING PLATFORMS (AUTHORIZED)
@@ -47,7 +47,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # Service Categories: Sales, Service, Rentals, Parts, Financing
 
 # ADVERTISING POLICY STATEMENT
-# Rehoboth Golf Carts maintains strict advertising standards:
+# Shoreside Golf Carts maintains strict advertising standards:
 # - Honest and accurate product representation
 # - Transparent pricing without hidden fees
 # - Compliance with automotive advertising regulations
@@ -89,7 +89,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 
 # ADVERTISING ATTRIBUTION
 # All advertisements must clearly identify:
-# - Rehoboth Golf Carts as advertiser
+# - Shoreside Golf Carts as advertiser
 # - Delaware business location
 # - Contact information (1-844-844-6638)
 # - Accurate service area representation
@@ -125,7 +125,7 @@ bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
 # BRAND ADVERTISING GUIDELINES
 # DENAGO: Authorized dealer advertising permissions
 # Evolution: Authorized dealer advertising permissions
-# Rehoboth Golf Carts: Primary brand identity
+# Shoreside Golf Carts: Primary brand identity
 # Delaware Focus: Geographic market emphasis
 # Electric Vehicle: Environmental benefit messaging
 

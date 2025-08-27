@@ -113,7 +113,7 @@ export default function NewAboutPage() {
                   <p>
                     Delaware stands as a unique state with just three counties, encompassing 
                     everything from Wilmington's urban energy in New Castle County to Dover's political center in Kent County, and from the 
-                    famous resort communities of Rehoboth Beach and Bethany Beach to historic towns like Lewes and New Castle.
+                    famous resort communities and historic coastal towns throughout the Eastern Coastline.
                   </p>
                   <p>
                     Delaware holds a special place in American history as the "First State" to ratify the Constitution, with communities like Lewes being 
@@ -123,7 +123,7 @@ export default function NewAboutPage() {
                   </p>
                   <p>
                     With Delaware's excellent highway system including I-95, Route 1, and Route 13, 
-                    and the state's beautiful coastal and inland communities from Wilmington to Rehoboth Beach, Delaware attracts residents and visitors who 
+                    and the Eastern Coastline's beautiful coastal communities from Maine to Florida attract residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
@@ -296,7 +296,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Rehoboth Golf Carts Difference?
+              Ready to Experience the Shoreside Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.

@@ -1,7 +1,7 @@
 {
-  "name": "Rehoboth Golf Carts",
-  "short_name": "RehobothGolfCarts",
-  "description": "Delaware's premier golf cart dealership serving all Sussex County municipalities with DENAGO and EVOLUTION electric vehicles",
+  "name": "Shoreside Golf Carts",
+  "short_name": "ShoresideGolfCarts",
+  "description": "Eastern Coastline's premier golf cart dealership serving 400+ beach locations with DENAGO and EVOLUTION electric vehicles",
   "icons": [
     {
       "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
@@ -37,7 +37,7 @@
     {
       "name": "Contact Us",
       "short_name": "Contact",
-      "description": "Get in touch with Rehoboth Golf Carts",
+      "description": "Get in touch with Shoreside Golf Carts",
       "url": "/contact",
       "icons": [{ "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png", "sizes": "96x96" }]
     },
