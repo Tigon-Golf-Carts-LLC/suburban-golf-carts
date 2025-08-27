@@ -12,8 +12,8 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "name": "Shoreside Golf Carts",
       "description": "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing serving 400+ beach locations from Maine to Florida.",
       "url": "https://shoresidegolfcarts.com",
-      "logo": "https://shoresidegolfcarts.com/attached_assets/Delaware Golf Carts_1756222749921.png",
-      "image": "https://shoresidegolfcarts.com/attached_assets/Delaware Golf Carts_1756222749921.png",
+      "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "image": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
       "telephone": "1-844-844-6638",
       "email": "info@shoresidegolfcarts.com",
       "address": {

@@ -19,10 +19,9 @@ export const generateOrganizationSchema = () => ({
   "alternateName": "CCGC",
   "description": "Premier golf cart dealer in Lackawanna County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
   "url": "https://shoresidegolfcarts.com",
-  "logo": "https://shoresidegolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
+  "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
   "image": [
-    "https://shoresidegolfcarts.com/attached_assets/Luzerne%20County%20Golf%20Carts_1753809066045.png",
-    "https://shoresidegolfcarts.com/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
+    "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
   ],
   "telephone": "1-844-844-6638",
   "email": "info@shoresidegolfcarts.com",
