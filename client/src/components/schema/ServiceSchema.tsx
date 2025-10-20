@@ -18,8 +18,8 @@ export default function ServiceSchema({
   serviceName,
   description,
   serviceType = "Golf Cart Service",
-  provider = "Lackawanna County Golf Carts",
-  areaServed = "Luzerne County, PA",
+  provider = "Shoreside Golf Carts",
+  areaServed = "Eastern Coastline from Maine to Florida",
   availableChannel = ["https://schema.org/OnlineChannel", "https://schema.org/InStoreChannel"],
   offers = []
 }: ServiceSchemaProps) {
@@ -34,16 +34,18 @@ export default function ServiceSchema({
         "@type": "LocalBusiness",
         "name": provider,
         "telephone": "1-844-844-6638",
-        "email": "info@lackawannagolfcarts.com",
+        "email": "info@shoresidegolfcarts.com",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Jim Thorpe",
-          "addressRegion": "PA",
+          "streetAddress": "642 NJ-35",
+          "addressLocality": "Neptune City",
+          "addressRegion": "NJ",
+          "postalCode": "07753",
           "addressCountry": "US"
         },
         "logo": {
           "@type": "ImageObject",
-          "url": "https://lackawannagolfcarts.com/logo.png"
+          "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
         }
       },
       "areaServed": {
@@ -52,7 +54,7 @@ export default function ServiceSchema({
       },
       "availableChannel": availableChannel.map(channel => ({
         "@type": "ServiceChannel",
-        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://lackawannagolfcarts.com" : undefined,
+        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://shoresidegolfcarts.com" : undefined,
         "serviceSmsNumber": channel === "https://schema.org/InStoreChannel" ? "1-844-844-6638" : undefined
       })),
       ...(offers.length > 0 && {
