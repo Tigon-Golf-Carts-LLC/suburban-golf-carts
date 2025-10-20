@@ -125,10 +125,10 @@ interface AllSchemasProps {
 
 export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps) {
   const {
-    title = "Lackawanna County Golf Carts",
-    description = "Premier golf cart dealership in Lackawanna County, Pennsylvania",
-    url = "https://lackawannagolfcarts.com",
-    breadcrumbs = [{ name: "Home", url: "https://lackawannagolfcarts.com/" }],
+    title = "Shoreside Golf Carts",
+    description = "Premier golf cart dealership serving the Eastern Coastline from Maine to Florida",
+    url = "https://shoresidegolfcarts.com",
+    breadcrumbs = [{ name: "Home", url: "https://shoresidegolfcarts.com/" }],
     vehicleName,
     vehicleBrand,
     vehicleModel,

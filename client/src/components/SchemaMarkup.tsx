@@ -17,7 +17,7 @@ export const generateOrganizationSchema = () => ({
   "@type": "Organization",
   "name": "Shoreside Golf Carts",
   "alternateName": "CCGC",
-  "description": "Premier golf cart dealer in Lackawanna County, Pennsylvania specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "description": "Premier golf cart dealer serving the Eastern Coastline from Maine to Florida specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
   "url": "https://shoresidegolfcarts.com",
   "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
   "image": [
@@ -27,22 +27,24 @@ export const generateOrganizationSchema = () => ({
   "email": "info@shoresidegolfcarts.com",
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "PA",
-    "addressCountry": "US",
-    "addressLocality": "Luzerne County"
+    "streetAddress": "642 NJ-35",
+    "addressLocality": "Neptune City",
+    "addressRegion": "NJ",
+    "postalCode": "07753",
+    "addressCountry": "US"
   },
   "areaServed": {
-    "@type": "State",
-    "name": "Pennsylvania"
+    "@type": "AdministrativeArea",
+    "name": "Eastern Coastline from Maine to Florida"
   },
   "serviceArea": {
     "@type": "GeoCircle",
     "geoMidpoint": {
       "@type": "GeoCoordinates",
-      "latitude": 40.8473,
-      "longitude": -75.7413
+      "latitude": 40.2005,
+      "longitude": -74.0313
     },
-    "geoRadius": "50000"
+    "geoRadius": "2000000"
   },
   "foundingDate": "2008",
   "numberOfEmployees": "15-25",
@@ -86,7 +88,7 @@ export const generateLocalBusinessSchema = () => ({
   "@type": "LocalBusiness",
   "@id": "https://shoresidegolfcarts.com/#localbusiness",
   "name": "Shoreside Golf Carts",
-  "description": "Premier golf cart dealer serving all 24 Lehigh County municipalities with electric vehicle sales, service, and rentals.",
+  "description": "Premier golf cart dealer serving 400+ Eastern Coastline beach locations with electric vehicle sales, service, and rentals.",
   "url": "https://shoresidegolfcarts.com",
   "telephone": "1-844-844-6638",
   "email": "info@shoresidegolfcarts.com",
@@ -99,22 +101,21 @@ export const generateLocalBusinessSchema = () => ({
   ],
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "PA",
-    "addressCountry": "US",
-    "addressLocality": "Lehigh County"
+    "streetAddress": "642 NJ-35",
+    "addressLocality": "Neptune City",
+    "addressRegion": "NJ",
+    "postalCode": "07753",
+    "addressCountry": "US"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 40.6023,
-    "longitude": -75.4714
+    "latitude": 40.2005,
+    "longitude": -74.0313
   },
   "areaServed": [
-    "Allentown", "Bethlehem", "Emmaus", "Macungie", "Catasauqua", "Coopersburg",
-    "Fountain Hill", "Alburtis", "Slatington", "Coplay", "Lower Macungie Township",
-    "South Whitehall Township", "Upper Macungie Township", "Whitehall Township",
-    "Salisbury Township", "North Whitehall Township", "Upper Saucon Township",
-    "Lower Milford Township", "Lynn Township", "Heidelberg Township", "Washington Township",
-    "Weisenberg Township", "Lowhill Township", "Upper Saucon Township"
+    "Maine", "New Hampshire", "Massachusetts", "Rhode Island", "Connecticut",
+    "New York", "New Jersey", "Delaware", "Maryland", "Virginia",
+    "North Carolina", "South Carolina", "Georgia", "Florida"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",

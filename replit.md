@@ -67,4 +67,11 @@ I want iterative development. Ask before making major changes.
 - **Interactive Maps**: Google Maps integration for each location with driving directions
 - **State Navigation**: Dropdown menu providing easy access to all 14 coastal states
 - **Comprehensive Branding**: All files, folders, URLs, headers, and text updated to Shoreside Golf Carts
+
+### ✅ Business Address Update to Neptune City, NJ (October 2025)
+- **New Business Address**: 642 NJ-35, Neptune City, NJ 07753
+- **Updated Coordinates**: Latitude 40.2005, Longitude -74.0313
+- **Schema Updates**: All schema files (LocalBusinessSchema, OrganizationSchema, ServiceSchema, AutoDealerSchema, AllSchemas, SchemaMarkup) updated with new address
+- **Configuration Files**: site.webmanifest, humans.txt updated with Neptune City location
+- **Geographic Reference**: All address fields, postal codes, and coordinates updated throughout codebase
 ```
