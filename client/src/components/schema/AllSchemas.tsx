@@ -166,18 +166,18 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Auto Dealer Schema for all pages */}
       <AutoDealerSchema
-        name="Lackawanna County Golf Carts"
-        description="Premier electric golf cart dealership serving Lackawanna County, Pennsylvania with sales, service, rentals, and financing"
-        url="https://lackawannagolfcarts.com"
+        name="Shoreside Golf Carts"
+        description="Premier electric golf cart dealership serving the Eastern Coastline with sales, service, rentals, and financing"
+        url="https://shoresidegolfcarts.com"
         address={{
-          streetAddress: "Various Locations",
-          addressLocality: "Lackawanna County",
-          addressRegion: "PA",
-          postalCode: "18101",
+          streetAddress: "642 NJ-35",
+          addressLocality: "Neptune City",
+          addressRegion: "NJ",
+          postalCode: "07753",
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
-        email="info@lackawannagolfcarts.com"
+        email="info@shoresidegolfcarts.com"
         brands={["DENAGO", "EVOLUTION"]}
         services={["Golf Cart Sales", "Golf Cart Service", "Golf Cart Rentals", "Financing", "Parts & Accessories"]}
         openingHours={[
@@ -195,8 +195,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <ContactPointSchema
         contactType="customer service"
         telephone="1-844-844-6638"
-        email="info@lackawannagolfcarts.com"
-        areaServed="Lackawanna County, Pennsylvania"
+        email="info@shoresidegolfcarts.com"
+        areaServed="Eastern Coastline from Maine to Florida"
         availableLanguage={["English"]}
         hoursAvailable={[
           { dayOfWeek: "Monday", opens: "09:00", closes: "18:00" },
