@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { ALL_US_STATES } from "@/data/all50states";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -36,14 +37,14 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src="/attached_assets/Shoreside Golf Carts_1756300319737.png" 
-                alt="Shoreside Golf Carts Logo" 
+                alt="Suburban Golf Carts Logo" 
                 className="h-20 w-20 object-contain"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
                 <div className="text-lg font-bold text-theme-primary" style={{lineHeight: '1.1'}}>
-                  SHORESIDE<br />
+                  SUBURBAN<br />
                   GOLF CARTS
                 </div>
               </div>
@@ -70,80 +71,17 @@ export default function Navigation() {
               {/* States Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
-                  Coastal States
+                  All States
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="max-h-96 overflow-y-auto">
-                  <DropdownMenuItem asChild>
-                    <Link href="/maine-golf-carts" className="w-full">
-                      Maine
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-hampshire-golf-carts" className="w-full">
-                      New Hampshire
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/massachusetts-golf-carts" className="w-full">
-                      Massachusetts
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/rhode-island-golf-carts" className="w-full">
-                      Rhode Island
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/connecticut-golf-carts" className="w-full">
-                      Connecticut
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-york-golf-carts" className="w-full">
-                      New York
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-jersey-golf-carts" className="w-full">
-                      New Jersey
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/delaware-golf-carts" className="w-full">
-                      Delaware
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/maryland-golf-carts" className="w-full">
-                      Maryland
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/virginia-golf-carts" className="w-full">
-                      Virginia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/north-carolina-golf-carts" className="w-full">
-                      North Carolina
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/south-carolina-golf-carts" className="w-full">
-                      South Carolina
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/georgia-golf-carts" className="w-full">
-                      Georgia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/florida-golf-carts" className="w-full">
-                      Florida
-                    </Link>
-                  </DropdownMenuItem>
+                  {ALL_US_STATES.map(state => (
+                    <DropdownMenuItem key={state.slug} asChild>
+                      <Link href={`/${state.slug}-golf-carts`} className="w-full">
+                        {state.name}
+                      </Link>
+                    </DropdownMenuItem>
+                  ))}
                 </DropdownMenuContent>
               </DropdownMenu>
               
@@ -208,110 +146,22 @@ export default function Navigation() {
                     </Link>
                   ))}
                   
-                  {/* Mobile Coastal States Section */}
+                  {/* Mobile All States Section */}
                   <div className="border-t pt-4">
                     <div className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                      Coastal States
+                      All 50 States
                     </div>
-                    <div className="max-h-40 overflow-y-auto">
-                      <Link
-                        href="/maine-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Maine
-                      </Link>
-                      <Link
-                        href="/new-hampshire-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        New Hampshire
-                      </Link>
-                      <Link
-                        href="/massachusetts-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Massachusetts
-                      </Link>
-                      <Link
-                        href="/rhode-island-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Rhode Island
-                      </Link>
-                      <Link
-                        href="/connecticut-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Connecticut
-                      </Link>
-                      <Link
-                        href="/new-york-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        New York
-                      </Link>
-                      <Link
-                        href="/new-jersey-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        New Jersey
-                      </Link>
-                      <Link
-                        href="/delaware-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Delaware
-                      </Link>
-                      <Link
-                        href="/maryland-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Maryland
-                      </Link>
-                      <Link
-                        href="/virginia-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Virginia
-                      </Link>
-                      <Link
-                        href="/north-carolina-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        North Carolina
-                      </Link>
-                      <Link
-                        href="/south-carolina-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        South Carolina
-                      </Link>
-                      <Link
-                        href="/georgia-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Georgia
-                      </Link>
-                      <Link
-                        href="/florida-golf-carts"
-                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        Florida
-                      </Link>
+                    <div className="max-h-60 overflow-y-auto">
+                      {ALL_US_STATES.map(state => (
+                        <Link
+                          key={state.slug}
+                          href={`/${state.slug}-golf-carts`}
+                          className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-gray-900"
+                          onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                          {state.name}
+                        </Link>
+                      ))}
                     </div>
                   </div>
                   

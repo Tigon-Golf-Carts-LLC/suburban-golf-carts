@@ -9,13 +9,13 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Shoreside Golf Carts",
-      "description": "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing serving 400+ beach locations from Maine to Florida.",
-      "url": "https://shoresidegolfcarts.com",
-      "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-      "image": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "name": "Suburban Golf Carts",
+      "description": "Premier golf cart dealership serving all 50 states specializing in electric golf carts for residential areas, sales, service, rentals, and financing for suburban communities nationwide.",
+      "url": "https://suburbangolfcarts.com",
+      "logo": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "image": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
       "telephone": "1-844-844-6638",
-      "email": "info@shoresidegolfcarts.com",
+      "email": "info@suburbangolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "642 NJ-35",
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Eastern Coastline, Maine to Florida"
+        "name": "All 50 United States - Residential & Suburban Communities"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -99,9 +99,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "worstRating": "1"
       },
       "sameAs": [
-        "https://www.facebook.com/montcogolfcarts",
-        "https://www.instagram.com/montcogolfcarts",
-        "https://www.linkedin.com/company/montcogolfcarts"
+        "https://www.facebook.com/suburbangolfcarts",
+        "https://www.instagram.com/suburbangolfcarts",
+        "https://www.linkedin.com/company/suburbangolfcarts"
       ]
     };
 
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Lehigh County Golf Carts"
+          "name": "Suburban Golf Carts"
         }
       } as any;
     }

@@ -1,5 +1,5 @@
-// Shoreside Golf Carts - Professional Shore-Side Background Images
-// 9 new professional Shoreside golf cart shore-side images for dynamic backgrounds
+// Suburban Golf Carts - Professional Residential & Suburban Background Images
+// 9 professional Suburban golf cart residential and suburban images for dynamic backgrounds
 
 import image1 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side_1756238208000.jpeg";
 import image2 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 2_1756238208000.jpeg";
@@ -25,22 +25,22 @@ export const backgroundImages = [
 
 // Page-specific background image assignments for consistency
 export const pageBackgrounds = {
-  home: image1,           // Shoreside Golf Carts main shore-side scene for homepage
-  inventory: image2,      // Shoreside Golf Carts shore display
-  rentals: image3,        // Shoreside Golf Carts beach-focused view
-  services: image4,       // Shoreside Golf Carts professional shore service
-  about: image5,          // Shoreside Golf Carts welcoming shore scene
-  contact: image6,        // Shoreside Golf Carts customer shore area
-  showroom: image7,       // Shoreside Golf Carts premium shore showroom
-  denago: image8,         // Shoreside Golf Carts shore area for Denago vehicles
-  evolution: image9,      // Shoreside Golf Carts shore scene for Evolution vehicles
-  vehicle: image3,        // Shoreside Golf Carts individual vehicle shore display
-  vehicleDetail: image7,  // Shoreside Golf Carts premium vehicle shore showcase
-  counties: image2,       // Shoreside Golf Carts for county/state pages
-  locations: image6,      // Shoreside Golf Carts for location pages
-  financing: image4,      // Shoreside Golf Carts for financing pages
-  policies: image5,       // Shoreside Golf Carts for policy pages
-  default: image1,        // Shoreside Golf Carts main shore scene as fallback
+  home: image1,           // Suburban Golf Carts main residential scene for homepage
+  inventory: image2,      // Suburban Golf Carts suburban display
+  rentals: image3,        // Suburban Golf Carts neighborhood-focused view
+  services: image4,       // Suburban Golf Carts professional residential service
+  about: image5,          // Suburban Golf Carts welcoming suburban scene
+  contact: image6,        // Suburban Golf Carts customer residential area
+  showroom: image7,       // Suburban Golf Carts premium suburban showroom
+  denago: image8,         // Suburban Golf Carts residential area for Denago vehicles
+  evolution: image9,      // Suburban Golf Carts suburban scene for Evolution vehicles
+  vehicle: image3,        // Suburban Golf Carts individual vehicle residential display
+  vehicleDetail: image7,  // Suburban Golf Carts premium vehicle suburban showcase
+  counties: image2,       // Suburban Golf Carts for state/community pages
+  locations: image6,      // Suburban Golf Carts for location pages
+  financing: image4,      // Suburban Golf Carts for financing pages
+  policies: image5,       // Suburban Golf Carts for policy pages
+  default: image1,        // Suburban Golf Carts main residential scene as fallback
 };
 
 // Function to get background image for a specific page
@@ -64,7 +64,7 @@ export const getRandomVehicleBackground = (): string => {
 
 // Function to get a random background for location pages
 export const getRandomLocationBackground = (): string => {
-  // Use shore-focused images for location pages
+  // Use residential-focused images for location pages
   const locationImages = [image1, image2, image5, image6];
   const randomIndex = Math.floor(Math.random() * locationImages.length);
   return locationImages[randomIndex];

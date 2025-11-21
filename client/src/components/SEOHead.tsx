@@ -13,7 +13,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Sussex County, electric golf carts, golf cart sales, golf cart service, Rehoboth Beach golf carts, Delaware golf carts", 
+  keywords = "golf carts, suburban golf carts, electric golf carts, golf cart sales, golf cart service, residential golf carts, neighborhood electric vehicles", 
   canonicalUrl,
   townName,
   ogImage = "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
@@ -97,8 +97,8 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", ogImage || "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
-    updateOGTag("og:site_name", "Shoreside Golf Carts");
+    updateOGTag("og:image", ogImage || "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
+    updateOGTag("og:site_name", "Suburban Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -120,36 +120,36 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://delawaregolfcarts.com${ogImage}`);
-    updateTwitterTag("twitter:site", "@delawaregolfcarts");
-    updateTwitterTag("twitter:creator", "@delawaregolfcarts");
+    updateTwitterTag("twitter:image", `https://suburbangolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:site", "@suburbangolfcarts");
+    updateTwitterTag("twitter:creator", "@suburbangolfcarts");
 
     // Structured Data (JSON-LD)
     if (townName) {
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Delaware Golf Carts - ${townName}`,
+        "name": `Suburban Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
           "addressLocality": townName,
-          "addressRegion": "DE",
+          "addressRegion": "US",
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@delawaregolfcarts.com",
+        "email": "info@suburbangolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://delawaregolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-        "image": `https://delawaregolfcarts.com${ogImage}`,
+        "logo": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "image": `https://suburbangolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {
             "@type": "GeoCoordinates",
-            "latitude": "39.1612",
-            "longitude": "-75.5264"
+            "latitude": "39.8283",
+            "longitude": "-98.5795"
           },
-          "geoRadius": "50000"
+          "geoRadius": "5000000"
         },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -201,8 +201,8 @@ export default function SEOHead({
         },
         "priceRange": "$$",
         "sameAs": [
-          "https://www.facebook.com/delawaregolfcarts/",
-          "https://www.pinterest.com/delawaregolfcarts/"
+          "https://www.facebook.com/suburbangolfcarts/",
+          "https://www.instagram.com/suburbangolfcarts/"
         ]
       };
 

@@ -24,8 +24,8 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Shoreside Golf Carts",
-  description = "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing.",
+  name = "Suburban Golf Carts",
+  description = "Premier golf cart dealership serving residential areas nationwide specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
     streetAddress: "642 NJ-35",
     addressLocality: "Neptune City",
@@ -38,8 +38,8 @@ export default function LocalBusinessSchema({
     longitude: "-74.0313"
   },
   telephone = "1-844-844-6638",
-  email = "info@shoresidegolfcarts.com",
-  url = "https://shoresidegolfcarts.com",
+  email = "info@suburbangolfcarts.com",
+  url = "https://suburbangolfcarts.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Eastern Coastline, Maine to Florida"
+  areaServed = "All 50 United States - Residential & Suburban Communities"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "url": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "url": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
         "width": 400,
         "height": 400
       },
@@ -106,9 +106,9 @@ export default function LocalBusinessSchema({
         "name": areaServed
       },
       "sameAs": [
-        "https://www.facebook.com/lehighgolfcarts",
-        "https://twitter.com/lehighgolfcarts",
-        "https://www.instagram.com/lehighgolfcarts"
+        "https://www.facebook.com/suburbangolfcarts",
+        "https://twitter.com/suburbangolfcarts",
+        "https://www.instagram.com/suburbangolfcarts"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
