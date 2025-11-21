@@ -36,12 +36,8 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// Eastern Coastline State Pages
-import {
-  MainePage, NewHampshirePage, MassachusettsPage, RhodeIslandPage, ConnecticutPage,
-  NewYorkPage, NewJerseyPage, DelawarePage, MarylandPage, VirginiaPage,
-  NorthCarolinaPage, SouthCarolinaPage, GeorgiaPage, FloridaPage
-} from "@/pages/locations/EasternCoastlineStatePages";
+// Dynamic State Page (handles all 50 states)
+import DynamicStatePage from "@/pages/locations/DynamicStatePage";
 
 // All Beach Location Pages
 import {
@@ -180,22 +176,6 @@ export default function App() {
             <Route path="/policies/diversity-policy" component={DiversityPolicyPage} />
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
-            
-            {/* Eastern Coastline State Pages */}
-            <Route path="/maine-golf-carts" component={MainePage} />
-            <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
-            <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />
-            <Route path="/rhode-island-golf-carts" component={RhodeIslandPage} />
-            <Route path="/connecticut-golf-carts" component={ConnecticutPage} />
-            <Route path="/new-york-golf-carts" component={NewYorkPage} />
-            <Route path="/new-jersey-golf-carts" component={NewJerseyPage} />
-            <Route path="/delaware-golf-carts" component={DelawarePage} />
-            <Route path="/maryland-golf-carts" component={MarylandPage} />
-            <Route path="/virginia-golf-carts" component={VirginiaPage} />
-            <Route path="/north-carolina-golf-carts" component={NorthCarolinaPage} />
-            <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
-            <Route path="/georgia-golf-carts" component={GeorgiaPage} />
-            <Route path="/florida-golf-carts" component={FloridaPage} />
             
             {/* Maine Beach Pages */}
             <Route path="/maine/old-orchard-beach-golf-carts" component={MaineOldOrchardBeachPage} />
@@ -401,6 +381,9 @@ export default function App() {
             <Route path="/vehicles/evolution-classic-4-plus" component={EvolutionClassic4PlusPage} />
             <Route path="/vehicles/evolution-carrier-6-plus" component={EvolutionCarrier6PlusPage} />
             <Route path="/vehicles/evolution-d6-max-xt4" component={EvolutionD6MaxXt4Page} />
+            
+            {/* Dynamic State Pages (handles all 50 US states) - Must be near end to not override other routes */}
+            <Route path="/:slug" component={DynamicStatePage} />
             
             {/* 404 Page */}
             <Route component={NotFound} />
