@@ -75,8 +75,8 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Shoreside Golf Carts - Eastern Coastline Headquarters",
-      value: "Serving all Eastern Coastline States",
+      label: "Suburban Golf Carts - Nationwide Headquarters",
+      value: "Serving all 50 US States",
       phone: "1-844-844-6638",
     },
     {
@@ -93,13 +93,13 @@ export default function ContactPage() {
     {
       icon: Mail,
       label: "Email",
-      value: "info@shoresidegolfcarts.com",
+      value: "info@suburbangolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "shoresidegolfcarts.com",
-      link: "https://shoresidegolfcarts.com",
+      value: "suburbangolfcarts.com",
+      link: "https://suburbangolfcarts.com",
     },
   ];
 
@@ -118,11 +118,11 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Shoreside Golf Carts - Your Eastern Coastline Golf Cart Experts
+              Contact Suburban Golf Carts - Your Nationwide Golf Cart Experts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with the Eastern Coastline's premier golf cart dealership. We're here to help you 
-              find the perfect golf cart, schedule service, or answer any questions. Serving every shore and beach from Maine to Florida.
+              Get in touch with the nation's premier golf cart dealership. We're here to help you 
+              find the perfect golf cart, schedule service, or answer any questions. Serving residential and suburban communities across all 50 US states.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   Call 1-844-844-6638
                 </Button>
               </a>
-              <a href="mailto:info@shoresidegolfcarts.com">
+              <a href="mailto:info@suburbangolfcarts.com">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   <Mail className="w-5 h-5 mr-2" />
                   Email Us

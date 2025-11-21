@@ -10,7 +10,7 @@ import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { EASTERN_COASTLINE_STATES, generateAllBeachUrls } from "@/data/easternCoastlineStates";
+import { ALL_US_STATES, generateAllCommunityUrls } from "@/data/all50states";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function HomePage() {
@@ -27,21 +27,21 @@ export default function HomePage() {
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Shoreside Golf Carts - Premier Electric Golf Cart Dealership on the Eastern Coast",
-          description: "Discover premium electric golf carts from Denago and Evolution at Shoreside Golf Carts. Expert sales, service, rentals, and financing throughout the entire Eastern Coastline from Maine to Florida.",
-          url: "https://shoresidegolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://shoresidegolfcarts.com/" }],
+          title: "Suburban Golf Carts - Premier Electric Golf Cart Dealership on the All 50 States",
+          description: "Discover premium electric golf carts from Denago and Evolution at Suburban Golf Carts. Expert sales, service, rentals, and financing throughout the entire All 50 US States from Maine to Florida.",
+          url: "https://suburbangolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://suburbangolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Shoreside Golf Carts helped me find the perfect cart for my needs in Virginia Beach.",
+              reviewBody: "Excellent service and quality golf carts. The team at Suburban Golf Carts helped me find the perfect cart for my needs in Virginia Beach.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
             },
             {
               author: "Maria Garcia",
-              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts anywhere on the Eastern Coast.",
+              reviewBody: "Professional staff and great prices. Highly recommend for anyone looking for golf carts anywhere on the All 50 States.",
               reviewRating: 5,
               datePublished: "2025-01-20",
               headline: "Professional and affordable"
@@ -62,11 +62,11 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Shoreside Golf Carts - Eastern Coastline Premier Dealership
+                Suburban Golf Carts - All 50 US States Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving the entire Eastern Coastline with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Maine to Florida. 
-                Covering all shores, beaches, and coastal communities from Bar Harbor to Miami Beach.
+                Serving all 50 US states with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions delivered to residential and suburban communities nationwide.
+                From neighborhoods in California to communities in New York.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/inventory" className="w-full sm:w-auto">
@@ -96,11 +96,11 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Shoreside Golf Carts?
+            Why Choose Suburban Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
-            We're more than just a dealership - we're your coastline partner in golf cart ownership 
-            with comprehensive services and unmatched expertise across 14 eastern states.
+            We're more than just a dealership - we're your nationwide partner in golf cart ownership 
+            with comprehensive services and unmatched expertise across all 50 US states.
           </p>
           
           <div className="grid md:grid-cols-4 gap-8">
@@ -151,10 +151,10 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Shoreside Golf Carts - Top Golf Cart and LSV Brands
+            Suburban Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            We carry the most trusted names in Golf Carts and Low Speed Vehicles across the Eastern Coastline
+            We carry the most trusted names in Golf Carts and Low Speed Vehicles across the All 50 US States
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mb-12">
@@ -325,16 +325,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Shoreside Golf Carts Section */}
+      {/* About Suburban Golf Carts Section */}
       <section className="py-12 md:py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Shoreside Golf Carts
+                About Suburban Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout the entire Eastern Coastline from Maine to Florida.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout the entire All 50 US States from Maine to Florida.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -364,7 +364,7 @@ export default function HomePage() {
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Eastern Coastline Map"
+                  title="All 50 US States Map"
                 />
               </div>
             </div>
@@ -372,35 +372,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Eastern Coastline States and Beaches Section */}
+      {/* All 50 US States Communities Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Golf Carts for Every Eastern Coast Beach & Shore
+            Golf Carts for Every Residential & Suburban Community
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to every shore, beach, and coastal community from Maine to Florida
+            Professional golf cart services delivered to residential and suburban communities across all 50 US states
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
-            {/* Featured coastal locations from all states */}
-            {generateAllBeachUrls().slice(0, 24).map((beach) => (
+            {/* Featured residential communities from all states */}
+            {generateAllCommunityUrls().slice(0, 24).map((community) => (
               <Link 
-                key={beach.slug} 
-                href={beach.url} 
+                key={community.slug} 
+                href={community.url} 
                 className="bg-blue-50 hover:bg-blue-100 p-3 rounded-lg transition-colors"
               >
                 <div className="text-sm font-semibold text-blue-700">
-                  {beach.name}
+                  {community.name}
                 </div>
                 <div className="text-xs text-blue-500">
-                  {beach.state}
+                  {community.state}
                 </div>
               </Link>
             ))}
           </div>
           
           <p className="text-gray-600 mb-8">
-            Serving all shores and beaches across 14 eastern coastline states! Professional golf cart sales, service, and rentals delivered throughout every coastal community.
+            Serving residential and suburban communities across all 50 US states! Professional golf cart sales, service, and rentals delivered throughout every community nationwide.
           </p>
         </div>
       </section>
@@ -418,29 +418,29 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Northern Coastline</h3>
-              <p className="text-sm text-gray-600 mb-2">Maine, New Hampshire, Massachusetts, Rhode Island, Connecticut</p>
-              <p className="text-theme-orange font-semibold">New England Shores</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Eastern States</h3>
+              <p className="text-sm text-gray-600 mb-2">Maine to Florida, including New England, Mid-Atlantic & Southeast</p>
+              <p className="text-theme-orange font-semibold">East Coast Communities</p>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Mid-Atlantic Coast</h3>
-              <p className="text-sm text-gray-600 mb-2">New York, New Jersey, Delaware, Maryland, Virginia</p>
-              <p className="text-theme-orange font-semibold">Mid-Atlantic Beaches</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Central States</h3>
+              <p className="text-sm text-gray-600 mb-2">Texas to North Dakota, including Midwest & Great Plains</p>
+              <p className="text-theme-orange font-semibold">Central Communities</p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
               <MapPin className="w-8 h-8 text-theme-orange mx-auto mb-3" />
-              <h3 className="font-semibold text-gray-900 mb-2">Southern Coastline</h3>
-              <p className="text-sm text-gray-600 mb-2">North Carolina, South Carolina, Georgia, Florida</p>
-              <p className="text-theme-orange font-semibold">Southern Shores</p>
+              <h3 className="font-semibold text-gray-900 mb-2">Western States</h3>
+              <p className="text-sm text-gray-600 mb-2">California to Washington, including Mountain & Pacific regions</p>
+              <p className="text-theme-orange font-semibold">West Coast Communities</p>
             </div>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout the entire Eastern Coastline</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout the entire All 50 US States</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

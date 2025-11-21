@@ -45,12 +45,12 @@ export default function AboutPage() {
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Shoreside Golf Carts",
-          description: "Learn about Shoreside Golf Carts, the Eastern Coastline's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving every shore and beach from Maine to Florida.",
-          url: "https://shoresidegolfcarts.com/about",
+          title: "About Suburban Golf Carts",
+          description: "Learn about Suburban Golf Carts, serving all 50 US states with premium golf cart solutions. Expert team, authorized Denago and Evolution dealer serving residential and suburban communities nationwide.",
+          url: "https://suburbangolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://shoresidegolfcarts.com/" },
-            { name: "About", url: "https://shoresidegolfcarts.com/about" }
+            { name: "Home", url: "https://suburbangolfcarts.com/" },
+            { name: "About", url: "https://suburbangolfcarts.com/about" }
           ],
           people: [
             {

@@ -646,17 +646,23 @@ export const ALL_US_STATES: State[] = [
   }
 ];
 
-// Helper function to generate all community URLs
-export function generateAllCommunityUrls(): string[] {
-  const urls: string[] = [];
+// Helper function to generate all community URLs with metadata
+export function generateAllCommunityUrls() {
+  const communities: Array<{ name: string; slug: string; state: string; stateSlug: string; url: string }> = [];
   
   ALL_US_STATES.forEach(state => {
     state.communities.forEach(community => {
-      urls.push(`/${state.slug}/${community.slug}-golf-carts`);
+      communities.push({
+        name: community.name,
+        slug: community.slug,
+        state: state.name,
+        stateSlug: state.slug,
+        url: `/${state.slug}/${community.slug}-golf-carts`
+      });
     });
   });
   
-  return urls;
+  return communities;
 }
 
 // Helper function to get state by slug

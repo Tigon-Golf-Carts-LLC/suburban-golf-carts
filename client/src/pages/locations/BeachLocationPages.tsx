@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
-import { EASTERN_COASTLINE_STATES, generateAllBeachUrls, type Beach } from "@/data/easternCoastlineStates";
+import { ALL_US_STATES, generateAllCommunityUrls, type Community } from "@/data/all50states";
 import { generateBeachMapEmbed, generateDirectionsUrl } from "@/utils/easternCoastlineMaps";
 
 interface BeachLocationPageProps {
@@ -15,28 +15,27 @@ interface BeachLocationPageProps {
 }
 
 export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocationPageProps) {
-  const state = EASTERN_COASTLINE_STATES.find(s => s.slug === stateSlug);
-  const beach = state?.beaches.find(b => b.slug === beachSlug);
+  const state = ALL_US_STATES.find(s => s.slug === stateSlug);
+  const community = state?.communities.find(c => c.slug === beachSlug);
   
-  if (!state || !beach) {
+  if (!state || !community) {
     return <div>Location not found</div>;
   }
 
-  const pageTitle = `Golf Carts in ${beach.name}, ${state.name} | Shoreside Golf Carts`;
-  const pageDescription = `Premium golf cart sales, rentals, and service in ${beach.name}, ${state.name}. Shoreside Golf Carts delivers DENAGO and EVOLUTION electric vehicles to every shore and beach.`;
-  const pageUrl = `https://shoresidegolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
+  const pageTitle = `Golf Carts in ${community.name}, ${state.name} | Suburban Golf Carts`;
+  const pageDescription = `Premium golf cart sales, rentals, and service in ${community.name}, ${state.name}. Suburban Golf Carts delivers DENAGO and EVOLUTION electric vehicles to every residential and suburban community.`;
+  const pageUrl = `https://suburbangolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://shoresidegolfcarts.com/" },
-    { name: `${state.name} Golf Carts`, url: `https://shoresidegolfcarts.com/${stateSlug}-golf-carts` },
-    { name: beach.name, url: pageUrl }
+    { name: "Home", url: "https://suburbangolfcarts.com/" },
+    { name: `${state.name} Golf Carts`, url: `https://suburbangolfcarts.com/${stateSlug}-golf-carts` },
+    { name: community.name, url: pageUrl }
   ];
 
   const locationTypes = {
-    beach: "Beach",
-    shore: "Shore",
-    "coastal-town": "Coastal Town",
-    port: "Port"
+    "suburb": "Suburb",
+    "residential-area": "Residential Area",
+    "gated-community": "Gated Community"
   };
 
   return (
@@ -44,7 +43,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
-        keywords={`golf carts ${beach.name} ${state.name}, electric golf carts ${beach.name}, beach golf carts, coastal golf carts, DENAGO, EVOLUTION`}
+        keywords={`golf carts ${community.name} ${state.name}, electric golf carts ${community.name}, suburban golf carts, residential golf carts, DENAGO, EVOLUTION`}
         canonicalUrl={pageUrl}
         ogType="website"
       />
@@ -75,12 +74,12 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Golf Carts in {beach.name}
+              Golf Carts in {community.name}
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
-              Premium electric golf carts delivered to {beach.name}, {state.name}. 
-              Shoreside Golf Carts serves every shore and beach with expert sales, service, and rentals.
+              Premium electric golf carts delivered to {community.name}, {state.name}. 
+              Suburban Golf Carts serves every residential and suburban community with expert sales, service, and rentals.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -106,10 +105,10 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Golf Cart Services in {beach.name}
+              Golf Cart Services in {community.name}
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Comprehensive golf cart solutions delivered directly to {beach.name}. 
+              Comprehensive golf cart solutions delivered directly to {community.name}. 
               From beach cruisers to utility vehicles, we have the perfect electric vehicle for your coastal lifestyle.
             </p>
           </div>
@@ -122,7 +121,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-600 dark:text-gray-300">
-                  New DENAGO and EVOLUTION electric golf carts delivered to {beach.name}
+                  New DENAGO and EVOLUTION electric golf carts delivered to {community.name}
                 </p>
               </CardContent>
             </Card>
@@ -134,7 +133,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-600 dark:text-gray-300">
-                  Short and long-term golf cart rentals for {beach.name} visitors
+                  Short and long-term golf cart rentals for {community.name} visitors
                 </p>
               </CardContent>
             </Card>
@@ -146,7 +145,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-600 dark:text-gray-300">
-                  Professional maintenance and repair services for {beach.name}
+                  Professional maintenance and repair services for {community.name}
                 </p>
               </CardContent>
             </Card>
@@ -158,7 +157,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-600 dark:text-gray-300">
-                  Comprehensive warranty coverage for {beach.name} customers
+                  Comprehensive warranty coverage for {community.name} customers
                 </p>
               </CardContent>
             </Card>
@@ -172,10 +171,10 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Serving {beach.name} & All {state.name} Coastal Areas
+                Serving {community.name} & All {state.name} Coastal Areas
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                Shoreside Golf Carts is proud to serve {beach.name} and every coastal community throughout {state.name}. 
+                Suburban Golf Carts is proud to serve {community.name} and every residential and suburban community throughout {state.name}. 
                 Our team delivers premium electric golf carts directly to your location, whether you're at the beach, 
                 a coastal resort, or your waterfront home.
               </p>
@@ -183,7 +182,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <Star className="w-5 h-5 text-yellow-500" />
-                  <span>Expert delivery to {beach.name}</span>
+                  <span>Expert delivery to {community.name}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Star className="w-5 h-5 text-yellow-500" />
@@ -240,10 +239,10 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              Find Us in {beach.name}
+              Find Us in {community.name}
             </h2>
             <p className="text-xl text-gray-600">
-              Interactive map showing {beach.name} area
+              Interactive map showing {community.name} area
             </p>
           </div>
           
@@ -256,7 +255,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title={`${beach.name} Location Map`}
+              title={`${community.name} Location Map`}
             />
           </div>
           
@@ -268,7 +267,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
               className="inline-flex items-center justify-center px-6 py-3 bg-theme-primary text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               <MapPin className="w-5 h-5 mr-2" />
-              Get Directions to {beach.name}
+              Get Directions to {community.name}
             </a>
           </div>
         </div>
@@ -278,10 +277,10 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
       <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready for Your {beach.name} Golf Cart?
+            Ready for Your {community.name} Golf Cart?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Contact Shoreside Golf Carts today for expert advice and delivery to {beach.name}, {state.name}
+            Contact Suburban Golf Carts today for expert advice and delivery to {community.name}, {state.name}
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
@@ -303,8 +302,8 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
   );
 }
 
-// Generate all beach pages programmatically
-const allBeaches = generateAllBeachUrls();
+// Generate all community pages programmatically
+const allCommunities = generateAllCommunityUrls();
 
 // Export individual beach components for routing
 export const MaineOldOrchardBeachPage = () => (
@@ -481,14 +480,14 @@ export const RhodeIslandFirstBeachPage = () => (
 // Continue with remaining states...
 // Due to length limits, I'll create a comprehensive system that generates all beach pages
 
-// Export function to generate all beach page components
-export const generateAllBeachPageComponents = () => {
+// Export function to generate all community page components
+export const generateAllCommunityPageComponents = () => {
   const components: Record<string, () => JSX.Element> = {};
   
-  allBeaches.forEach(beach => {
-    const componentName = `${beach.state.replace(/\s+/g, '')}${beach.name.replace(/[^a-zA-Z0-9]/g, '')}Page`;
+  allCommunities.forEach(community => {
+    const componentName = `${community.state.replace(/\s+/g, '')}${community.name.replace(/[^a-zA-Z0-9]/g, '')}Page`;
     components[componentName] = () => (
-      <BeachLocationPageTemplate beachSlug={beach.slug} stateSlug={beach.stateSlug} />
+      <BeachLocationPageTemplate beachSlug={community.slug} stateSlug={community.stateSlug} />
     );
   });
   

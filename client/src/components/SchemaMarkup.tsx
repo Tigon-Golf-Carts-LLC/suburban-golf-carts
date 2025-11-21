@@ -15,16 +15,16 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Shoreside Golf Carts",
+  "name": "Suburban Golf Carts",
   "alternateName": "CCGC",
-  "description": "Premier golf cart dealer serving the Eastern Coastline from Maine to Florida specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://shoresidegolfcarts.com",
-  "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+  "description": "Premier golf cart dealer serving the All 50 US States nationwide specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
+  "url": "https://suburbangolfcarts.com",
+  "logo": "https://suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png",
   "image": [
-    "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
+    "https://suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@shoresidegolfcarts.com",
+  "email": "info@suburbangolfcarts.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "642 NJ-35",
@@ -35,7 +35,7 @@ export const generateOrganizationSchema = () => ({
   },
   "areaServed": {
     "@type": "AdministrativeArea",
-    "name": "Eastern Coastline from Maine to Florida"
+    "name": "All 50 US States nationwide"
   },
   "serviceArea": {
     "@type": "GeoCircle",
@@ -86,12 +86,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://shoresidegolfcarts.com/#localbusiness",
-  "name": "Shoreside Golf Carts",
-  "description": "Premier golf cart dealer serving 400+ Eastern Coastline beach locations with electric vehicle sales, service, and rentals.",
-  "url": "https://shoresidegolfcarts.com",
+  "@id": "https://suburbangolfcarts.com/#localbusiness",
+  "name": "Suburban Golf Carts",
+  "description": "Premier golf cart dealer serving 400+ residential and suburban communities nationwide with electric vehicle sales, service, and rentals.",
+  "url": "https://suburbangolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "info@shoresidegolfcarts.com",
+  "email": "info@suburbangolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -144,21 +144,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://shoresidegolfcarts.com/#website",
-  "name": "Shoreside Golf Carts",
-  "description": "Official website for Shoreside Golf Carts - Pennsylvania's premier electric golf cart dealer",
-  "url": "https://shoresidegolfcarts.com",
+  "@id": "https://suburbangolfcarts.com/#website",
+  "name": "Suburban Golf Carts",
+  "description": "Official website for Suburban Golf Carts - Pennsylvania's premier electric golf cart dealer",
+  "url": "https://suburbangolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://shoresidegolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://suburbangolfcarts.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Shoreside Golf Carts"
+    "name": "Suburban Golf Carts"
   }
 });
 
@@ -176,7 +176,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://suburbangolfcarts.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -184,7 +184,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://shoresidegolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://suburbangolfcarts.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -192,11 +192,11 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Shoreside Golf Carts",
+      "name": "Suburban Golf Carts",
       "telephone": "1-844-844-6638",
       "email": "info@lackawannagolfcarts.com"
     },
-    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://suburbangolfcarts.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -240,7 +240,7 @@ export const generateServiceSchema = () => ({
   "description": "Comprehensive golf cart sales, service, repair, and rental services in Lehigh County, Pennsylvania",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Shoreside Golf Carts"
+    "name": "Suburban Golf Carts"
   },
   "areaServed": {
     "@type": "State",
@@ -297,12 +297,12 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://shoresidegolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://suburbangolfcarts.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://suburbangolfcarts.com/vehicles/${vehicle.id}`
   }))
 });
 
@@ -311,7 +311,7 @@ export const generateContactPageSchema = () => ({
   "@type": "ContactPage",
   "name": "Contact Ocean County Golf Carts",
   "description": "Get in touch with Ocean County Golf Carts for sales, service, rentals, and support",
-  "url": "https://shoresidegolfcarts.com/contact",
+  "url": "https://suburbangolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
     "name": "Ocean County Golf Carts",
@@ -325,7 +325,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@shoresidegolfcarts.com",
+        "email": "info@suburbangolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -338,10 +338,10 @@ export const generateTownPageSchema = (townName: string) => ({
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
   "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Lehigh County, Pennsylvania`,
-  "url": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "url": `https://suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Shoreside Golf Carts",
+    "name": "Suburban Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
@@ -362,13 +362,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://shoresidegolfcarts.com"
+        "item": "https://suburbangolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

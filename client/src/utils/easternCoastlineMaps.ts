@@ -1,4 +1,4 @@
-import { CoastalState, Beach } from "@/data/easternCoastlineStates";
+import { State, Community } from "@/data/all50states";
 
 export interface CoordinateLocation {
   lat: number;

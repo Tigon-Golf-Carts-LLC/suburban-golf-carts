@@ -6,22 +6,22 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { CoastalState } from "@/data/easternCoastlineStates";
+import { State } from "@/data/all50states";
 
 interface StateLocationPageTemplateProps {
-  state: CoastalState;
+  state: State;
 }
 
 export default function StateLocationPageTemplate({ state }: StateLocationPageTemplateProps) {
   const [location] = useLocation();
 
-  const pageTitle = `${state.name} Golf Carts - Shoreside Golf Carts | Beach & Coastal Golf Cart Sales`;
-  const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} coastal communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name} shores and beaches.`;
-  const pageUrl = `https://shoresidegolfcarts.com/${state.slug}-golf-carts`;
+  const pageTitle = `${state.name} Golf Carts - Suburban Golf Carts | Residential & Suburban Golf Cart Sales`;
+  const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} residential and suburban communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name}.`;
+  const pageUrl = `https://suburbangolfcarts.com/${state.slug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://shoresidegolfcarts.com/" },
-    { name: "States", url: "https://shoresidegolfcarts.com/coastal-states" },
+    { name: "Home", url: "https://suburbangolfcarts.com/" },
+    { name: "States", url: "https://suburbangolfcarts.com/all-states" },
     { name: `${state.name} Golf Carts`, url: pageUrl }
   ];
 
@@ -30,7 +30,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
-        keywords={`golf carts ${state.name}, ${state.name} beach golf carts, coastal golf carts ${state.name}, ${state.beaches.slice(0, 5).map(b => b.name).join(', ')}`}
+        keywords={`golf carts ${state.name}, ${state.name} residential golf carts, suburban golf carts ${state.name}, ${state.communities.slice(0, 5).map(c => c.name).join(', ')}`}
         canonicalUrl={pageUrl}
         ogType="website"
       />
@@ -50,12 +50,12 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              {state.name} Golf Carts - Shoreside Golf Carts
+              {state.name} Golf Carts - Suburban Golf Carts
             </h1>
             <p className="text-xl mb-8 text-gray-100 max-w-4xl mx-auto">
-              Professional golf cart sales, service, and rentals serving all {state.name} coastal communities. 
-              From {state.beaches[0]?.name} to {state.beaches[state.beaches.length - 1]?.name}, we deliver premium 
-              golf cart solutions to every shore and beach in {state.name}.
+              Professional golf cart sales, service, and rentals serving all {state.name} residential communities. 
+              From {state.communities[0]?.name} to {state.communities[state.communities.length - 1]?.name}, we deliver premium 
+              golf cart solutions to every suburban and residential area in {state.name}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/inventory">
@@ -139,25 +139,25 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              {state.name} Coastal Locations We Serve
+              {state.name} Communities We Serve
             </h2>
             <p className="text-xl text-gray-600">
-              Professional golf cart services delivered to every shore and beach in {state.name}
+              Professional golf cart services delivered to every residential and suburban community in {state.name}
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {state.beaches.map((beach) => (
+            {state.communities.map((community) => (
               <Link 
-                key={beach.slug} 
-                href={`/${state.slug}/${beach.slug}-golf-carts`}
+                key={community.slug} 
+                href={`/${state.slug}/${community.slug}-golf-carts`}
                 className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-theme-primary flex-shrink-0" />
                   <div>
-                    <div className="font-semibold text-gray-900">{beach.name}</div>
-                    <div className="text-sm text-gray-500 capitalize">{beach.type.replace('-', ' ')}</div>
+                    <div className="font-semibold text-gray-900">{community.name}</div>
+                    <div className="text-sm text-gray-500 capitalize">{community.type.replace('-', ' ')}</div>
                   </div>
                 </div>
               </Link>
@@ -171,7 +171,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              Why Choose Shoreside Golf Carts in {state.name}?
+              Why Choose Suburban Golf Carts in {state.name}?
             </h2>
           </div>
           
@@ -253,7 +253,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
             Ready to Get Your Golf Cart in {state.name}?
           </h2>
           <p className="text-xl mb-8 text-gray-100">
-            Contact Shoreside Golf Carts today for expert advice and personalized service throughout {state.name}.
+            Contact Suburban Golf Carts today for expert advice and personalized service throughout {state.name}.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
