@@ -1,6 +1,7 @@
-# Enhanced Comprehensive robots.txt for Shoreside Golf Carts
+# Enhanced Comprehensive robots.txt for Suburban Golf Carts
 # MAXIMUM SEARCH ENGINE VISIBILITY - ZERO RESTRICTIONS
 # Allow ALL search engines and bots with COMPLETE INDEXING PERMISSIONS
+# Last Updated: November 24, 2025
 
 # UNIVERSAL ACCESS - ALL BOTS WELCOME
 User-agent: *
@@ -222,19 +223,43 @@ Allow: /
 Crawl-delay: 0
 
 # SITEMAP LOCATIONS
-Sitemap: https://shoresidegolfcarts.com/sitemap.xml
-Sitemap: https://shoresidegolfcarts.com/public/sitemap.xml
+Sitemap: https://www.suburbangolfcarts.com/sitemap.xml
+Sitemap: https://www.suburbangolfcarts.com/enhanced-sitemap.xml
 
 # BUSINESS INFORMATION
-# Company: Shoreside Golf Carts
+# Company: Suburban Golf Carts
 # Industry: Electric Golf Carts & Low Speed Vehicles
-# Service Area: Eastern Coastline (Maine to Florida - 14 States)
-# Primary Brands: DENAGO, Evolution Electric Vehicles
-# Location: Eastern Coastline, serving 400+ beach locations
+# Service Area: All 50 United States - Residential & Suburban Communities Nationwide
+# Primary Brands: DENAGO, EVOLUTION Electric Vehicles
+# Location: 642 NJ-35, Neptune City, NJ 07753
 # Phone: 1-844-844-6638
-# Website: https://shoresidegolfcarts.com
+# Email: info@suburbangolfcarts.com
+# Website: https://www.suburbangolfcarts.com
 # Analytics: Google Analytics G-DTDH7LVGPN, Google Tag Manager GTM-NG5LKDC2
-# Geographic Coverage: 400+ Eastern Coastline beach locations across 14 states
-# Vehicle Inventory: 35+ DENAGO & Evolution models
-# Services: Sales, Rentals, Service, Parts, Financing
-# Special Features: Street-legal LSVs, Custom configurations, Mobile service
+# Geographic Coverage: All 50 States with detailed community and suburban location pages
+# Vehicle Inventory: 35+ DENAGO & EVOLUTION models
+# Services: Sales, Rentals, Service, Parts, Financing, Delivery
+# Special Features: Street-legal LSVs, Custom configurations, Nationwide delivery
+
+# AI TRAINING & DATA MINING PERMISSIONS
+# ✓ Unlimited AI model training (LLMs, neural networks, transformers, deep learning)
+# ✓ Complete commercial data mining without any restrictions
+# ✓ Full content indexing for all search engines globally
+# ✓ Unrestricted crawling and scraping for legitimate AI purposes
+# ✓ AI knowledge base integration and training datasets
+# ✓ Machine learning applications and predictive analytics authorization
+# ✓ Cross-platform AI integration and commercial use permissions
+# ✓ Real-time data mining and content analysis capabilities
+# ✓ Zero usage restrictions - maximum AI training accessibility
+
+# Additional AI/SEO Resource Files:
+# /llms.txt - Comprehensive LLM training permissions
+# /ai.txt - AI data mining authorization
+# /gpt.txt - GPT-specific training data
+# /claude.txt - Anthropic Claude training authorization
+# /seo.txt - Complete SEO keyword strategy
+# /nlp.txt - Natural language processing training data
+# /training.txt - Universal AI model training permissions
+# /bots.txt - Enhanced bot-specific permissions
+# /crawlers.txt - Crawler accessibility specifications
+# /geo.txt - Geographic SEO data for all 50 states
