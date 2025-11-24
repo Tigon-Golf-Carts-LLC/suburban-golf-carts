@@ -44,7 +44,7 @@ export default function PersonSchema({
       "worksFor": {
         "@type": "Organization",
         "name": worksFor,
-        "url": "https://lackawannagolfcarts.com"
+        "url": "https://www.suburbangolfcarts.com"
       },
       ...(sameAs.length > 0 && { "sameAs": sameAs })
     };

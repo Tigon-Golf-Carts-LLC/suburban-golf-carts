@@ -50,7 +50,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
         title={`${name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals | Shoreside Golf Carts`}
         description={`Professional golf cart sales, rentals, and service in ${name}. DENAGO and EVOLUTION electric vehicles with expert service from Shoreside Golf Carts.`}
         keywords={`${name} golf carts, ${slug} golf cart sales, beach golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Shoreside golf carts`}
-        canonicalUrl={`https://shoresidegolfcarts.com${municipality.url}`}
+        canonicalUrl={`https://www.suburbangolfcarts.com${municipality.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
       />

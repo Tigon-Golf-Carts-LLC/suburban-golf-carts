@@ -12,7 +12,7 @@ export default function EvolutionD5Ranger4PlusPage() {
       seoTitle="EVOLUTION D5 RANGER 4 PLUS - Premium 4-Seat Golf Cart | Lackawanna County Golf Carts"
       seoDescription="Discover the EVOLUTION D5 RANGER 4 PLUS electric golf cart in Luzerne County, PA. Premium 4-passenger vehicle with enhanced comfort and performance features."
       seoKeywords="EVOLUTION D5 RANGER 4 PLUS, 4-seat golf cart, premium electric vehicle, Lackawanna County, Pennsylvania"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/evolution-d5-ranger-4-plus"
+      canonicalUrl="https://www.suburbangolfcarts.com/vehicles/evolution-d5-ranger-4-plus"
       seats="4"
       range="45 miles"
       topSpeed="25 mph"

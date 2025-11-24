@@ -58,7 +58,7 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
   const metadata = buildSEOMetadata(config);
   const fullImageUrl = metadata.heroImage?.startsWith('http') 
     ? metadata.heroImage 
-    : `https://suburbangolfcarts.com${metadata.heroImage}`;
+    : `https://www.suburbangolfcarts.com${metadata.heroImage}`;
 
   return (
     <Helmet>
@@ -100,7 +100,7 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
       <meta name="apple-mobile-web-app-status-bar-style" content="#0e2e55" />
       
       {/* Business Information */}
-      <meta name="contact" content="info@suburbangolfcarts.com" />
+      <meta name="contact" content="info@www.suburbangolfcarts.com" />
       <meta name="phone" content="1-844-844-6638" />
       <meta name="geography" content="All 50 United States" />
       <meta name="region" content="US-Nationwide" />
@@ -115,7 +115,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Discover premium electric golf carts from DENAGO and Evolution serving residential areas and suburban communities across all 50 states with expert sales, service, and rentals.",
     keywords: "suburban golf carts, residential golf carts, neighborhood electric vehicles, DENAGO Evolution dealer, golf carts for residential areas, all 50 states, Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming",
     pageName: "home",
-    canonicalUrl: "https://suburbangolfcarts.com/",
+    canonicalUrl: "https://www.suburbangolfcarts.com/",
     ogType: "website"
   }),
   
@@ -124,7 +124,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn about the nation's premier golf cart dealership with expert team, authorized DENAGO and Evolution dealer serving suburban and residential communities across all 50 states.",
     keywords: "about Suburban Golf Carts, residential golf cart dealership, suburban golf carts, DENAGO Evolution dealer, neighborhood golf cart service",
     pageName: "about",
-    canonicalUrl: "https://suburbangolfcarts.com/about",
+    canonicalUrl: "https://www.suburbangolfcarts.com/about",
     ogType: "website"
   }),
   
@@ -133,7 +133,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Contact the nation's premier golf cart dealership for sales, service, and rentals throughout residential and suburban communities nationwide.",
     keywords: "contact Suburban Golf Carts, residential golf cart dealer, suburban golf cart service, DENAGO Evolution sales",
     pageName: "contact",
-    canonicalUrl: "https://suburbangolfcarts.com/contact",
+    canonicalUrl: "https://www.suburbangolfcarts.com/contact",
     ogType: "website"
   }),
   
@@ -142,7 +142,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Browse our premium DENAGO and Evolution electric golf cart inventory serving residential and suburban communities across all 50 states.",
     keywords: "golf cart inventory, DENAGO Evolution electric carts, suburban golf carts, residential golf carts for sale",
     pageName: "inventory",
-    canonicalUrl: "https://suburbangolfcarts.com/inventory",
+    canonicalUrl: "https://www.suburbangolfcarts.com/inventory",
     ogType: "website"
   }),
   
@@ -151,7 +151,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Professional golf cart sales, service, and rental solutions throughout residential and suburban communities nationwide.",
     keywords: "golf cart services, residential golf cart service, suburban golf cart maintenance, DENAGO Evolution service",
     pageName: "services",
-    canonicalUrl: "https://suburbangolfcarts.com/services",
+    canonicalUrl: "https://www.suburbangolfcarts.com/services",
     ogType: "website"
   }),
   
@@ -160,7 +160,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Premium golf cart rentals for suburban and residential communities nationwide with daily, weekly, and monthly options.",
     keywords: "golf cart rentals, suburban rentals, residential transportation, neighborhood golf carts",
     pageName: "rentals",
-    canonicalUrl: "https://suburbangolfcarts.com/rentals",
+    canonicalUrl: "https://www.suburbangolfcarts.com/rentals",
     ogType: "website"
   }),
   
@@ -169,7 +169,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Flexible golf cart financing options and payment plans for DENAGO and Evolution electric carts in residential areas nationwide.",
     keywords: "golf cart financing, residential golf cart loans, suburban golf cart payment plans, DENAGO Evolution financing",
     pageName: "financing",
-    canonicalUrl: "https://suburbangolfcarts.com/financing",
+    canonicalUrl: "https://www.suburbangolfcarts.com/financing",
     ogType: "website"
   }),
   
@@ -179,7 +179,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Visit our premier showroom featuring the complete lineup of DENAGO and Evolution electric vehicles serving residential and suburban communities across all 50 states.",
     keywords: "Suburban golf carts showroom, residential golf cart dealership, DENAGO Evolution suburban locations, neighborhood golf cart sales",
     pageName: "showroom",
-    canonicalUrl: "https://suburbangolfcarts.com/showroom",
+    canonicalUrl: "https://www.suburbangolfcarts.com/showroom",
     ogType: "website"
   }),
   
@@ -188,7 +188,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Thank you for contacting Suburban Golf Carts, we'll respond to your residential golf cart inquiry within 24 hours.",
     keywords: "thank you, contact confirmation, Suburban Golf Carts, residential golf carts",
     pageName: "thankyou",
-    canonicalUrl: "https://suburbangolfcarts.com/thank-you",
+    canonicalUrl: "https://www.suburbangolfcarts.com/thank-you",
     ogType: "website"
   }),
   
@@ -198,7 +198,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Review Suburban Golf Carts' privacy policy to understand how we protect your personal information across all residential communities.",
     keywords: "privacy policy, data protection, personal information, Suburban Golf Carts",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/privacy-policy",
+    canonicalUrl: "https://www.suburbangolfcarts.com/privacy-policy",
     ogType: "website"
   }),
   
@@ -207,7 +207,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Review Suburban Golf Carts' terms of service for purchasing golf carts, rental services, and website usage across residential locations.",
     keywords: "terms of service, terms and conditions, golf cart purchase, rental agreement, Suburban Golf Carts",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/terms-of-service",
+    canonicalUrl: "https://www.suburbangolfcarts.com/terms-of-service",
     ogType: "website"
   }),
   
@@ -216,7 +216,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn about Suburban Golf Carts' commitment to accuracy and transparent process for handling corrections to published content and information.",
     keywords: "corrections policy, content accuracy, Suburban Golf Carts, information corrections",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/corrections",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/corrections",
     ogType: "website"
   }),
   
@@ -225,7 +225,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Comprehensive golf cart delivery services throughout residential and suburban communities nationwide with free delivery zones and professional transport.",
     keywords: "delivery policy, golf cart delivery, residential delivery, golf cart shipping",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/delivery",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/delivery",
     ogType: "website"
   }),
   
@@ -234,7 +234,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn about Suburban Golf Carts' commitment to diversity, equity, and inclusion in our workplace and customer service practices nationwide.",
     keywords: "diversity policy, equity inclusion, Suburban Golf Carts, workplace diversity",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/diversity",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/diversity",
     ogType: "website"
   }),
   
@@ -243,7 +243,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn about Suburban Golf Carts' code of ethics and business conduct standards serving customers throughout residential communities nationwide.",
     keywords: "ethics policy, business ethics, Suburban Golf Carts, code of conduct",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/ethics",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/ethics",
     ogType: "website"
   }),
   
@@ -252,7 +252,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn how to provide feedback to Suburban Golf Carts and our commitment to customer feedback and continuous improvement across residential locations.",
     keywords: "feedback policy, customer feedback, Suburban Golf Carts, customer service policy",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/feedback",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/feedback",
     ogType: "website"
   }),
   
@@ -261,7 +261,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Learn about Suburban Golf Carts return policy for golf cart purchases, accessories, and parts across residential locations nationwide.",
     keywords: "return policy, golf cart returns, Suburban Golf Carts, refund policy",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/return",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/return",
     ogType: "website"
   }),
   
@@ -270,7 +270,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Complete golf cart rental policy for Suburban Golf Carts with rental requirements, responsibilities, and terms throughout residential communities.",
     keywords: "rental policy, golf cart rental, residential rentals, golf cart rental policy",
     pageName: "policy",
-    canonicalUrl: "https://suburbangolfcarts.com/policies/rental",
+    canonicalUrl: "https://www.suburbangolfcarts.com/policies/rental",
     ogType: "website"
   }),
   
@@ -280,7 +280,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Discover the DENAGO EV NOMAD designed for outdoor adventures and off-road capability with 45-60 mile range, perfect for suburban residential areas.",
     keywords: "DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer residential",
     pageName: "vehicle",
-    canonicalUrl: "https://suburbangolfcarts.com/vehicles/denago-ev-nomad",
+    canonicalUrl: "https://www.suburbangolfcarts.com/vehicles/denago-ev-nomad",
     ogType: "product"
   }),
   
@@ -289,7 +289,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Discover the DENAGO EV CITY lineup with urban mobility features and street-legal NEV certification, perfect for suburban neighborhood transportation.",
     keywords: "DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer residential",
     pageName: "vehicle",
-    canonicalUrl: "https://suburbangolfcarts.com/vehicles/denago-ev-city",
+    canonicalUrl: "https://www.suburbangolfcarts.com/vehicles/denago-ev-city",
     ogType: "product"
   }),
   
@@ -298,7 +298,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Experience the Evolution Classic 4 Plus with timeless design and modern electric performance combining classic styling with contemporary technology for residential areas.",
     keywords: "Evolution Classic 4 Plus, classic golf cart, premium electric vehicle, traditional styling, Evolution dealer residential",
     pageName: "vehicle",
-    canonicalUrl: "https://suburbangolfcarts.com/vehicles/evolution-classic-4-plus",
+    canonicalUrl: "https://www.suburbangolfcarts.com/vehicles/evolution-classic-4-plus",
     ogType: "product"
   }),
   
@@ -307,7 +307,7 @@ export const createPageSEOConfig = {
     benefitSentence: "Discover the DENAGO EV City street-legal electric golf cart with 25 mph capability and 35-mile range, perfect for suburban residential communities.",
     keywords: "DENAGO EV City, street legal golf cart, LSV low speed vehicle, 25 mph golf cart, residential electric vehicle",
     pageName: "vehicle",
-    canonicalUrl: "https://suburbangolfcarts.com/vehicles/denago-ev-city",
+    canonicalUrl: "https://www.suburbangolfcarts.com/vehicles/denago-ev-city",
     ogType: "product"
   }),
   
@@ -317,7 +317,7 @@ export const createPageSEOConfig = {
     benefitSentence: `Discover the ${brand} ${vehicleName} electric golf cart with premium features and reliability, available throughout residential and suburban communities nationwide.`,
     keywords: `${brand} ${vehicleName}, ${brand} electric golf cart, residential electric vehicle, suburban golf cart ${vehicleName}`,
     pageName: "vehicle",
-    canonicalUrl: `https://suburbangolfcarts.com/vehicles/${vehicleName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://www.suburbangolfcarts.com/vehicles/${vehicleName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "product"
   }),
   
@@ -327,7 +327,7 @@ export const createPageSEOConfig = {
     benefitSentence: `Premium golf cart sales, service, and rentals in ${locationName}, ${state} with DENAGO and Evolution electric vehicles for residential and suburban communities.`,
     keywords: `${locationName} golf carts, ${state} residential golf carts, ${locationName} electric vehicles, suburban golf cart dealer`,
     pageName: "locations",
-    canonicalUrl: `https://suburbangolfcarts.com/locations/${locationName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://www.suburbangolfcarts.com/locations/${locationName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "website"
   }),
   
@@ -337,7 +337,7 @@ export const createPageSEOConfig = {
     benefitSentence: `Learn about Suburban Golf Carts' ${policyName.toLowerCase()} serving customers throughout residential and suburban communities nationwide.`,
     keywords: `${policyName.toLowerCase()}, Suburban Golf Carts policies, residential golf cart dealer`,
     pageName: "policy", 
-    canonicalUrl: `https://suburbangolfcarts.com/policies/${policyName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://www.suburbangolfcarts.com/policies/${policyName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "website"
   })
 };

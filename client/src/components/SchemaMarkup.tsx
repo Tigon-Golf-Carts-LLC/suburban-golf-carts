@@ -18,13 +18,13 @@ export const generateOrganizationSchema = () => ({
   "name": "Suburban Golf Carts",
   "alternateName": "CCGC",
   "description": "Premier golf cart dealer serving the All 50 US States nationwide specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://suburbangolfcarts.com",
-  "logo": "https://suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png",
+  "url": "https://www.suburbangolfcarts.com",
+  "logo": "https://www.suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png",
   "image": [
-    "https://suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png"
+    "https://www.suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@suburbangolfcarts.com",
+  "email": "info@www.suburbangolfcarts.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "642 NJ-35",
@@ -86,12 +86,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://suburbangolfcarts.com/#localbusiness",
+  "@id": "https://www.suburbangolfcarts.com/#localbusiness",
   "name": "Suburban Golf Carts",
   "description": "Premier golf cart dealer serving 400+ residential and suburban communities nationwide with electric vehicle sales, service, and rentals.",
-  "url": "https://suburbangolfcarts.com",
+  "url": "https://www.suburbangolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "info@suburbangolfcarts.com",
+  "email": "info@www.suburbangolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -144,15 +144,15 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://suburbangolfcarts.com/#website",
+  "@id": "https://www.suburbangolfcarts.com/#website",
   "name": "Suburban Golf Carts",
   "description": "Official website for Suburban Golf Carts - Pennsylvania's premier electric golf cart dealer",
-  "url": "https://suburbangolfcarts.com",
+  "url": "https://www.suburbangolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://suburbangolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://www.suburbangolfcarts.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
@@ -176,7 +176,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://suburbangolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://www.suburbangolfcarts.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -184,7 +184,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://suburbangolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://www.suburbangolfcarts.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -194,9 +194,9 @@ export const generateProductSchema = (vehicle: any) => ({
       "@type": "Organization",
       "name": "Suburban Golf Carts",
       "telephone": "1-844-844-6638",
-      "email": "info@lackawannagolfcarts.com"
+      "email": "info@www.www.suburbangolfcarts.com"
     },
-    "url": `https://suburbangolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://www.suburbangolfcarts.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -297,12 +297,12 @@ export const generateOfferCatalogSchema = (vehicles: any[]) => ({
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://suburbangolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://www.suburbangolfcarts.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://suburbangolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://www.suburbangolfcarts.com/vehicles/${vehicle.id}`
   }))
 });
 
@@ -311,7 +311,7 @@ export const generateContactPageSchema = () => ({
   "@type": "ContactPage",
   "name": "Contact Ocean County Golf Carts",
   "description": "Get in touch with Ocean County Golf Carts for sales, service, rentals, and support",
-  "url": "https://suburbangolfcarts.com/contact",
+  "url": "https://www.suburbangolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
     "name": "Ocean County Golf Carts",
@@ -325,7 +325,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@suburbangolfcarts.com",
+        "email": "info@www.suburbangolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -338,7 +338,7 @@ export const generateTownPageSchema = (townName: string) => ({
   "@type": "WebPage",
   "name": `Golf Carts in ${townName}`,
   "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Lehigh County, Pennsylvania`,
-  "url": `https://suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "url": `https://www.suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
     "name": "Suburban Golf Carts",
@@ -362,13 +362,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://suburbangolfcarts.com"
+        "item": "https://www.suburbangolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://www.suburbangolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

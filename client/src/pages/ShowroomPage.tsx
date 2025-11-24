@@ -17,7 +17,7 @@ export default function ShowroomPage() {
       googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       facebookUrl: "https://www.facebook.com/TigonGolfCartsDover/",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDoverDE",
-      websiteUrl: "https://shoresidegolfcarts.com",
+      websiteUrl: "https://www.suburbangolfcarts.com",
       reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       city: "Neptune City",
       type: "physical"
@@ -29,7 +29,7 @@ export default function ShowroomPage() {
       coordinates: "40.2005,-74.0313",
       googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDelaware",
-      websiteUrl: "https://shoresidegolfcarts.com",
+      websiteUrl: "https://www.suburbangolfcarts.com",
       reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       city: "Eastern Coastline",
       type: "online"

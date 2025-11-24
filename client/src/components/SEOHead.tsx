@@ -97,7 +97,7 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", ogImage || "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
+    updateOGTag("og:image", ogImage || "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
     updateOGTag("og:site_name", "Suburban Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
@@ -120,7 +120,7 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://suburbangolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:image", `https://www.suburbangolfcarts.com${ogImage}`);
     updateTwitterTag("twitter:site", "@suburbangolfcarts");
     updateTwitterTag("twitter:creator", "@suburbangolfcarts");
 
@@ -138,10 +138,10 @@ export default function SEOHead({
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@suburbangolfcarts.com",
+        "email": "info@www.suburbangolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-        "image": `https://suburbangolfcarts.com${ogImage}`,
+        "logo": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "image": `https://www.suburbangolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

@@ -92,10 +92,10 @@ export default function ServicesPage() {
         pageData={{
           title: "Lackawanna County Golf Cart Services",
           description: "Professional golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania. Certified technicians, quality parts, and comprehensive care.",
-          url: "https://lackawannagolfcarts.com/services",
+          url: "https://www.suburbangolfcarts.com/services",
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "Services", url: "https://lackawannagolfcarts.com/services" }
+            { name: "Home", url: "https://www.suburbangolfcarts.com/" },
+            { name: "Services", url: "https://www.suburbangolfcarts.com/services" }
           ],
           serviceName: "Golf Cart Services",
           serviceDescription: "Comprehensive golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania",

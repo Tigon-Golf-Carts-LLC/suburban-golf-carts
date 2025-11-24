@@ -169,10 +169,10 @@ export default function RentalPolicyPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Rental Department</strong></p>
                 <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
+                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638 (24/7 Support)</p>
                 <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
-                <p>Website: lackawannagolfcarts.com</p>
+                <p>Website: www.suburbangolfcarts.com</p>
               </div>
             </div>
           </div>

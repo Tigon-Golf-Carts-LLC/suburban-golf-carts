@@ -47,10 +47,10 @@ export default function AboutPage() {
         pageData={{
           title: "About Suburban Golf Carts",
           description: "Learn about Suburban Golf Carts, serving all 50 US states with premium golf cart solutions. Expert team, authorized Denago and Evolution dealer serving residential and suburban communities nationwide.",
-          url: "https://suburbangolfcarts.com/about",
+          url: "https://www.suburbangolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://suburbangolfcarts.com/" },
-            { name: "About", url: "https://suburbangolfcarts.com/about" }
+            { name: "Home", url: "https://www.suburbangolfcarts.com/" },
+            { name: "About", url: "https://www.suburbangolfcarts.com/about" }
           ],
           people: [
             {

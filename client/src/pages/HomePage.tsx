@@ -29,8 +29,8 @@ export default function HomePage() {
         pageData={{
           title: "Suburban Golf Carts - Premier Electric Golf Cart Dealership on the All 50 States",
           description: "Discover premium electric golf carts from Denago and Evolution at Suburban Golf Carts. Expert sales, service, rentals, and financing throughout the entire All 50 US States from Maine to Florida.",
-          url: "https://suburbangolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://suburbangolfcarts.com/" }],
+          url: "https://www.suburbangolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://www.suburbangolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",

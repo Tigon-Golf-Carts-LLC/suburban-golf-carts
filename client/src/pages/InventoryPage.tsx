@@ -48,8 +48,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://suburbangolfcarts.com" },
-    { name: "Inventory", url: "https://suburbangolfcarts.com/inventory" }
+    { name: "Home", url: "https://www.suburbangolfcarts.com" },
+    { name: "Inventory", url: "https://www.suburbangolfcarts.com/inventory" }
   ];
 
   return (
@@ -61,11 +61,11 @@ export default function InventoryPage() {
         pageData={{
           title: "Golf Cart Inventory - Lackawanna County Golf Carts",
           description: "Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Lackawanna County, Pennsylvania with expert service.",
-          url: "https://lackawannagolfcarts.com/inventory",
+          url: "https://www.suburbangolfcarts.com/inventory",
           breadcrumbs: breadcrumbItems,
           collectionItems: vehicles?.map(vehicle => ({
             name: vehicle.name,
-            url: `https://lackawannagolfcarts.com/vehicle/${vehicle.id}`,
+            url: `https://www.suburbangolfcarts.com/vehicle/${vehicle.id}`,
             description: `${vehicle.brand} ${vehicle.name} electric golf cart`,
             image: vehicle.images[0]
           })) || [],

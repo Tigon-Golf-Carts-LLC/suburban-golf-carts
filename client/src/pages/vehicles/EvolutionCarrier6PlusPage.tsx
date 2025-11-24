@@ -12,7 +12,7 @@ export default function EvolutionCarrier6PlusPage() {
       seoTitle="EVOLUTION CARRIER 6 PLUS - Utility Golf Cart | Lackawanna County Golf Carts"
       seoDescription="Discover the EVOLUTION CARRIER 6 PLUS electric golf cart in Luzerne County, PA. 6-passenger utility vehicle with enhanced cargo capacity and work features."
       seoKeywords="EVOLUTION CARRIER 6 PLUS, utility golf cart, 6-passenger, cargo capacity, Lackawanna County, Pennsylvania"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/evolution-carrier-6-plus"
+      canonicalUrl="https://www.suburbangolfcarts.com/vehicles/evolution-carrier-6-plus"
       seats="6"
       range="38 miles"
       topSpeed="25 mph"

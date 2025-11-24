@@ -39,7 +39,7 @@ export default function LocalBusinessSchema({
   },
   telephone = "1-844-844-6638",
   email = "info@suburbangolfcarts.com",
-  url = "https://suburbangolfcarts.com",
+  url = "https://www.suburbangolfcarts.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "url": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "url": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
         "width": 400,
         "height": 400
       },

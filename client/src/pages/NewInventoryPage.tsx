@@ -49,7 +49,7 @@ export default function NewInventoryPage() {
         title="Golf Cart Inventory - New & Used | Shoreside Golf Carts"
         description="Browse our extensive inventory of new and used golf carts from top brands like DENAGO and EVOLUTION. Find the perfect electric vehicle for your needs along the Eastern Coastline."
         keywords="golf cart inventory, new golf carts, used golf carts, DENAGO, EVOLUTION, Eastern Coastline golf carts, shore side golf carts"
-        canonicalUrl="https://shoresidegolfcarts.com/inventory"
+        canonicalUrl="https://www.suburbangolfcarts.com/inventory"
         ogImage="/attached_assets/a-photograph-of-a-bright-modern-golf-car_iofSws5mRiCxoMwQwuXw4A_Yv-NWBaTQQ6ofRhClJiiIw_1753454023367.png"
         ogType="website"
       />

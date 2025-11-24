@@ -99,7 +99,7 @@ export default function ContactPage() {
       icon: Globe,
       label: "Website",
       value: "suburbangolfcarts.com",
-      link: "https://suburbangolfcarts.com",
+      link: "https://www.suburbangolfcarts.com",
     },
   ];
 

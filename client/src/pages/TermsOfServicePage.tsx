@@ -15,7 +15,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Shoreside Golf Carts. These Terms of Service ("Terms") govern your use of our website shoresidegolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Shoreside Golf Carts. These Terms of Service ("Terms") govern your use of our website www.suburbangolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -142,10 +142,10 @@ export function TermsOfServicePage() {
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Shoreside Golf Carts</strong></p>
-                <p className="mb-2">Email: info@shoresidegolfcarts.com</p>
+                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Coastline - 400+ beach locations from Maine to Florida</p>
-                <p>Website: shoresidegolfcarts.com</p>
+                <p>Website: www.suburbangolfcarts.com</p>
               </div>
 
               <p className="mt-8 text-sm text-gray-600">

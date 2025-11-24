@@ -76,12 +76,12 @@ export default function EcoImpactPage() {
           name="keywords" 
           content="eco impact calculator, electric golf cart environmental benefits, carbon footprint reduction, CO2 savings, sustainable transportation Luzerne County, green golf carts Pennsylvania" 
         />
-        <link rel="canonical" href="https://lackawannagolfcarts.com/eco-impact" />
+        <link rel="canonical" href="https://www.suburbangolfcarts.com/eco-impact" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Eco-Impact Calculator - Calculate Your Environmental Savings" />
         <meta property="og:description" content="See how much CO₂, fuel, and money you save by choosing electric golf carts. Interactive calculator with real environmental data." />
-        <meta property="og:url" content="https://lackawannagolfcarts.com/eco-impact" />
+        <meta property="og:url" content="https://www.suburbangolfcarts.com/eco-impact" />
         <meta property="og:type" content="website" />
         
         {/* Twitter Card */}

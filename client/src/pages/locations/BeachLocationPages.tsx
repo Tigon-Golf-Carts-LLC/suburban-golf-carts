@@ -24,11 +24,11 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
 
   const pageTitle = `Golf Carts in ${community.name}, ${state.name} | Suburban Golf Carts`;
   const pageDescription = `Premium golf cart sales, rentals, and service in ${community.name}, ${state.name}. Suburban Golf Carts delivers DENAGO and EVOLUTION electric vehicles to every residential and suburban community.`;
-  const pageUrl = `https://suburbangolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
+  const pageUrl = `https://www.suburbangolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://suburbangolfcarts.com/" },
-    { name: `${state.name} Golf Carts`, url: `https://suburbangolfcarts.com/${stateSlug}-golf-carts` },
+    { name: "Home", url: "https://www.suburbangolfcarts.com/" },
+    { name: `${state.name} Golf Carts`, url: `https://www.suburbangolfcarts.com/${stateSlug}-golf-carts` },
     { name: community.name, url: pageUrl }
   ];
 

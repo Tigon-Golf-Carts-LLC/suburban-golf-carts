@@ -11,9 +11,9 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "@type": "Organization",
       "name": "Suburban Golf Carts",
       "description": "Premier golf cart dealership serving all 50 states specializing in electric golf carts for residential areas, sales, service, rentals, and financing for suburban communities nationwide.",
-      "url": "https://suburbangolfcarts.com",
-      "logo": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-      "image": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "url": "https://www.suburbangolfcarts.com",
+      "logo": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "image": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
       "telephone": "1-844-844-6638",
       "email": "info@suburbangolfcarts.com",
       "address": {

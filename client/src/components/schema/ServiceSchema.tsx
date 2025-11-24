@@ -34,7 +34,7 @@ export default function ServiceSchema({
         "@type": "LocalBusiness",
         "name": provider,
         "telephone": "1-844-844-6638",
-        "email": "info@shoresidegolfcarts.com",
+        "email": "info@www.suburbangolfcarts.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "642 NJ-35",
@@ -45,7 +45,7 @@ export default function ServiceSchema({
         },
         "logo": {
           "@type": "ImageObject",
-          "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
+          "url": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
         }
       },
       "areaServed": {
@@ -54,7 +54,7 @@ export default function ServiceSchema({
       },
       "availableChannel": availableChannel.map(channel => ({
         "@type": "ServiceChannel",
-        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://shoresidegolfcarts.com" : undefined,
+        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://www.suburbangolfcarts.com" : undefined,
         "serviceSmsNumber": channel === "https://schema.org/InStoreChannel" ? "1-844-844-6638" : undefined
       })),
       ...(offers.length > 0 && {

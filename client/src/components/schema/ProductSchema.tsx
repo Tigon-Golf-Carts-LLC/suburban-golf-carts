@@ -57,7 +57,7 @@ export default function ProductSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": `https://lackawannagolfcarts.com/attached_assets/${image}`,
+        "url": `https://www.suburbangolfcarts.com/attached_assets/${image}`,
         "width": 800,
         "height": 600
       },
@@ -81,7 +81,7 @@ export default function ProductSchema({
           "@type": "Organization",
           "name": "Lackawanna County Golf Carts",
           "telephone": "1-844-844-6638",
-          "email": "info@lackawannagolfcarts.com",
+          "email": "info@www.suburbangolfcarts.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Lackawanna County",

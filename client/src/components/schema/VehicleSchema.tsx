@@ -92,7 +92,7 @@ export default function VehicleSchema({
       "seller": offers?.seller || {
         "@type": "Organization",
         "name": "Lackawanna County Golf Carts",
-        "url": "https://lackawannagolfcarts.com"
+        "url": "https://www.suburbangolfcarts.com"
       }
     }
   };

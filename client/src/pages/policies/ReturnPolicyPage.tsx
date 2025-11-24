@@ -77,7 +77,7 @@ export default function ReturnPolicyPage() {
               <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">Authorization Required</h3>
               <p className="mb-4">All returns must be pre-authorized. To initiate a return:</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Contact us at info@lackawannagolfcarts.com or 1-844-844-6638</li>
+                <li>Contact us at info@www.suburbangolfcarts.com or 1-844-844-6638</li>
                 <li>Provide order number and reason for return</li>
                 <li>Receive return authorization number (RMA)</li>
                 <li>Include RMA number with returned item</li>
@@ -122,10 +122,10 @@ export default function ReturnPolicyPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Returns Department</strong></p>
                 <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@lackawannagolfcarts.com</p>
+                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
-                <p>Website: lackawannagolfcarts.com</p>
+                <p>Website: www.suburbangolfcarts.com</p>
               </div>
             </div>
           </div>

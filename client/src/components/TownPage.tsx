@@ -74,10 +74,10 @@ export default function TownPage({ townName, townType }: TownPageProps) {
   const pageTitle = `${townName} Golf Carts - Luzerne County's Premier Dealership | Sales, Service & Rentals`;
   const pageDescription = `Professional golf cart sales, service, and rentals in ${fullTownName}. Lackawanna County Golf Carts offers premium DENAGO and EVOLUTION electric golf carts with expert service for ${townName} residents.`;
   const pageKeywords = `${townName} golf carts, ${fullTownName} golf cart sales, Luzerne County golf carts, electric golf carts ${townName}, golf cart service ${townName}, golf cart rentals ${townName}`;
-  const canonicalUrl = `https://lackawannagolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
+  const canonicalUrl = `https://www.suburbangolfcarts.com/${townName.toLowerCase().replace(/\s+/g, '-')}-${townType.toLowerCase()}-golf-carts`;
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://lackawannagolfcarts.com" },
+    { name: "Home", url: "https://www.suburbangolfcarts.com" },
     { name: `${townName} Golf Carts`, url: canonicalUrl }
   ];
 

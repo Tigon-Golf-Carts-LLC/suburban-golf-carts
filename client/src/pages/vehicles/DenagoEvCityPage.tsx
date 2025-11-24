@@ -12,7 +12,7 @@ export default function DenagoEvCityPage() {
       seoTitle="DENAGO EV CITY - Urban Electric Golf Cart | Lackawanna County Golf Carts"
       seoDescription="Discover the DENAGO EV CITY electric golf cart in Luzerne County, PA. Street legal ready urban mobility with sleek design and efficient performance. Sales, service & delivery."
       seoKeywords="DENAGO EV CITY, urban electric golf cart, street legal golf cart, Lackawanna County, Pennsylvania, electric vehicle"
-      canonicalUrl="https://lackawannagolfcarts.com/vehicles/denago-ev-city"
+      canonicalUrl="https://www.suburbangolfcarts.com/vehicles/denago-ev-city"
       seats="2"
       range="40 miles"
       topSpeed="25 mph"

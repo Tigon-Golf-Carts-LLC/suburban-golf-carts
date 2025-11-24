@@ -66,7 +66,7 @@ export default function NewAboutPage() {
         title="About Shoreside Golf Carts - Your Premier Eastern Coastline Golf Cart Dealer"
         description="Learn about Shoreside Golf Carts, the Eastern Coastline's trusted golf cart dealer serving 400+ beach locations with premium DENAGO and EVOLUTION vehicles since 2008."
         keywords="Shoreside golf carts, about us, eastern coastline golf cart dealer, DENAGO dealer, EVOLUTION dealer, Maine to Florida beach locations"
-        canonicalUrl="https://shoresidegolfcarts.com/about"
+        canonicalUrl="https://www.suburbangolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -337,7 +337,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@lackawannagolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@www.suburbangolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>

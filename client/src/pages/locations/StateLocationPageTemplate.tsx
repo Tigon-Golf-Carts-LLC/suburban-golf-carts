@@ -17,11 +17,11 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
 
   const pageTitle = `${state.name} Golf Carts - Suburban Golf Carts | Residential & Suburban Golf Cart Sales`;
   const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} residential and suburban communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name}.`;
-  const pageUrl = `https://suburbangolfcarts.com/${state.slug}-golf-carts`;
+  const pageUrl = `https://www.suburbangolfcarts.com/${state.slug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://suburbangolfcarts.com/" },
-    { name: "States", url: "https://suburbangolfcarts.com/all-states" },
+    { name: "Home", url: "https://www.suburbangolfcarts.com/" },
+    { name: "States", url: "https://www.suburbangolfcarts.com/all-states" },
     { name: `${state.name} Golf Carts`, url: pageUrl }
   ];
 

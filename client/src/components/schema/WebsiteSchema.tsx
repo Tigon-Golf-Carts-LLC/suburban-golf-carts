@@ -7,7 +7,7 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://suburbangolfcarts.com",
+  url = "https://www.suburbangolfcarts.com",
   name = "Suburban Golf Carts",
   description = "Premier golf cart dealership serving residential areas nationwide"
 }: WebsiteSchemaProps) {
@@ -23,7 +23,7 @@ export default function WebsiteSchema({
         "name": "Suburban Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "url": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
           "width": 400,
           "height": 400
         }

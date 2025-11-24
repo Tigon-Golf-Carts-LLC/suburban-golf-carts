@@ -127,8 +127,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
   const {
     title = "Shoreside Golf Carts",
     description = "Premier golf cart dealership serving the Eastern Coastline from Maine to Florida",
-    url = "https://shoresidegolfcarts.com",
-    breadcrumbs = [{ name: "Home", url: "https://shoresidegolfcarts.com/" }],
+    url = "https://www.suburbangolfcarts.com",
+    breadcrumbs = [{ name: "Home", url: "https://www.suburbangolfcarts.com/" }],
     vehicleName,
     vehicleBrand,
     vehicleModel,
@@ -168,7 +168,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <AutoDealerSchema
         name="Shoreside Golf Carts"
         description="Premier electric golf cart dealership serving the Eastern Coastline with sales, service, rentals, and financing"
-        url="https://shoresidegolfcarts.com"
+        url="https://www.suburbangolfcarts.com"
         address={{
           streetAddress: "642 NJ-35",
           addressLocality: "Neptune City",
@@ -177,7 +177,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
-        email="info@shoresidegolfcarts.com"
+        email="info@www.suburbangolfcarts.com"
         brands={["DENAGO", "EVOLUTION"]}
         services={["Golf Cart Sales", "Golf Cart Service", "Golf Cart Rentals", "Financing", "Parts & Accessories"]}
         openingHours={[
@@ -195,7 +195,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <ContactPointSchema
         contactType="customer service"
         telephone="1-844-844-6638"
-        email="info@shoresidegolfcarts.com"
+        email="info@www.suburbangolfcarts.com"
         areaServed="Eastern Coastline from Maine to Florida"
         availableLanguage={["English"]}
         hoursAvailable={[
@@ -277,7 +277,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
             features={vehicleFeatures}
             manufacturer={{
               name: vehicleBrand,
-              url: `https://lackawannagolfcarts.com/${vehicleBrand.toLowerCase()}`
+              url: `https://www.suburbangolfcarts.com/${vehicleBrand.toLowerCase()}`
             }}
           />
           <VehicleSchemaOld
@@ -307,7 +307,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           <BrandSchema
             name={vehicleBrand}
             description={`${vehicleBrand} electric golf carts available at Lackawanna County Golf Carts`}
-            url={`https://lackawannagolfcarts.com/${vehicleBrand.toLowerCase()}`}
+            url={`https://www.suburbangolfcarts.com/${vehicleBrand.toLowerCase()}`}
             manufacturer={vehicleBrand}
             products={[{
               name: vehicleName,
@@ -399,7 +399,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@lackawannagolfcarts.com"
+            email="info@www.suburbangolfcarts.com"
             brands={["DENAGO", "EVOLUTION"]}
             services={["Golf Cart Sales", "Service & Repair", "Rentals", "Parts & Accessories"]}
           />
@@ -427,7 +427,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@lackawannagolfcarts.com"
+            email="info@www.suburbangolfcarts.com"
             areaServed={`${locationName} ${locationType}, Lackawanna County, PA`}
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
@@ -531,7 +531,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           <RentalCarAgencySchema
             name="Lackawanna County Golf Carts - Rental Services"
             description="Professional golf cart rental services throughout Lackawanna County, Pennsylvania"
-            url="https://lackawannagolfcarts.com/rentals"
+            url="https://www.suburbangolfcarts.com/rentals"
             address={{
               streetAddress: "Service Area",
               addressLocality: "Lackawanna County",
@@ -540,7 +540,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@lackawannagolfcarts.com"
+            email="info@www.suburbangolfcarts.com"
             areaServed="Lackawanna County, Pennsylvania"
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
@@ -629,7 +629,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               location={event.location}
               organizer={{
                 name: "Lackawanna County Golf Carts",
-                url: "https://lackawannagolfcarts.com"
+                url: "https://www.suburbangolfcarts.com"
               }}
             />
           ))}
