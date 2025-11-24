@@ -28,6 +28,7 @@ export default function Footer() {
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm" data-testid="link-footer-blog">Blog</Link></li>
                 <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">Evolution Golf Carts</Link></li>
                 <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">Denago Golf Carts</Link></li>
               </ul>
@@ -81,6 +82,7 @@ export default function Footer() {
                 <li><a href="https://tigongolfcarts.com/apply-for-financing/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 text-sm">Financing</a></li>
                 <li><Link href="/about" className="text-gray-600 hover:text-gray-900 text-sm">About</Link></li>
                 <li><Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">Contact</Link></li>
+                <li><Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm" data-testid="link-footer-blog-desktop">Blog</Link></li>
                 <li><Link href="/evolution" className="text-gray-600 hover:text-gray-900 text-sm">Evolution</Link></li>
                 <li><Link href="/denago" className="text-gray-600 hover:text-gray-900 text-sm">Denago</Link></li>
               </ul>

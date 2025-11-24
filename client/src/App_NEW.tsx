@@ -39,6 +39,10 @@ import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 // Dynamic State Page (handles all 50 states)
 import DynamicStatePage from "@/pages/locations/DynamicStatePage";
 
+// Blog Pages
+import BlogIndexPage from "@/pages/BlogIndexPage";
+import BlogPostPage from "@/pages/BlogPostPage";
+
 // All Beach Location Pages
 import {
   // Maine beaches
@@ -176,6 +180,10 @@ export default function App() {
             <Route path="/policies/diversity-policy" component={DiversityPolicyPage} />
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
+            
+            {/* Blog Pages */}
+            <Route path="/blog" component={BlogIndexPage} />
+            <Route path="/blog/:slug" component={BlogPostPage} />
             
             {/* Maine Beach Pages */}
             <Route path="/maine/old-orchard-beach-golf-carts" component={MaineOldOrchardBeachPage} />
