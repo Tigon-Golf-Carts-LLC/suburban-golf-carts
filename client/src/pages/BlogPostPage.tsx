@@ -5,6 +5,32 @@ import NotFound from "@/pages/not-found";
 import { Calendar, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+// Import all blog hero images
+import golfCartOnHill from "@assets/generated_images/golf_cart_on_hill.png";
+import golfCartDealershipStorefront from "@assets/generated_images/golf_cart_dealership_storefront.png";
+import affordableElectricGolfCart from "@assets/generated_images/affordable_electric_golf_cart.png";
+import familyInGolfCart from "@assets/generated_images/family_in_golf_cart.png";
+import comparingGolfCartModels from "@assets/generated_images/comparing_golf_cart_models.png";
+import golfCartPriceComparison from "@assets/generated_images/golf_cart_price_comparison.png";
+import weatherResistantGolfCart from "@assets/generated_images/weather-resistant_golf_cart.png";
+import customGolfCartDesign from "@assets/generated_images/custom_golf_cart_design.png";
+import testDrivingGolfCart from "@assets/generated_images/test_driving_golf_cart.png";
+import golfCartMaintenanceService from "@assets/generated_images/golf_cart_maintenance_service.png";
+
+// Map image URLs to imported images
+const imageMap: Record<string, string> = {
+  "@assets/generated_images/golf_cart_on_hill.png": golfCartOnHill,
+  "@assets/generated_images/golf_cart_dealership_storefront.png": golfCartDealershipStorefront,
+  "@assets/generated_images/affordable_electric_golf_cart.png": affordableElectricGolfCart,
+  "@assets/generated_images/family_in_golf_cart.png": familyInGolfCart,
+  "@assets/generated_images/comparing_golf_cart_models.png": comparingGolfCartModels,
+  "@assets/generated_images/golf_cart_price_comparison.png": golfCartPriceComparison,
+  "@assets/generated_images/weather-resistant_golf_cart.png": weatherResistantGolfCart,
+  "@assets/generated_images/custom_golf_cart_design.png": customGolfCartDesign,
+  "@assets/generated_images/test_driving_golf_cart.png": testDrivingGolfCart,
+  "@assets/generated_images/golf_cart_maintenance_service.png": golfCartMaintenanceService,
+};
+
 export default function BlogPostPage() {
   const params = useParams<{ slug: string }>();
   const blogPost = getBlogPostBySlug(params.slug || "");
@@ -86,12 +112,17 @@ export default function BlogPostPage() {
                 )}
               </div>
 
-              {/* Hero Image Info (Prompt for future image generation) */}
-              <div className="mb-6 p-4 bg-gray-50 dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700">
-                <p className="text-sm text-gray-600 dark:text-gray-400 italic">
-                  <strong>Hero Image:</strong> {blogPost.heroImage.altText}
-                </p>
-              </div>
+              {/* Hero Image */}
+              {blogPost.heroImage.imageUrl && imageMap[blogPost.heroImage.imageUrl] && (
+                <div className="mb-8 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+                  <img
+                    src={imageMap[blogPost.heroImage.imageUrl]}
+                    alt={blogPost.heroImage.altText}
+                    className="w-full h-auto"
+                    data-testid="blog-post-hero-image"
+                  />
+                </div>
+              )}
             </header>
 
             {/* Blog Content */}

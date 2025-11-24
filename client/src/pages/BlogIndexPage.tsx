@@ -4,6 +4,32 @@ import { getAllBlogPosts } from "@/data/blogPosts";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar } from "lucide-react";
 
+// Import all blog hero images
+import golfCartOnHill from "@assets/generated_images/golf_cart_on_hill.png";
+import golfCartDealershipStorefront from "@assets/generated_images/golf_cart_dealership_storefront.png";
+import affordableElectricGolfCart from "@assets/generated_images/affordable_electric_golf_cart.png";
+import familyInGolfCart from "@assets/generated_images/family_in_golf_cart.png";
+import comparingGolfCartModels from "@assets/generated_images/comparing_golf_cart_models.png";
+import golfCartPriceComparison from "@assets/generated_images/golf_cart_price_comparison.png";
+import weatherResistantGolfCart from "@assets/generated_images/weather-resistant_golf_cart.png";
+import customGolfCartDesign from "@assets/generated_images/custom_golf_cart_design.png";
+import testDrivingGolfCart from "@assets/generated_images/test_driving_golf_cart.png";
+import golfCartMaintenanceService from "@assets/generated_images/golf_cart_maintenance_service.png";
+
+// Map image URLs to imported images
+const imageMap: Record<string, string> = {
+  "@assets/generated_images/golf_cart_on_hill.png": golfCartOnHill,
+  "@assets/generated_images/golf_cart_dealership_storefront.png": golfCartDealershipStorefront,
+  "@assets/generated_images/affordable_electric_golf_cart.png": affordableElectricGolfCart,
+  "@assets/generated_images/family_in_golf_cart.png": familyInGolfCart,
+  "@assets/generated_images/comparing_golf_cart_models.png": comparingGolfCartModels,
+  "@assets/generated_images/golf_cart_price_comparison.png": golfCartPriceComparison,
+  "@assets/generated_images/weather-resistant_golf_cart.png": weatherResistantGolfCart,
+  "@assets/generated_images/custom_golf_cart_design.png": customGolfCartDesign,
+  "@assets/generated_images/test_driving_golf_cart.png": testDrivingGolfCart,
+  "@assets/generated_images/golf_cart_maintenance_service.png": golfCartMaintenanceService,
+};
+
 export default function BlogIndexPage() {
   const blogPosts = getAllBlogPosts();
 
@@ -43,16 +69,17 @@ export default function BlogIndexPage() {
                 data-testid={`blog-post-card-${post.id}`}
               >
                 <Card className="h-full hover:shadow-lg transition-shadow bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-700">
-                  {/* Hero Image Placeholder */}
-                  <div className="aspect-video bg-gradient-to-br from-blue-50 to-gray-100 dark:from-blue-900/20 dark:to-gray-800 border-b border-gray-200 dark:border-gray-700 flex items-center justify-center p-6">
-                    <p 
-                      className="text-sm text-gray-600 dark:text-gray-400 italic text-center line-clamp-3"
-                      data-testid={`blog-post-hero-alt-${post.id}`}
-                      title={post.heroImage.altText}
-                    >
-                      {post.heroImage.altText}
-                    </p>
-                  </div>
+                  {/* Hero Image */}
+                  {post.heroImage.imageUrl && imageMap[post.heroImage.imageUrl] && (
+                    <div className="aspect-video overflow-hidden border-b border-gray-200 dark:border-gray-700">
+                      <img
+                        src={imageMap[post.heroImage.imageUrl]}
+                        alt={post.heroImage.altText}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        data-testid={`blog-post-hero-image-${post.id}`}
+                      />
+                    </div>
+                  )}
                   
                   <CardHeader>
                     <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400 mb-3">

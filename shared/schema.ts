@@ -73,6 +73,7 @@ export const blogPostSchema = z.object({
   heroImage: z.object({
     prompt: z.string(),
     altText: z.string(),
+    imageUrl: z.string().optional(),
   }),
   featured: z.boolean().default(false),
 });

@@ -12,7 +12,8 @@ export const blogPosts: BlogPost[] = [
     featured: true,
     heroImage: {
       prompt: "Modern electric golf cart climbing a steep residential hill in a beautiful suburban neighborhood, sunny day, well-maintained homes in background, photorealistic, professional photography",
-      altText: "Electric suburban golf cart navigating hilly terrain in residential neighborhood - best models for steep inclines"
+      altText: "Electric suburban golf cart navigating hilly terrain in residential neighborhood - best models for steep inclines",
+      imageUrl: "@assets/generated_images/golf_cart_on_hill.png"
     },
     content: `
       <h1>Best Electric Suburban Golf Carts for Hilly Terrain</h1>
@@ -165,7 +166,8 @@ export const blogPosts: BlogPost[] = [
     featured: true,
     heroImage: {
       prompt: "Modern golf cart dealership showroom with multiple electric golf carts on display, professional sales environment, customers browsing, bright lighting, welcoming atmosphere, photorealistic",
-      altText: "Suburban golf cart dealership showroom - find authorized dealers near you across the USA"
+      altText: "Suburban golf cart dealership showroom - find authorized dealers near you across the USA",
+      imageUrl: "@assets/generated_images/golf_cart_dealership_storefront.png"
     },
     content: `
       <h1>Where to Find Suburban Golf Cart Dealers Near Me</h1>
@@ -434,7 +436,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Modern electric golf cart with visible battery compartment, charging in suburban driveway, digital range display showing high mileage, professional product photography, bright daylight",
-      altText: "Affordable suburban golf cart with extended battery life and long range - best value models for neighborhoods"
+      altText: "Affordable suburban golf cart with extended battery life and long range - best value models for neighborhoods",
+      imageUrl: "@assets/generated_images/affordable_electric_golf_cart.png"
     },
     content: `
       <h1>Affordable Suburban Golf Carts with Extended Battery Life</h1>
@@ -758,7 +761,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Happy family of four riding in a modern electric golf cart through a safe suburban neighborhood, children smiling, safety features visible, sunny day, professional family photography",
-      altText: "Family-friendly suburban golf cart with safety features - top-rated brands for families with children"
+      altText: "Family-friendly suburban golf cart with safety features - top-rated brands for families with children",
+      imageUrl: "@assets/generated_images/family_in_golf_cart.png"
     },
     content: `
       <h1>Top-Rated Suburban Golf Cart Brands for Families</h1>
@@ -1014,7 +1018,8 @@ export const blogPosts: BlogPost[] = [
     featured: true,
     heroImage: {
       prompt: "Person thoughtfully comparing multiple modern electric golf carts in a suburban dealership showroom, decision-making scene, professional environment, well-lit showroom",
-      altText: "Choosing the right suburban golf cart for neighborhood use - buyer's decision guide"
+      altText: "Choosing the right suburban golf cart for neighborhood use - buyer's decision guide",
+      imageUrl: "@assets/generated_images/comparing_golf_cart_models.png"
     },
     content: `
       <h1>How to Choose a Suburban Golf Cart for Neighborhood Use</h1>
@@ -1350,7 +1355,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Price comparison chart showing different electric golf cart models with price tags, professional dealership setting, clean organized display, financial planning concept",
-      altText: "New suburban golf cart price comparison across brands and models - comprehensive buying guide"
+      altText: "New suburban golf cart price comparison across brands and models - comprehensive buying guide",
+      imageUrl: "@assets/generated_images/golf_cart_price_comparison.png"
     },
     content: `
       <h1>Compare Prices of New Suburban Golf Carts in the US</h1>
@@ -1632,7 +1638,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Electric golf cart with full weather enclosure driving through light rain in suburban neighborhood, windshield wipers active, passengers staying dry, rainy day photography",
-      altText: "Weather-resistant suburban golf cart with protective enclosure - all-season models for year-round use"
+      altText: "Weather-resistant suburban golf cart with protective enclosure - all-season models for year-round use",
+      imageUrl: "@assets/generated_images/weather-resistant_golf_cart.png"
     },
     content: `
       <h1>Suburban Golf Cart Models with Weather-Resistant Features</h1>
@@ -1925,7 +1932,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Customized electric golf cart with unique paint, upgraded wheels, custom seats, business logo, professional customization shop setting, high-quality craftsmanship visible",
-      altText: "Custom suburban golf cart with personalized features - options for personal and commercial applications"
+      altText: "Custom suburban golf cart with personalized features - options for personal and commercial applications",
+      imageUrl: "@assets/generated_images/custom_golf_cart_design.png"
     },
     content: `
       <h1>Custom Suburban Golf Carts for Personal or Commercial Use</h1>
@@ -2218,7 +2226,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Comfortable electric golf cart driving smoothly on suburban street, passengers relaxed and smiling, premium suspension visible, professional lifestyle photography",
-      altText: "Smooth-riding suburban golf cart reviews - most comfortable models for daily neighborhood use"
+      altText: "Smooth-riding suburban golf cart reviews - most comfortable models for daily neighborhood use",
+      imageUrl: "@assets/generated_images/test_driving_golf_cart.png"
     },
     content: `
       <h1>Reviews of Popular Suburban Golf Carts for Smooth Rides</h1>
@@ -2517,7 +2526,8 @@ export const blogPosts: BlogPost[] = [
     featured: false,
     heroImage: {
       prompt: "Professional technician servicing electric golf cart in modern service bay, diagnostic equipment visible, clean organized workshop, maintenance in progress",
-      altText: "Professional suburban golf cart maintenance service - find qualified technicians near you"
+      altText: "Professional suburban golf cart maintenance service - find qualified technicians near you",
+      imageUrl: "@assets/generated_images/golf_cart_maintenance_service.png"
     },
     content: `
       <h1>Suburban Golf Cart Maintenance Services Nearby</h1>
