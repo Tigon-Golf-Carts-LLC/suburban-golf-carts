@@ -34,19 +34,13 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24">
           <div className="flex items-center space-x-3">
-            <div className="rounded-lg">
-              <img 
-                src="/attached_assets/Suburban Golf Carts_1764008367144.png" 
-                alt="Suburban Golf Carts Logo" 
-                className="h-28 w-28 object-contain"
-              />
-            </div>
             <Link href="/">
-              <div className="cursor-pointer">
-                <div className="text-lg font-bold text-theme-primary" style={{lineHeight: '1.1'}}>
-                  SUBURBAN<br />
-                  GOLF CARTS
-                </div>
+              <div className="rounded-lg cursor-pointer">
+                <img 
+                  src="/attached_assets/Suburban Golf Carts_1764008367144.png" 
+                  alt="Suburban Golf Carts Logo" 
+                  className="h-28 w-28 object-contain"
+                />
               </div>
             </Link>
           </div>
