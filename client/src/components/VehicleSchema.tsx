@@ -45,7 +45,7 @@ export default function VehicleSchema({
           "@type": "Organization",
           "name": "Lackawanna County Golf Carts",
           "telephone": "1-844-844-6638",
-          "email": "info@www.suburbangolfcarts.com",
+          "email": "info@suburbangolfcarts.com",
           "address": {
             "@type": "PostalAddress",
             "addressRegion": "PA",

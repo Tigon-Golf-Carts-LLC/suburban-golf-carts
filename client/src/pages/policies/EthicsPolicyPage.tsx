@@ -236,7 +236,7 @@ export default function EthicsPolicyPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Ethics and Compliance</strong></p>
                 <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@www.suburbangolfcarts.com (Confidential Ethics Reports)</p>
+                <p className="mb-2">Email: info@suburbangolfcarts.com (Confidential Ethics Reports)</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
                 <p className="mb-2">Website: www.suburbangolfcarts.com</p>

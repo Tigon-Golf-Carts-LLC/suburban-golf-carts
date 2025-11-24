@@ -174,7 +174,7 @@ export default function PublishingPolicyPage() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Content and Marketing Department</strong></p>
                 <p className="mb-2">Lackawanna County Golf Carts</p>
-                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
+                <p className="mb-2">Email: info@suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">For content corrections or suggestions</p>
                 <p className="mb-2">Website: www.suburbangolfcarts.com</p>

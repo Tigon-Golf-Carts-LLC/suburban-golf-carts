@@ -24,7 +24,7 @@ export const generateOrganizationSchema = () => ({
     "https://www.suburbangolfcarts.com/attached_assets/Suburban Golf Carts (1)_1756300346412.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@www.suburbangolfcarts.com",
+  "email": "info@suburbangolfcarts.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "642 NJ-35",
@@ -91,7 +91,7 @@ export const generateLocalBusinessSchema = () => ({
   "description": "Premier golf cart dealer serving 400+ residential and suburban communities nationwide with electric vehicle sales, service, and rentals.",
   "url": "https://www.suburbangolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "info@www.suburbangolfcarts.com",
+  "email": "info@suburbangolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -194,7 +194,7 @@ export const generateProductSchema = (vehicle: any) => ({
       "@type": "Organization",
       "name": "Suburban Golf Carts",
       "telephone": "1-844-844-6638",
-      "email": "info@www.www.suburbangolfcarts.com"
+      "email": "info@suburbangolfcarts.com"
     },
     "url": `https://www.suburbangolfcarts.com/vehicles/${vehicle.id}`
   },
@@ -325,7 +325,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@www.suburbangolfcarts.com",
+        "email": "info@suburbangolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }

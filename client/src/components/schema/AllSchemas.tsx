@@ -177,7 +177,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
-        email="info@www.suburbangolfcarts.com"
+        email="info@suburbangolfcarts.com"
         brands={["DENAGO", "EVOLUTION"]}
         services={["Golf Cart Sales", "Golf Cart Service", "Golf Cart Rentals", "Financing", "Parts & Accessories"]}
         openingHours={[
@@ -195,7 +195,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <ContactPointSchema
         contactType="customer service"
         telephone="1-844-844-6638"
-        email="info@www.suburbangolfcarts.com"
+        email="info@suburbangolfcarts.com"
         areaServed="Eastern Coastline from Maine to Florida"
         availableLanguage={["English"]}
         hoursAvailable={[
@@ -399,7 +399,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@www.suburbangolfcarts.com"
+            email="info@suburbangolfcarts.com"
             brands={["DENAGO", "EVOLUTION"]}
             services={["Golf Cart Sales", "Service & Repair", "Rentals", "Parts & Accessories"]}
           />
@@ -427,7 +427,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@www.suburbangolfcarts.com"
+            email="info@suburbangolfcarts.com"
             areaServed={`${locationName} ${locationType}, Lackawanna County, PA`}
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[
@@ -540,7 +540,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
               addressCountry: "US"
             }}
             telephone="1-844-844-6638"
-            email="info@www.suburbangolfcarts.com"
+            email="info@suburbangolfcarts.com"
             areaServed="Lackawanna County, Pennsylvania"
             vehicleTypes={["4-Seater Golf Cart", "6-Seater Golf Cart", "Utility Golf Cart"]}
             rentalPolicies={[

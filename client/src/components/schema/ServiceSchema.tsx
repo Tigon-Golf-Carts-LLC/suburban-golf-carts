@@ -34,7 +34,7 @@ export default function ServiceSchema({
         "@type": "LocalBusiness",
         "name": provider,
         "telephone": "1-844-844-6638",
-        "email": "info@www.suburbangolfcarts.com",
+        "email": "info@suburbangolfcarts.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "642 NJ-35",

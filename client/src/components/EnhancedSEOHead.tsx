@@ -100,7 +100,7 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
       <meta name="apple-mobile-web-app-status-bar-style" content="#0e2e55" />
       
       {/* Business Information */}
-      <meta name="contact" content="info@www.suburbangolfcarts.com" />
+      <meta name="contact" content="info@suburbangolfcarts.com" />
       <meta name="phone" content="1-844-844-6638" />
       <meta name="geography" content="All 50 United States" />
       <meta name="region" content="US-Nationwide" />

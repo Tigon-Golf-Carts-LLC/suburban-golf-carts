@@ -100,7 +100,7 @@ export default function TermsConditionsPage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Lackawanna County Golf Carts</strong></p>
-                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
+                <p className="mb-2">Email: info@suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Lackawanna County, Pennsylvania</p>
                 <p>Website: www.suburbangolfcarts.com</p>

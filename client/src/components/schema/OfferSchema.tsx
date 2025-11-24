@@ -36,7 +36,7 @@ export default function OfferSchema({
   seller = {
     name: "Atlantic County Golf Carts",
     telephone: "1-844-844-6638",
-    email: "info@www.suburbangolfcarts.com"
+    email: "info@suburbangolfcarts.com"
   },
   eligibleRegion = "Atlantic County, NJ",
   priceSpecification = []

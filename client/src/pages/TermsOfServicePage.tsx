@@ -142,7 +142,7 @@ export function TermsOfServicePage() {
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
                 <p className="mb-2"><strong>Shoreside Golf Carts</strong></p>
-                <p className="mb-2">Email: info@www.suburbangolfcarts.com</p>
+                <p className="mb-2">Email: info@suburbangolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
                 <p className="mb-2">Serving Eastern Coastline - 400+ beach locations from Maine to Florida</p>
                 <p>Website: www.suburbangolfcarts.com</p>

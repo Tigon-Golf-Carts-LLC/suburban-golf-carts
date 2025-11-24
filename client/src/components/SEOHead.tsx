@@ -138,7 +138,7 @@ export default function SEOHead({
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@www.suburbangolfcarts.com",
+        "email": "info@suburbangolfcarts.com",
         "url": canonicalUrl,
         "logo": "https://www.suburbangolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
         "image": `https://www.suburbangolfcarts.com${ogImage}`,

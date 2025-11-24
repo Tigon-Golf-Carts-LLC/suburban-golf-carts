@@ -337,7 +337,7 @@ export default function NewAboutPage() {
                   <CardTitle>Email Us</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium text-theme-orange mb-2">info@www.suburbangolfcarts.com</p>
+                  <p className="text-lg font-medium text-theme-orange mb-2">info@suburbangolfcarts.com</p>
                   <p className="text-gray-600">Quick response guaranteed</p>
                 </CardContent>
               </Card>
