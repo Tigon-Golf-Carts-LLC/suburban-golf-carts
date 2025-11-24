@@ -59,3 +59,28 @@ export const golfCartSchema = z.object({
 });
 
 export type GolfCart = z.infer<typeof golfCartSchema>;
+
+// Blog Post schema
+export const blogPostSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  seoTitle: z.string(),
+  metaDescription: z.string(),
+  excerpt: z.string(),
+  content: z.string(),
+  publishDate: z.string(),
+  heroImage: z.object({
+    prompt: z.string(),
+    altText: z.string(),
+  }),
+  featured: z.boolean().default(false),
+});
+
+export type BlogPost = z.infer<typeof blogPostSchema>;
+
+export const insertBlogPostSchema = blogPostSchema.omit({
+  id: true,
+});
+
+export type InsertBlogPost = z.infer<typeof insertBlogPostSchema>;
