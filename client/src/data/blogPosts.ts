@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Why Terrain Matters for Suburban Golf Carts</h2>
       
-      <p>Suburban neighborhoods across the United States, from the rolling hills of <a href="/california-golf-carts">California</a> to the elevated communities in <a href="/colorado-golf-carts">Colorado</a>, present unique challenges for golf cart owners. The key factors that determine a golf cart's hill-climbing ability include motor power, battery capacity, and overall weight distribution.</p>
+      <p>Suburban neighborhoods across the United States, from the rolling hills of <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a> to the elevated communities in <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, present unique challenges for golf cart owners. The key factors that determine a golf cart's hill-climbing ability include motor power, battery capacity, and overall weight distribution.</p>
       
       <h3>Motor Power: The Foundation of Hill Performance</h3>
       
@@ -40,19 +40,19 @@ export const blogPosts: BlogPost[] = [
       
       <h3>1. DENAGO EV Rover XL - Best Overall for Hills</h3>
       
-      <p>The <a href="/denago">DENAGO EV Rover XL</a> stands out as our top recommendation for hilly suburban areas. With its powerful motor and advanced battery management system, it handles grades up to 25% with ease. The regenerative braking system also helps recharge the battery on downhill sections, extending your range throughout your neighborhood.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Rover XL</a> stands out as our top recommendation for hilly suburban areas. With its powerful motor and advanced battery management system, it handles grades up to 25% with ease. The regenerative braking system also helps recharge the battery on downhill sections, extending your range throughout your neighborhood.</p>
       
       <h4>Key Features</h4>
       <ul>
         <li>High-torque AC motor designed for inclines</li>
         <li>Extended 48V lithium battery system</li>
         <li>Regenerative braking for energy efficiency</li>
-        <li>Available across all 50 states including <a href="/texas-golf-carts">Texas</a>, <a href="/florida-golf-carts">Florida</a>, and <a href="/arizona-golf-carts">Arizona</a></li>
+        <li>Available across all 50 states including <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, and <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a></li>
       </ul>
       
       <h3>2. Evolution D5 Ranger 4 Plus - Best Value</h3>
       
-      <p>For families seeking a balance between performance and affordability, the <a href="/evolution">Evolution D5 Ranger 4 Plus</a> delivers impressive hill-climbing capabilities without breaking the bank. This model is particularly popular in states like <a href="/north-carolina-golf-carts">North Carolina</a> and <a href="/tennessee-golf-carts">Tennessee</a>.</p>
+      <p>For families seeking a balance between performance and affordability, the <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 Ranger 4 Plus</a> delivers impressive hill-climbing capabilities without breaking the bank. This model is particularly popular in states like <a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina</a> and <a href="https://www.suburbangolfcarts.com/tennessee-golf-carts">Tennessee</a>.</p>
       
       <h2>Battery Considerations for Hilly Neighborhoods</h2>
       
@@ -95,13 +95,13 @@ export const blogPosts: BlogPost[] = [
       <h2>Regional Considerations Across the USA</h2>
       
       <h3>West Coast Communities</h3>
-      <p>States like <a href="/california-golf-carts">California</a>, <a href="/oregon-golf-carts">Oregon</a>, and <a href="/washington-golf-carts">Washington</a> have many hillside communities where golf carts are increasingly popular for neighborhood transportation.</p>
+      <p>States like <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/oregon-golf-carts">Oregon</a>, and <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a> have many hillside communities where golf carts are increasingly popular for neighborhood transportation.</p>
       
       <h3>Mountain States</h3>
-      <p>Elevated communities in <a href="/colorado-golf-carts">Colorado</a>, <a href="/utah-golf-carts">Utah</a>, and <a href="/nevada-golf-carts">Nevada</a> require golf carts with exceptional power-to-weight ratios.</p>
+      <p>Elevated communities in <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, <a href="https://www.suburbangolfcarts.com/utah-golf-carts">Utah</a>, and <a href="https://www.suburbangolfcarts.com/nevada-golf-carts">Nevada</a> require golf carts with exceptional power-to-weight ratios.</p>
       
       <h3>Southern Hill Country</h3>
-      <p>From the Ozarks to the Appalachians, suburban areas in <a href="/arkansas-golf-carts">Arkansas</a>, <a href="/kentucky-golf-carts">Kentucky</a>, and <a href="/west-virginia-golf-carts">West Virginia</a> benefit from golf carts with proven hill-climbing capabilities.</p>
+      <p>From the Ozarks to the Appalachians, suburban areas in <a href="https://www.suburbangolfcarts.com/arkansas-golf-carts">Arkansas</a>, <a href="https://www.suburbangolfcarts.com/kentucky-golf-carts">Kentucky</a>, and <a href="https://www.suburbangolfcarts.com/west-virginia-golf-carts">West Virginia</a> benefit from golf carts with proven hill-climbing capabilities.</p>
       
       <h2>Maintenance Tips for Hill-Climbing Golf Carts</h2>
       
@@ -136,7 +136,7 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Choosing the Right Dealer</h2>
       
-      <p>When purchasing a golf cart for hilly terrain, work with dealers who understand local conditions. <a href="/contact">Suburban Golf Carts</a> serves all 50 states and can provide expert guidance on selecting the perfect model for your specific neighborhood's terrain.</p>
+      <p>When purchasing a golf cart for hilly terrain, work with dealers who understand local conditions. <a href="https://www.suburbangolfcarts.com/contact">Suburban Golf Carts</a> serves all 50 states and can provide expert guidance on selecting the perfect model for your specific neighborhood's terrain.</p>
       
       <h3>Questions to Ask Your Dealer</h3>
       <ul>
@@ -148,11 +148,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Selecting the best electric suburban golf cart for hilly terrain requires careful consideration of motor power, battery technology, safety features, and overall build quality. The <a href="/denago">DENAGO EV Rover XL</a> and <a href="/evolution">Evolution D5 series</a> represent excellent choices that balance performance, safety, and value.</p>
+      <p>Selecting the best electric suburban golf cart for hilly terrain requires careful consideration of motor power, battery technology, safety features, and overall build quality. The <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Rover XL</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 series</a> represent excellent choices that balance performance, safety, and value.</p>
       
-      <p>Whether you're navigating the hills of San Francisco, the elevated communities of Denver, or the rolling terrain of suburban <a href="/georgia-golf-carts">Georgia</a>, investing in a properly equipped golf cart ensures safe, reliable transportation for years to come.</p>
+      <p>Whether you're navigating the hills of San Francisco, the elevated communities of Denver, or the rolling terrain of suburban <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a>, investing in a properly equipped golf cart ensures safe, reliable transportation for years to come.</p>
       
-      <p>Ready to find your perfect hill-climbing golf cart? <a href="/contact">Contact Suburban Golf Carts</a> today for personalized recommendations based on your specific neighborhood terrain and usage needs.</p>
+      <p>Ready to find your perfect hill-climbing golf cart? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for personalized recommendations based on your specific neighborhood terrain and usage needs.</p>
     `
   },
   {
@@ -195,46 +195,46 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Coverage Across All 50 States</h3>
       
-      <p>Suburban Golf Carts serves customers throughout the United States, providing access to premium brands like <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> regardless of your location.</p>
+      <p>Suburban Golf Carts serves customers throughout the United States, providing access to premium brands like <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> regardless of your location.</p>
       
       <h4>Popular States and Regions</h4>
       
       <h5>West Coast</h5>
       <ul>
-        <li><a href="/california-golf-carts">California Golf Carts</a> - Serving Los Angeles, San Diego, San Francisco, and communities statewide</li>
-        <li><a href="/washington-golf-carts">Washington Golf Carts</a> - Seattle, Tacoma, Spokane, and beyond</li>
-        <li><a href="/oregon-golf-carts">Oregon Golf Carts</a> - Portland, Eugene, and coastal communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California Golf Carts</a> - Serving Los Angeles, San Diego, San Francisco, and communities statewide</li>
+        <li><a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington Golf Carts</a> - Seattle, Tacoma, Spokane, and beyond</li>
+        <li><a href="https://www.suburbangolfcarts.com/oregon-golf-carts">Oregon Golf Carts</a> - Portland, Eugene, and coastal communities</li>
       </ul>
       
       <h5>Southwest Region</h5>
       <ul>
-        <li><a href="/arizona-golf-carts">Arizona Golf Carts</a> - Phoenix, Tucson, Scottsdale suburban communities</li>
-        <li><a href="/texas-golf-carts">Texas Golf Carts</a> - Houston, Dallas, Austin, San Antonio, and surrounding areas</li>
-        <li><a href="/nevada-golf-carts">Nevada Golf Carts</a> - Las Vegas, Reno, Henderson neighborhoods</li>
+        <li><a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona Golf Carts</a> - Phoenix, Tucson, Scottsdale suburban communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas Golf Carts</a> - Houston, Dallas, Austin, San Antonio, and surrounding areas</li>
+        <li><a href="https://www.suburbangolfcarts.com/nevada-golf-carts">Nevada Golf Carts</a> - Las Vegas, Reno, Henderson neighborhoods</li>
       </ul>
       
       <h5>Southeast States</h5>
       <ul>
-        <li><a href="/florida-golf-carts">Florida Golf Carts</a> - Miami, Tampa, Orlando, Jacksonville, and retirement communities</li>
-        <li><a href="/georgia-golf-carts">Georgia Golf Carts</a> - Atlanta, Savannah, Augusta suburbs</li>
-        <li><a href="/north-carolina-golf-carts">North Carolina Golf Carts</a> - Charlotte, Raleigh, Asheville areas</li>
-        <li><a href="/south-carolina-golf-carts">South Carolina Golf Carts</a> - Charleston, Columbia, Myrtle Beach</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida Golf Carts</a> - Miami, Tampa, Orlando, Jacksonville, and retirement communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia Golf Carts</a> - Atlanta, Savannah, Augusta suburbs</li>
+        <li><a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina Golf Carts</a> - Charlotte, Raleigh, Asheville areas</li>
+        <li><a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina Golf Carts</a> - Charleston, Columbia, Myrtle Beach</li>
       </ul>
       
       <h5>Northeast Corridor</h5>
       <ul>
-        <li><a href="/new-york-golf-carts">New York Golf Carts</a> - Long Island, Hudson Valley, upstate communities</li>
-        <li><a href="/pennsylvania-golf-carts">Pennsylvania Golf Carts</a> - Philadelphia, Pittsburgh, suburban townships</li>
-        <li><a href="/new-jersey-golf-carts">New Jersey Golf Carts</a> - Throughout the Garden State</li>
-        <li><a href="/massachusetts-golf-carts">Massachusetts Golf Carts</a> - Boston suburbs and Cape Cod</li>
+        <li><a href="https://www.suburbangolfcarts.com/new-york-golf-carts">New York Golf Carts</a> - Long Island, Hudson Valley, upstate communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/pennsylvania-golf-carts">Pennsylvania Golf Carts</a> - Philadelphia, Pittsburgh, suburban townships</li>
+        <li><a href="https://www.suburbangolfcarts.com/new-jersey-golf-carts">New Jersey Golf Carts</a> - Throughout the Garden State</li>
+        <li><a href="https://www.suburbangolfcarts.com/massachusetts-golf-carts">Massachusetts Golf Carts</a> - Boston suburbs and Cape Cod</li>
       </ul>
       
       <h5>Midwest Communities</h5>
       <ul>
-        <li><a href="/ohio-golf-carts">Ohio Golf Carts</a> - Cleveland, Columbus, Cincinnati areas</li>
-        <li><a href="/michigan-golf-carts">Michigan Golf Carts</a> - Detroit, Grand Rapids, lakeside communities</li>
-        <li><a href="/illinois-golf-carts">Illinois Golf Carts</a> - Chicago suburbs and downstate locations</li>
-        <li><a href="/indiana-golf-carts">Indiana Golf Carts</a> - Indianapolis and surrounding counties</li>
+        <li><a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio Golf Carts</a> - Cleveland, Columbus, Cincinnati areas</li>
+        <li><a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan Golf Carts</a> - Detroit, Grand Rapids, lakeside communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/illinois-golf-carts">Illinois Golf Carts</a> - Chicago suburbs and downstate locations</li>
+        <li><a href="https://www.suburbangolfcarts.com/indiana-golf-carts">Indiana Golf Carts</a> - Indianapolis and surrounding counties</li>
       </ul>
       
       <h2>What to Look for in a Golf Cart Dealer</h2>
@@ -278,7 +278,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Online Research Methods</h3>
       
       <h4>Manufacturer Dealer Locators</h4>
-      <p>Start with official brand websites to find authorized dealers near you. Both <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> maintain dealer networks across the country.</p>
+      <p>Start with official brand websites to find authorized dealers near you. Both <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> maintain dealer networks across the country.</p>
       
       <h4>Customer Reviews and Ratings</h4>
       <p>Check multiple sources for dealer reviews:</p>
@@ -360,13 +360,13 @@ export const blogPosts: BlogPost[] = [
       <h3>Regional Considerations</h3>
       
       <h4>Northern States</h4>
-      <p>Dealers in states like <a href="/minnesota-golf-carts">Minnesota</a>, <a href="/wisconsin-golf-carts">Wisconsin</a>, and <a href="/maine-golf-carts">Maine</a> specialize in golf carts suited for seasonal use and cold-weather storage.</p>
+      <p>Dealers in states like <a href="https://www.suburbangolfcarts.com/minnesota-golf-carts">Minnesota</a>, <a href="https://www.suburbangolfcarts.com/wisconsin-golf-carts">Wisconsin</a>, and <a href="https://www.suburbangolfcarts.com/maine-golf-carts">Maine</a> specialize in golf carts suited for seasonal use and cold-weather storage.</p>
       
       <h4>Coastal Communities</h4>
-      <p>Dealers serving <a href="/delaware-golf-carts">Delaware</a>, <a href="/maryland-golf-carts">Maryland</a>, and <a href="/virginia-golf-carts">Virginia</a> coastal areas focus on corrosion-resistant models designed for salt air exposure.</p>
+      <p>Dealers serving <a href="https://www.suburbangolfcarts.com/delaware-golf-carts">Delaware</a>, <a href="https://www.suburbangolfcarts.com/maryland-golf-carts">Maryland</a>, and <a href="https://www.suburbangolfcarts.com/virginia-golf-carts">Virginia</a> coastal areas focus on corrosion-resistant models designed for salt air exposure.</p>
       
       <h4>Mountain States</h4>
-      <p>In <a href="/colorado-golf-carts">Colorado</a>, <a href="/wyoming-golf-carts">Wyoming</a>, and <a href="/montana-golf-carts">Montana</a>, dealers emphasize high-power models capable of handling elevation and terrain challenges.</p>
+      <p>In <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, <a href="https://www.suburbangolfcarts.com/wyoming-golf-carts">Wyoming</a>, and <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a>, dealers emphasize high-power models capable of handling elevation and terrain challenges.</p>
       
       <h2>Virtual Shopping and Remote Purchasing</h2>
       
@@ -393,7 +393,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Nationwide Coverage</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> serves customers in all 50 states, providing:</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> serves customers in all 50 states, providing:</p>
       
       <h4>Comprehensive Service</h4>
       <ul>
@@ -405,7 +405,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Getting Started</h3>
       
-      <p>Finding the right dealer begins with a simple conversation. <a href="/contact">Contact Suburban Golf Carts</a> today to discuss your needs, get pricing information, and learn about models available in your area.</p>
+      <p>Finding the right dealer begins with a simple conversation. <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today to discuss your needs, get pricing information, and learn about models available in your area.</p>
       
       <h4>What to Prepare</h4>
       <p>When reaching out to dealers, have this information ready:</p>
@@ -420,9 +420,9 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Whether you're in <a href="/california-golf-carts">California</a>, <a href="/florida-golf-carts">Florida</a>, <a href="/texas-golf-carts">Texas</a>, or anywhere in between, finding the right suburban golf cart dealer ensures a positive buying experience and long-term satisfaction with your investment. Focus on authorized dealers with proven track records, comprehensive service capabilities, and genuine commitment to customer satisfaction.</p>
+      <p>Whether you're in <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, or anywhere in between, finding the right suburban golf cart dealer ensures a positive buying experience and long-term satisfaction with your investment. Focus on authorized dealers with proven track records, comprehensive service capabilities, and genuine commitment to customer satisfaction.</p>
       
-      <p>Ready to find your perfect golf cart? <a href="/contact">Connect with Suburban Golf Carts</a> to get started with personalized service and expert guidance tailored to your location and needs.</p>
+      <p>Ready to find your perfect golf cart? <a href="https://www.suburbangolfcarts.com/contact">Connect with Suburban Golf Carts</a> to get started with personalized service and expert guidance tailored to your location and needs.</p>
     `
   },
   {
@@ -484,7 +484,7 @@ export const blogPosts: BlogPost[] = [
       
       <h4>1. Evolution D5 Ranger 4 Plus</h4>
       
-      <p>The <a href="/evolution">Evolution D5 Ranger 4 Plus</a> represents exceptional value in the affordable extended-range category. With lithium battery options and a price point under $11,000, it delivers 40+ miles of range while maintaining budget-friendly pricing.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 Ranger 4 Plus</a> represents exceptional value in the affordable extended-range category. With lithium battery options and a price point under $11,000, it delivers 40+ miles of range while maintaining budget-friendly pricing.</p>
       
       <h5>Key Specifications</h5>
       <ul>
@@ -493,12 +493,12 @@ export const blogPosts: BlogPost[] = [
         <li>4-passenger seating</li>
         <li>Top speed: 25 mph</li>
         <li>3-year warranty on batteries</li>
-        <li>Available nationwide from <a href="/california-golf-carts">California</a> to <a href="/florida-golf-carts">Florida</a></li>
+        <li>Available nationwide from <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a> to <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a></li>
       </ul>
       
       <h4>2. DENAGO EV Nomad</h4>
       
-      <p>The <a href="/denago">DENAGO EV Nomad</a> strikes an excellent balance between price and performance, offering lithium battery technology at a competitive price point that makes extended range accessible to more buyers.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Nomad</a> strikes an excellent balance between price and performance, offering lithium battery technology at a competitive price point that makes extended range accessible to more buyers.</p>
       
       <h5>Standout Features</h5>
       <ul>
@@ -600,7 +600,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Climate Impact on Battery Performance</h3>
       
       <h4>Hot Climate States</h4>
-      <p>Buyers in <a href="/arizona-golf-carts">Arizona</a>, <a href="/nevada-golf-carts">Nevada</a>, <a href="/texas-golf-carts">Texas</a>, and <a href="/florida-golf-carts">Florida</a> should prioritize:</p>
+      <p>Buyers in <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>, <a href="https://www.suburbangolfcarts.com/nevada-golf-carts">Nevada</a>, <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, and <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a> should prioritize:</p>
       <ul>
         <li>Lithium batteries (better heat tolerance)</li>
         <li>Models with battery cooling systems</li>
@@ -608,7 +608,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Cold Climate States</h4>
-      <p>Residents of <a href="/minnesota-golf-carts">Minnesota</a>, <a href="/wisconsin-golf-carts">Wisconsin</a>, <a href="/north-dakota-golf-carts">North Dakota</a>, and <a href="/montana-golf-carts">Montana</a> benefit from:</p>
+      <p>Residents of <a href="https://www.suburbangolfcarts.com/minnesota-golf-carts">Minnesota</a>, <a href="https://www.suburbangolfcarts.com/wisconsin-golf-carts">Wisconsin</a>, <a href="https://www.suburbangolfcarts.com/north-dakota-golf-carts">North Dakota</a>, and <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a> benefit from:</p>
       <ul>
         <li>Lithium batteries with cold-weather performance</li>
         <li>Indoor winter storage when possible</li>
@@ -617,7 +617,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Moderate Climate Advantage</h4>
-      <p>States like <a href="/california-golf-carts">California</a>, <a href="/north-carolina-golf-carts">North Carolina</a>, <a href="/washington-golf-carts">Washington</a>, and <a href="/oregon-golf-carts">Oregon</a> enjoy optimal battery performance year-round.</p>
+      <p>States like <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina</a>, <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a>, and <a href="https://www.suburbangolfcarts.com/oregon-golf-carts">Oregon</a> enjoy optimal battery performance year-round.</p>
       
       <h2>Financing Affordable Extended-Range Models</h2>
       
@@ -719,18 +719,18 @@ export const blogPosts: BlogPost[] = [
       <h4>Top Golf Cart Markets</h4>
       <p>Strong demand in these states often means better dealer competition and pricing:</p>
       <ul>
-        <li><a href="/florida-golf-carts">Florida</a> - Largest market with extensive dealer networks</li>
-        <li><a href="/california-golf-carts">California</a> - High adoption in planned communities</li>
-        <li><a href="/texas-golf-carts">Texas</a> - Growing market in master-planned developments</li>
-        <li><a href="/arizona-golf-carts">Arizona</a> - Retirement communities drive strong sales</li>
-        <li><a href="/south-carolina-golf-carts">South Carolina</a> - Popular in coastal and golf communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a> - Largest market with extensive dealer networks</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a> - High adoption in planned communities</li>
+        <li><a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a> - Growing market in master-planned developments</li>
+        <li><a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a> - Retirement communities drive strong sales</li>
+        <li><a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a> - Popular in coastal and golf communities</li>
       </ul>
       
       <h2>Working with Suburban Golf Carts</h2>
       
       <h3>Nationwide Affordable Options</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> specializes in helping buyers across all 50 states find the perfect balance of affordability and performance. Our team can guide you to extended-range models that fit your budget and meet your specific range requirements.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> specializes in helping buyers across all 50 states find the perfect balance of affordability and performance. Our team can guide you to extended-range models that fit your budget and meet your specific range requirements.</p>
       
       <h4>Our Advantage</h4>
       <ul>
@@ -743,11 +743,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Affordable suburban golf carts with extended battery life are more accessible than ever, thanks to advancing lithium battery technology and increased manufacturer competition. Models like the <a href="/evolution">Evolution D5 Ranger 4 Plus</a> and <a href="/denago">DENAGO EV Nomad</a> prove that you don't need to spend $15,000+ to enjoy 40+ miles of range and years of reliable service.</p>
+      <p>Affordable suburban golf carts with extended battery life are more accessible than ever, thanks to advancing lithium battery technology and increased manufacturer competition. Models like the <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 Ranger 4 Plus</a> and <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Nomad</a> prove that you don't need to spend $15,000+ to enjoy 40+ miles of range and years of reliable service.</p>
       
-      <p>Whether you're in <a href="/georgia-golf-carts">Georgia</a>, <a href="/ohio-golf-carts">Ohio</a>, <a href="/colorado-golf-carts">Colorado</a>, or anywhere else across the United States, extended-range golf carts are within reach. The key is understanding your actual range needs, comparing total cost of ownership rather than just upfront price, and working with knowledgeable dealers who prioritize your long-term satisfaction.</p>
+      <p>Whether you're in <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a>, <a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio</a>, <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, or anywhere else across the United States, extended-range golf carts are within reach. The key is understanding your actual range needs, comparing total cost of ownership rather than just upfront price, and working with knowledgeable dealers who prioritize your long-term satisfaction.</p>
       
-      <p>Ready to find an affordable golf cart with the range you need? <a href="/contact">Contact Suburban Golf Carts</a> today for personalized recommendations and current pricing on extended-range models available in your area.</p>
+      <p>Ready to find an affordable golf cart with the range you need? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for personalized recommendations and current pricing on extended-range models available in your area.</p>
     `
   },
   {
@@ -795,7 +795,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>1. DENAGO - Best Overall for Family Safety</h3>
       
-      <p>The <a href="/denago">DENAGO brand</a> consistently ranks highest among family-focused buyers across all 50 states, from <a href="/california-golf-carts">California</a> to <a href="/new-york-golf-carts">New York</a>. Their commitment to safety engineering and family-friendly features sets them apart.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO brand</a> consistently ranks highest among family-focused buyers across all 50 states, from <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a> to <a href="https://www.suburbangolfcarts.com/new-york-golf-carts">New York</a>. Their commitment to safety engineering and family-friendly features sets them apart.</p>
       
       <h4>Why Families Choose DENAGO</h4>
       <ul>
@@ -815,7 +815,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>2. Evolution - Best Value for Growing Families</h3>
       
-      <p>The <a href="/evolution">Evolution brand</a> offers exceptional value without compromising on the safety features families need. Their models are particularly popular in family-oriented communities throughout <a href="/florida-golf-carts">Florida</a>, <a href="/texas-golf-carts">Texas</a>, and <a href="/arizona-golf-carts">Arizona</a>.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution brand</a> offers exceptional value without compromising on the safety features families need. Their models are particularly popular in family-oriented communities throughout <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, and <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>.</p>
       
       <h4>Family-Focused Features</h4>
       <ul>
@@ -922,10 +922,10 @@ export const blogPosts: BlogPost[] = [
       
       <h4>Strong Market Presence</h4>
       <ul>
-        <li><a href="/georgia-golf-carts">Georgia</a> and Southeast families favor Evolution's value</li>
-        <li><a href="/california-golf-carts">California</a> buyers often choose DENAGO's premium features</li>
-        <li><a href="/north-carolina-golf-carts">North Carolina</a> communities appreciate both brands</li>
-        <li><a href="/ohio-golf-carts">Ohio</a> and Midwest families trust Evolution's reliability</li>
+        <li><a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a> and Southeast families favor Evolution's value</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a> buyers often choose DENAGO's premium features</li>
+        <li><a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina</a> communities appreciate both brands</li>
+        <li><a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio</a> and Midwest families trust Evolution's reliability</li>
       </ul>
       
       <h2>Budget Planning for Family Golf Carts</h2>
@@ -1000,11 +1000,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>When it comes to family golf carts, <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> lead the industry in safety, reliability, and family-focused design. Whether you choose DENAGO's premium safety engineering or Evolution's proven value, both brands deliver the peace of mind families need.</p>
+      <p>When it comes to family golf carts, <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> lead the industry in safety, reliability, and family-focused design. Whether you choose DENAGO's premium safety engineering or Evolution's proven value, both brands deliver the peace of mind families need.</p>
       
-      <p>From the suburbs of <a href="/illinois-golf-carts">Illinois</a> to the communities of <a href="/south-carolina-golf-carts">South Carolina</a>, families across America trust these brands for safe, reliable neighborhood transportation.</p>
+      <p>From the suburbs of <a href="https://www.suburbangolfcarts.com/illinois-golf-carts">Illinois</a> to the communities of <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a>, families across America trust these brands for safe, reliable neighborhood transportation.</p>
       
-      <p>Ready to find the perfect family golf cart? <a href="/contact">Contact Suburban Golf Carts</a> today for expert guidance on choosing the safest, most reliable model for your family's needs.</p>
+      <p>Ready to find the perfect family golf cart? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for expert guidance on choosing the safest, most reliable model for your family's needs.</p>
     `
   },
   {
@@ -1061,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
         <li>Standard motors (4-5 HP) suffice</li>
         <li>Maximum range from battery charge</li>
         <li>Available in all price ranges</li>
-        <li>Popular in <a href="/florida-golf-carts">Florida</a>, <a href="/delaware-golf-carts">Delaware</a>, <a href="/louisiana-golf-carts">Louisiana</a></li>
+        <li>Popular in <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, <a href="https://www.suburbangolfcarts.com/delaware-golf-carts">Delaware</a>, <a href="https://www.suburbangolfcarts.com/louisiana-golf-carts">Louisiana</a></li>
       </ul>
       
       <h5>Hilly Terrain</h5>
@@ -1069,7 +1069,7 @@ export const blogPosts: BlogPost[] = [
         <li>Requires 6+ HP motors</li>
         <li>Lithium batteries recommended</li>
         <li>Regenerative braking beneficial</li>
-        <li>Common in <a href="/california-golf-carts">California</a>, <a href="/colorado-golf-carts">Colorado</a>, <a href="/tennessee-golf-carts">Tennessee</a></li>
+        <li>Common in <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, <a href="https://www.suburbangolfcarts.com/tennessee-golf-carts">Tennessee</a></li>
       </ul>
       
       <h3>Distance and Range Needs</h3>
@@ -1201,10 +1201,10 @@ export const blogPosts: BlogPost[] = [
       <h4>Research Your State Laws</h4>
       <p>Regulations vary significantly by state:</p>
       <ul>
-        <li><a href="/florida-golf-carts">Florida</a>: Very golf cart-friendly with extensive cart path networks</li>
-        <li><a href="/california-golf-carts">California</a>: Strict LSV requirements for street use</li>
-        <li><a href="/texas-golf-carts">Texas</a>: Varies by municipality, check local ordinances</li>
-        <li><a href="/arizona-golf-carts">Arizona</a>: Retirement communities have specific guidelines</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>: Very golf cart-friendly with extensive cart path networks</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>: Strict LSV requirements for street use</li>
+        <li><a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>: Varies by municipality, check local ordinances</li>
+        <li><a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>: Retirement communities have specific guidelines</li>
       </ul>
       
       <h2>Brand Selection Guidance</h2>
@@ -1212,7 +1212,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Top Brands for Neighborhood Use</h3>
       
       <h4>DENAGO</h4>
-      <p>The <a href="/denago">DENAGO brand</a> excels in premium features and modern design:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO brand</a> excels in premium features and modern design:</p>
       <ul>
         <li>Best for: Quality-focused buyers, tech enthusiasts</li>
         <li>Price range: $10,000-$15,000</li>
@@ -1221,7 +1221,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Evolution</h4>
-      <p>The <a href="/evolution">Evolution brand</a> offers excellent value and reliability:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution brand</a> offers excellent value and reliability:</p>
       <ul>
         <li>Best for: Budget-conscious buyers, proven performance seekers</li>
         <li>Price range: $8,000-$13,000</li>
@@ -1290,7 +1290,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Climate Factors</h3>
       
       <h4>Hot Weather States</h4>
-      <p>In states like <a href="/nevada-golf-carts">Nevada</a>, <a href="/new-mexico-golf-carts">New Mexico</a>, and <a href="/hawaii-golf-carts">Hawaii</a>:</p>
+      <p>In states like <a href="https://www.suburbangolfcarts.com/nevada-golf-carts">Nevada</a>, <a href="https://www.suburbangolfcarts.com/new-mexico-golf-carts">New Mexico</a>, and <a href="https://www.suburbangolfcarts.com/hawaii-golf-carts">Hawaii</a>:</p>
       <ul>
         <li>Prioritize ventilated seating</li>
         <li>Consider upgraded tops for sun protection</li>
@@ -1298,7 +1298,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Cold Weather States</h4>
-      <p>Buyers in <a href="/maine-golf-carts">Maine</a>, <a href="/vermont-golf-carts">Vermont</a>, and <a href="/alaska-golf-carts">Alaska</a> should consider:</p>
+      <p>Buyers in <a href="https://www.suburbangolfcarts.com/maine-golf-carts">Maine</a>, <a href="https://www.suburbangolfcarts.com/vermont-golf-carts">Vermont</a>, and <a href="https://www.suburbangolfcarts.com/alaska-golf-carts">Alaska</a> should consider:</p>
       <ul>
         <li>Full weather enclosures essential</li>
         <li>Winter storage planning</li>
@@ -1323,7 +1323,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Expert Guidance Nationwide</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> serves customers across all 50 states, helping families and individuals select the perfect golf cart for their neighborhood lifestyle. Our team understands regional considerations, local regulations, and the unique needs of suburban communities from <a href="/washington-golf-carts">Washington</a> to <a href="/virginia-golf-carts">Virginia</a>.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> serves customers across all 50 states, helping families and individuals select the perfect golf cart for their neighborhood lifestyle. Our team understands regional considerations, local regulations, and the unique needs of suburban communities from <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a> to <a href="https://www.suburbangolfcarts.com/virginia-golf-carts">Virginia</a>.</p>
       
       <h4>Our Selection Process</h4>
       <ul>
@@ -1337,11 +1337,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Choosing the right suburban golf cart involves balancing your needs, budget, and local environment. Whether you prioritize the advanced features of <a href="/denago">DENAGO</a> or the proven value of <a href="/evolution">Evolution</a>, the perfect cart for your neighborhood use exists within your reach.</p>
+      <p>Choosing the right suburban golf cart involves balancing your needs, budget, and local environment. Whether you prioritize the advanced features of <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> or the proven value of <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a>, the perfect cart for your neighborhood use exists within your reach.</p>
       
-      <p>From the planned communities of <a href="/south-carolina-golf-carts">South Carolina</a> to the suburban developments of <a href="/michigan-golf-carts">Michigan</a>, the right golf cart enhances your daily life while fitting seamlessly into your community.</p>
+      <p>From the planned communities of <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a> to the suburban developments of <a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan</a>, the right golf cart enhances your daily life while fitting seamlessly into your community.</p>
       
-      <p>Ready to find your ideal neighborhood golf cart? <a href="/contact">Contact Suburban Golf Carts</a> today for personalized guidance based on your specific requirements and location.</p>
+      <p>Ready to find your ideal neighborhood golf cart? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for personalized guidance based on your specific requirements and location.</p>
     `
   },
   {
@@ -1377,7 +1377,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Best For</h4>
-      <p>Budget-conscious buyers, occasional use, backup vehicles, or first-time golf cart owners in states like <a href="/alabama-golf-carts">Alabama</a>, <a href="/mississippi-golf-carts">Mississippi</a>, and <a href="/arkansas-golf-carts">Arkansas</a>.</p>
+      <p>Budget-conscious buyers, occasional use, backup vehicles, or first-time golf cart owners in states like <a href="https://www.suburbangolfcarts.com/alabama-golf-carts">Alabama</a>, <a href="https://www.suburbangolfcarts.com/mississippi-golf-carts">Mississippi</a>, and <a href="https://www.suburbangolfcarts.com/arkansas-golf-carts">Arkansas</a>.</p>
       
       <h3>Mid-Range Models ($9,000-$13,000)</h3>
       
@@ -1392,7 +1392,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Best For</h4>
-      <p>Most suburban families seeking reliable daily transportation across communities in <a href="/north-carolina-golf-carts">North Carolina</a>, <a href="/georgia-golf-carts">Georgia</a>, and <a href="/south-carolina-golf-carts">South Carolina</a>.</p>
+      <p>Most suburban families seeking reliable daily transportation across communities in <a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina</a>, <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a>, and <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a>.</p>
       
       <h3>Premium Golf Carts ($13,000-$20,000+)</h3>
       
@@ -1407,13 +1407,13 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Best For</h4>
-      <p>Buyers prioritizing premium features and performance in affluent communities throughout <a href="/california-golf-carts">California</a>, <a href="/florida-golf-carts">Florida</a>, and <a href="/arizona-golf-carts">Arizona</a>.</p>
+      <p>Buyers prioritizing premium features and performance in affluent communities throughout <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, and <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>.</p>
       
       <h2>Price Comparison by Brand</h2>
       
       <h3>DENAGO Pricing</h3>
       
-      <p>The <a href="/denago">DENAGO brand</a> positions itself in the mid-to-premium range with standard lithium batteries and modern features:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO brand</a> positions itself in the mid-to-premium range with standard lithium batteries and modern features:</p>
       
       <h4>DENAGO Model Prices</h4>
       <ul>
@@ -1427,7 +1427,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Evolution Pricing</h3>
       
-      <p>The <a href="/evolution">Evolution brand</a> offers competitive pricing across multiple tiers:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution brand</a> offers competitive pricing across multiple tiers:</p>
       
       <h4>Evolution Model Prices</h4>
       <ul>
@@ -1477,15 +1477,15 @@ export const blogPosts: BlogPost[] = [
       <h4>High-Demand Markets</h4>
       <p>States with strong golf cart cultures often have competitive pricing due to dealer volume:</p>
       <ul>
-        <li><a href="/florida-golf-carts">Florida</a>: Excellent pricing, many dealers</li>
-        <li><a href="/arizona-golf-carts">Arizona</a>: Competitive retirement community markets</li>
-        <li><a href="/south-carolina-golf-carts">South Carolina</a>: Strong coastal community demand</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>: Excellent pricing, many dealers</li>
+        <li><a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>: Competitive retirement community markets</li>
+        <li><a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a>: Strong coastal community demand</li>
       </ul>
       
       <h4>Lower-Volume Markets</h4>
       <p>States with fewer dealers may see slightly higher prices:</p>
       <ul>
-        <li>Northern states: <a href="/north-dakota-golf-carts">North Dakota</a>, <a href="/montana-golf-carts">Montana</a></li>
+        <li>Northern states: <a href="https://www.suburbangolfcarts.com/north-dakota-golf-carts">North Dakota</a>, <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a></li>
         <li>May pay 5-10% premium for delivery from distant dealers</li>
         <li>Consider purchasing from high-volume markets with delivery</li>
       </ul>
@@ -1588,10 +1588,10 @@ export const blogPosts: BlogPost[] = [
       
       <h4>Sample State Costs</h4>
       <ul>
-        <li><a href="/texas-golf-carts">Texas</a>: $45-$75 annual registration (LSVs)</li>
-        <li><a href="/california-golf-carts">California</a>: $25-$50 annual registration</li>
-        <li><a href="/florida-golf-carts">Florida</a>: Minimal to no registration required for golf carts</li>
-        <li><a href="/new-york-golf-carts">New York</a>: Varies by county, $20-$100</li>
+        <li><a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>: $45-$75 annual registration (LSVs)</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>: $25-$50 annual registration</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>: Minimal to no registration required for golf carts</li>
+        <li><a href="https://www.suburbangolfcarts.com/new-york-golf-carts">New York</a>: Varies by county, $20-$100</li>
       </ul>
       
       <h3>Insurance Costs</h3>
@@ -1607,7 +1607,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Transparent Nationwide Pricing</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> provides upfront, competitive pricing on <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> models across all 50 states, from <a href="/washington-golf-carts">Washington</a> to <a href="/maine-golf-carts">Maine</a>.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> provides upfront, competitive pricing on <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> models across all 50 states, from <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a> to <a href="https://www.suburbangolfcarts.com/maine-golf-carts">Maine</a>.</p>
       
       <h4>Our Pricing Advantage</h4>
       <ul>
@@ -1622,9 +1622,9 @@ export const blogPosts: BlogPost[] = [
       
       <p>Understanding suburban golf cart pricing helps you make informed decisions and find the best value for your investment. Whether you're seeking entry-level affordability or premium features, comparing prices across brands and understanding total cost of ownership ensures satisfaction with your purchase.</p>
       
-      <p>From budget-conscious buyers in <a href="/kansas-golf-carts">Kansas</a> to premium seekers in <a href="/massachusetts-golf-carts">Massachusetts</a>, the right golf cart at the right price awaits.</p>
+      <p>From budget-conscious buyers in <a href="https://www.suburbangolfcarts.com/kansas-golf-carts">Kansas</a> to premium seekers in <a href="https://www.suburbangolfcarts.com/massachusetts-golf-carts">Massachusetts</a>, the right golf cart at the right price awaits.</p>
       
-      <p>Ready to get competitive pricing on your ideal golf cart? <a href="/contact">Contact Suburban Golf Carts</a> today for detailed price quotes tailored to your specific needs and location.</p>
+      <p>Ready to get competitive pricing on your ideal golf cart? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for detailed price quotes tailored to your specific needs and location.</p>
     `
   },
   {
@@ -1644,7 +1644,7 @@ export const blogPosts: BlogPost[] = [
     content: `
       <h1>Suburban Golf Cart Models with Weather-Resistant Features</h1>
       
-      <p>Weather doesn't respect your schedule, and neither should your golf cart. Whether facing summer downpours in <a href="/florida-golf-carts">Florida</a>, winter snow in <a href="/michigan-golf-carts">Michigan</a>, or desert heat in <a href="/arizona-golf-carts">Arizona</a>, weather-resistant golf carts keep you moving comfortably year-round.</p>
+      <p>Weather doesn't respect your schedule, and neither should your golf cart. Whether facing summer downpours in <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, winter snow in <a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan</a>, or desert heat in <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>, weather-resistant golf carts keep you moving comfortably year-round.</p>
       
       <h2>Types of Weather Protection</h2>
       
@@ -1681,7 +1681,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>DENAGO All-Weather Options</h3>
       
-      <p>The <a href="/denago">DENAGO lineup</a> offers excellent weather protection capabilities:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO lineup</a> offers excellent weather protection capabilities:</p>
       
       <h4>DENAGO EV Rover XL</h4>
       <ul>
@@ -1703,7 +1703,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Evolution Weather-Ready Models</h3>
       
-      <p>The <a href="/evolution">Evolution brand</a> designs with durability in mind:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution brand</a> designs with durability in mind:</p>
       
       <h4>Evolution D5 Ranger 6 Plus</h4>
       <ul>
@@ -1728,7 +1728,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Hot and Humid Climates</h3>
       
       <h4>Best Features for Southern States</h4>
-      <p>Buyers in <a href="/louisiana-golf-carts">Louisiana</a>, <a href="/georgia-golf-carts">Georgia</a>, and <a href="/texas-golf-carts">Texas</a> should prioritize:</p>
+      <p>Buyers in <a href="https://www.suburbangolfcarts.com/louisiana-golf-carts">Louisiana</a>, <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a>, and <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a> should prioritize:</p>
       <ul>
         <li>Ventilated enclosures with mesh panels</li>
         <li>UV-resistant materials and finishes</li>
@@ -1740,7 +1740,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Cold and Snowy Climates</h3>
       
       <h4>Winter-Ready Features</h4>
-      <p>Essential for states like <a href="/minnesota-golf-carts">Minnesota</a>, <a href="/wisconsin-golf-carts">Wisconsin</a>, and <a href="/montana-golf-carts">Montana</a>:</p>
+      <p>Essential for states like <a href="https://www.suburbangolfcarts.com/minnesota-golf-carts">Minnesota</a>, <a href="https://www.suburbangolfcarts.com/wisconsin-golf-carts">Wisconsin</a>, and <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a>:</p>
       <ul>
         <li>Fully sealed hard enclosures</li>
         <li>Insulated panels and flooring</li>
@@ -1753,7 +1753,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Coastal Environments</h3>
       
       <h4>Salt Air Protection</h4>
-      <p>Critical for communities in <a href="/delaware-golf-carts">Delaware</a>, <a href="/maryland-golf-carts">Maryland</a>, and <a href="/virginia-golf-carts">Virginia</a> coastal areas:</p>
+      <p>Critical for communities in <a href="https://www.suburbangolfcarts.com/delaware-golf-carts">Delaware</a>, <a href="https://www.suburbangolfcarts.com/maryland-golf-carts">Maryland</a>, and <a href="https://www.suburbangolfcarts.com/virginia-golf-carts">Virginia</a> coastal areas:</p>
       <ul>
         <li>Marine-grade stainless steel fasteners</li>
         <li>Powder-coated or anodized aluminum frames</li>
@@ -1874,9 +1874,9 @@ export const blogPosts: BlogPost[] = [
       <h4>High Weather Protection Adoption</h4>
       <p>States where weather-resistant features are essential:</p>
       <ul>
-        <li><a href="/washington-golf-carts">Washington</a> and <a href="/oregon-golf-carts">Oregon</a>: Rain protection critical</li>
-        <li><a href="/colorado-golf-carts">Colorado</a> and <a href="/utah-golf-carts">Utah</a>: Snow and cold preparation</li>
-        <li><a href="/north-dakota-golf-carts">North Dakota</a> and <a href="/south-dakota-golf-carts">South Dakota</a>: Extreme temperature swings</li>
+        <li><a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a> and <a href="https://www.suburbangolfcarts.com/oregon-golf-carts">Oregon</a>: Rain protection critical</li>
+        <li><a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a> and <a href="https://www.suburbangolfcarts.com/utah-golf-carts">Utah</a>: Snow and cold preparation</li>
+        <li><a href="https://www.suburbangolfcarts.com/north-dakota-golf-carts">North Dakota</a> and <a href="https://www.suburbangolfcarts.com/south-dakota-golf-carts">South Dakota</a>: Extreme temperature swings</li>
       </ul>
       
       <h2>Choosing the Right Protection Level</h2>
@@ -1901,7 +1901,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Weather-Ready Solutions Nationwide</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> helps customers across all 50 states select and configure weather-appropriate golf carts, from the rainy Pacific Northwest to the snowy Great Lakes region.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> helps customers across all 50 states select and configure weather-appropriate golf carts, from the rainy Pacific Northwest to the snowy Great Lakes region.</p>
       
       <h4>Our Weather Protection Services</h4>
       <ul>
@@ -1914,11 +1914,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Weather-resistant suburban golf carts extend your investment's lifespan while enabling year-round enjoyment. Whether you choose the premium protection of <a href="/denago">DENAGO</a> or the durable construction of <a href="/evolution">Evolution</a>, proper weather features ensure comfortable, reliable transportation regardless of conditions.</p>
+      <p>Weather-resistant suburban golf carts extend your investment's lifespan while enabling year-round enjoyment. Whether you choose the premium protection of <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> or the durable construction of <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a>, proper weather features ensure comfortable, reliable transportation regardless of conditions.</p>
       
-      <p>From <a href="/alaska-golf-carts">Alaska's</a> extreme cold to <a href="/hawaii-golf-carts">Hawaii's</a> tropical weather, the right weather protection keeps you moving.</p>
+      <p>From <a href="https://www.suburbangolfcarts.com/alaska-golf-carts">Alaska's</a> extreme cold to <a href="https://www.suburbangolfcarts.com/hawaii-golf-carts">Hawaii's</a> tropical weather, the right weather protection keeps you moving.</p>
       
-      <p>Ready to find a weather-ready golf cart for your climate? <a href="/contact">Contact Suburban Golf Carts</a> today for expert guidance on weather-resistant features and protection systems tailored to your location.</p>
+      <p>Ready to find a weather-ready golf cart for your climate? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for expert guidance on weather-resistant features and protection systems tailored to your location.</p>
     `
   },
   {
@@ -2011,7 +2011,7 @@ export const blogPosts: BlogPost[] = [
         <li>Cargo beds for equipment transport</li>
         <li>Weather enclosures for year-round use</li>
         <li>Communication equipment mounts</li>
-        <li>Popular in communities across <a href="/florida-golf-carts">Florida</a>, <a href="/arizona-golf-carts">Arizona</a>, <a href="/south-carolina-golf-carts">South Carolina</a></li>
+        <li>Popular in communities across <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>, <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a></li>
       </ul>
       
       <h3>Food and Beverage Service</h3>
@@ -2023,7 +2023,7 @@ export const blogPosts: BlogPost[] = [
         <li>Point-of-sale system integration</li>
         <li>Health department-compliant surfaces</li>
         <li>Custom menus and branding</li>
-        <li>Growing in <a href="/california-golf-carts">California</a>, <a href="/texas-golf-carts">Texas</a>, <a href="/new-york-golf-carts">New York</a></li>
+        <li>Growing in <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, <a href="https://www.suburbangolfcarts.com/new-york-golf-carts">New York</a></li>
       </ul>
       
       <h3>Landscaping and Maintenance</h3>
@@ -2034,7 +2034,7 @@ export const blogPosts: BlogPost[] = [
         <li>Sprayer and spreader mounts</li>
         <li>Trailer hitches rated for commercial use</li>
         <li>Weather protection for operators</li>
-        <li>Common across all states including <a href="/ohio-golf-carts">Ohio</a>, <a href="/michigan-golf-carts">Michigan</a>, <a href="/pennsylvania-golf-carts">Pennsylvania</a></li>
+        <li>Common across all states including <a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio</a>, <a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan</a>, <a href="https://www.suburbangolfcarts.com/pennsylvania-golf-carts">Pennsylvania</a></li>
       </ul>
       
       <h3>Security and Patrol</h3>
@@ -2073,7 +2073,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>DENAGO Customization</h3>
       
-      <p>The <a href="/denago">DENAGO brand</a> offers factory customization options:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO brand</a> offers factory customization options:</p>
       
       <h4>DENAGO Custom Packages</h4>
       <ul>
@@ -2086,7 +2086,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Evolution Customization</h3>
       
-      <p>The <a href="/evolution">Evolution brand</a> supports extensive aftermarket customization:</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution brand</a> supports extensive aftermarket customization:</p>
       
       <h4>Evolution Modification-Friendly Design</h4>
       <ul>
@@ -2166,7 +2166,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Popular Customizations by Region</h3>
       
       <h4>Coastal Communities</h4>
-      <p>In <a href="/delaware-golf-carts">Delaware</a>, <a href="/maryland-golf-carts">Maryland</a>, <a href="/virginia-golf-carts">Virginia</a>:</p>
+      <p>In <a href="https://www.suburbangolfcarts.com/delaware-golf-carts">Delaware</a>, <a href="https://www.suburbangolfcarts.com/maryland-golf-carts">Maryland</a>, <a href="https://www.suburbangolfcarts.com/virginia-golf-carts">Virginia</a>:</p>
       <ul>
         <li>Beach-themed graphics and colors</li>
         <li>Surfboard and beach gear racks</li>
@@ -2174,7 +2174,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Mountain Communities</h4>
-      <p>Popular in <a href="/colorado-golf-carts">Colorado</a>, <a href="/utah-golf-carts">Utah</a>, <a href="/montana-golf-carts">Montana</a>:</p>
+      <p>Popular in <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, <a href="https://www.suburbangolfcarts.com/utah-golf-carts">Utah</a>, <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a>:</p>
       <ul>
         <li>Lift kits and all-terrain tires</li>
         <li>Ski and snowboard racks</li>
@@ -2183,7 +2183,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Retirement Communities</h4>
-      <p>Common in <a href="/arizona-golf-carts">Arizona</a>, <a href="/florida-golf-carts">Florida</a>:</p>
+      <p>Common in <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>, <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>:</p>
       <ul>
         <li>Mobility assistance features</li>
         <li>Comfort-focused upgrades</li>
@@ -2195,7 +2195,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Custom Solutions Nationwide</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> connects customers across all 50 states with customization experts and provides guidance on modifying both <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> models for personal and commercial applications.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> connects customers across all 50 states with customization experts and provides guidance on modifying both <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> models for personal and commercial applications.</p>
       
       <h4>Our Customization Services</h4>
       <ul>
@@ -2210,9 +2210,9 @@ export const blogPosts: BlogPost[] = [
       
       <p>Custom suburban golf carts transform basic transportation into personalized statements or optimized business tools. Whether you're creating your dream personal vehicle or building a commercial fleet, the right customizations deliver both satisfaction and functionality.</p>
       
-      <p>From <a href="/washington-golf-carts">Washington's</a> mobile coffee carts to <a href="/georgia-golf-carts">Georgia's</a> property management fleets, custom golf carts serve diverse needs across America.</p>
+      <p>From <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington's</a> mobile coffee carts to <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia's</a> property management fleets, custom golf carts serve diverse needs across America.</p>
       
-      <p>Ready to create your custom golf cart? <a href="/contact">Contact Suburban Golf Carts</a> today to discuss customization options tailored to your vision or business requirements.</p>
+      <p>Ready to create your custom golf cart? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today to discuss customization options tailored to your vision or business requirements.</p>
     `
   },
   {
@@ -2267,7 +2267,7 @@ export const blogPosts: BlogPost[] = [
       
       <h4>Overall Rating: 9.5/10</h4>
       
-      <p>The <a href="/denago">DENAGO EV Rover XL</a> sets the standard for ride quality in suburban golf carts. Its advanced suspension system and thoughtful engineering deliver exceptional comfort across all terrain types.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Rover XL</a> sets the standard for ride quality in suburban golf carts. Its advanced suspension system and thoughtful engineering deliver exceptional comfort across all terrain types.</p>
       
       <h5>Ride Quality Features</h5>
       <ul>
@@ -2296,7 +2296,7 @@ export const blogPosts: BlogPost[] = [
       
       <h4>Overall Rating: 8.5/10</h4>
       
-      <p>The <a href="/evolution">Evolution D5 Ranger 4 Plus</a> delivers surprisingly smooth ride quality at a mid-range price point, making premium comfort accessible to more buyers.</p>
+      <p>The <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 Ranger 4 Plus</a> delivers surprisingly smooth ride quality at a mid-range price point, making premium comfort accessible to more buyers.</p>
       
       <h5>Comfort Highlights</h5>
       <ul>
@@ -2399,7 +2399,7 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li>Any model with LSV certification for street use</li>
         <li>Emphasis on all-day comfort</li>
-        <li>Weather enclosures for year-round use in states like <a href="/oregon-golf-carts">Oregon</a>, <a href="/washington-golf-carts">Washington</a></li>
+        <li>Weather enclosures for year-round use in states like <a href="https://www.suburbangolfcarts.com/oregon-golf-carts">Oregon</a>, <a href="https://www.suburbangolfcarts.com/washington-golf-carts">Washington</a></li>
       </ul>
       
       <h2>Suspension Upgrade Options</h2>
@@ -2447,21 +2447,21 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li>Premium ride quality easier to achieve</li>
         <li>Standard suspension systems perform well</li>
-        <li>Popular in communities across <a href="/florida-golf-carts">Florida</a>, <a href="/arizona-golf-carts">Arizona</a></li>
+        <li>Popular in communities across <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a></li>
       </ul>
       
       <h4>Rough or Cracked Roads</h4>
       <ul>
         <li>Premium suspension systems worth the investment</li>
         <li>Larger tires help significantly</li>
-        <li>Common in older neighborhoods in <a href="/ohio-golf-carts">Ohio</a>, <a href="/pennsylvania-golf-carts">Pennsylvania</a>, <a href="/michigan-golf-carts">Michigan</a></li>
+        <li>Common in older neighborhoods in <a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio</a>, <a href="https://www.suburbangolfcarts.com/pennsylvania-golf-carts">Pennsylvania</a>, <a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan</a></li>
       </ul>
       
       <h4>Mixed Terrain</h4>
       <ul>
         <li>Balance between comfort and capability important</li>
         <li>All-terrain models with good suspension ideal</li>
-        <li>Relevant for communities in <a href="/colorado-golf-carts">Colorado</a>, <a href="/north-carolina-golf-carts">North Carolina</a>, <a href="/tennessee-golf-carts">Tennessee</a></li>
+        <li>Relevant for communities in <a href="https://www.suburbangolfcarts.com/colorado-golf-carts">Colorado</a>, <a href="https://www.suburbangolfcarts.com/north-carolina-golf-carts">North Carolina</a>, <a href="https://www.suburbangolfcarts.com/tennessee-golf-carts">Tennessee</a></li>
       </ul>
       
       <h2>Comparison Summary</h2>
@@ -2495,7 +2495,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Expert Guidance on Ride Quality</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> helps customers nationwide find the smoothest-riding golf carts for their specific needs, whether in the planned communities of <a href="/south-carolina-golf-carts">South Carolina</a> or the suburban developments of <a href="/illinois-golf-carts">Illinois</a>.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> helps customers nationwide find the smoothest-riding golf carts for their specific needs, whether in the planned communities of <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a> or the suburban developments of <a href="https://www.suburbangolfcarts.com/illinois-golf-carts">Illinois</a>.</p>
       
       <h4>Our Service</h4>
       <ul>
@@ -2508,11 +2508,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Golf cart ride quality varies dramatically between models and brands. The <a href="/denago">DENAGO EV Rover XL</a> leads in premium comfort, while the <a href="/evolution">Evolution D5 Ranger 4 Plus</a> delivers exceptional value. Whether prioritizing ultimate smoothness or balanced performance, today's top models offer impressive comfort for daily suburban use.</p>
+      <p>Golf cart ride quality varies dramatically between models and brands. The <a href="https://www.suburbangolfcarts.com/denago">DENAGO EV Rover XL</a> leads in premium comfort, while the <a href="https://www.suburbangolfcarts.com/evolution">Evolution D5 Ranger 4 Plus</a> delivers exceptional value. Whether prioritizing ultimate smoothness or balanced performance, today's top models offer impressive comfort for daily suburban use.</p>
       
-      <p>From smooth Florida neighborhoods to varied terrain in <a href="/georgia-golf-carts">Georgia</a> and <a href="/texas-golf-carts">Texas</a>, the right golf cart transforms your daily rides into comfortable, enjoyable experiences.</p>
+      <p>From smooth Florida neighborhoods to varied terrain in <a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a> and <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a>, the right golf cart transforms your daily rides into comfortable, enjoyable experiences.</p>
       
-      <p>Ready to experience the smoothest-riding golf carts? <a href="/contact">Contact Suburban Golf Carts</a> today to arrange test drives and find your perfect comfortable ride.</p>
+      <p>Ready to experience the smoothest-riding golf carts? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today to arrange test drives and find your perfect comfortable ride.</p>
     `
   },
   {
@@ -2532,7 +2532,7 @@ export const blogPosts: BlogPost[] = [
     content: `
       <h1>Suburban Golf Cart Maintenance Services Nearby</h1>
       
-      <p>Proper maintenance is the foundation of long-term golf cart reliability and performance. Whether you're in <a href="/california-golf-carts">California</a>, <a href="/florida-golf-carts">Florida</a>, or anywhere in between, finding qualified service providers and understanding maintenance requirements ensures your investment delivers years of dependable service.</p>
+      <p>Proper maintenance is the foundation of long-term golf cart reliability and performance. Whether you're in <a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>, <a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>, or anywhere in between, finding qualified service providers and understanding maintenance requirements ensures your investment delivers years of dependable service.</p>
       
       <h2>Essential Maintenance Services</h2>
       
@@ -2582,7 +2582,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       
       <h4>Finding Authorized Dealers</h4>
-      <p>Both <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> maintain dealer locators on their websites. Service available nationwide from <a href="/texas-golf-carts">Texas</a> to <a href="/new-york-golf-carts">New York</a>.</p>
+      <p>Both <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> maintain dealer locators on their websites. Service available nationwide from <a href="https://www.suburbangolfcarts.com/texas-golf-carts">Texas</a> to <a href="https://www.suburbangolfcarts.com/new-york-golf-carts">New York</a>.</p>
       
       <h3>Independent Service Shops</h3>
       
@@ -2612,7 +2612,7 @@ export const blogPosts: BlogPost[] = [
         <li>Service at your home</li>
         <li>No need to transport cart</li>
         <li>Flexible scheduling</li>
-        <li>Popular in retirement communities across <a href="/arizona-golf-carts">Arizona</a>, <a href="/south-carolina-golf-carts">South Carolina</a></li>
+        <li>Popular in retirement communities across <a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>, <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a></li>
         <li><strong>Cost premium:</strong> Usually $25-$75 extra for mobile service</li>
       </ul>
       
@@ -2715,16 +2715,16 @@ export const blogPosts: BlogPost[] = [
       
       <h4>Excellent Service Networks</h4>
       <ul>
-        <li><a href="/florida-golf-carts">Florida</a>: Extensive dealer and independent shop networks</li>
-        <li><a href="/arizona-golf-carts">Arizona</a>: Strong retirement community service infrastructure</li>
-        <li><a href="/california-golf-carts">California</a>: Numerous authorized dealers statewide</li>
-        <li><a href="/georgia-golf-carts">Georgia</a> and <a href="/south-carolina-golf-carts">South Carolina</a>: Growing service availability</li>
+        <li><a href="https://www.suburbangolfcarts.com/florida-golf-carts">Florida</a>: Extensive dealer and independent shop networks</li>
+        <li><a href="https://www.suburbangolfcarts.com/arizona-golf-carts">Arizona</a>: Strong retirement community service infrastructure</li>
+        <li><a href="https://www.suburbangolfcarts.com/california-golf-carts">California</a>: Numerous authorized dealers statewide</li>
+        <li><a href="https://www.suburbangolfcarts.com/georgia-golf-carts">Georgia</a> and <a href="https://www.suburbangolfcarts.com/south-carolina-golf-carts">South Carolina</a>: Growing service availability</li>
       </ul>
       
       <h3>Lower-Density Markets</h3>
       
       <h4>Service Solutions for Rural Areas</h4>
-      <p>States like <a href="/wyoming-golf-carts">Wyoming</a>, <a href="/montana-golf-carts">Montana</a>, and <a href="/north-dakota-golf-carts">North Dakota</a> may have fewer options:</p>
+      <p>States like <a href="https://www.suburbangolfcarts.com/wyoming-golf-carts">Wyoming</a>, <a href="https://www.suburbangolfcarts.com/montana-golf-carts">Montana</a>, and <a href="https://www.suburbangolfcarts.com/north-dakota-golf-carts">North Dakota</a> may have fewer options:</p>
       <ul>
         <li>Mobile service technicians travel longer distances</li>
         <li>Regional dealers may serve multiple counties</li>
@@ -2737,7 +2737,7 @@ export const blogPosts: BlogPost[] = [
       <h3>Pre-Season Preparation</h3>
       
       <h4>Spring Start-Up (Northern States)</h4>
-      <p>Important for <a href="/minnesota-golf-carts">Minnesota</a>, <a href="/wisconsin-golf-carts">Wisconsin</a>, <a href="/michigan-golf-carts">Michigan</a>:</p>
+      <p>Important for <a href="https://www.suburbangolfcarts.com/minnesota-golf-carts">Minnesota</a>, <a href="https://www.suburbangolfcarts.com/wisconsin-golf-carts">Wisconsin</a>, <a href="https://www.suburbangolfcarts.com/michigan-golf-carts">Michigan</a>:</p>
       <ul>
         <li>Battery recharge and health check</li>
         <li>Tire inspection and inflation</li>
@@ -2826,7 +2826,7 @@ export const blogPosts: BlogPost[] = [
       
       <h3>Service Support Nationwide</h3>
       
-      <p><a href="/">Suburban Golf Carts</a> connects customers across all 50 states with qualified service providers for <a href="/denago">DENAGO</a> and <a href="/evolution">Evolution</a> golf carts, ensuring you receive expert care wherever you're located.</p>
+      <p><a href="https://www.suburbangolfcarts.com/">Suburban Golf Carts</a> connects customers across all 50 states with qualified service providers for <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> and <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> golf carts, ensuring you receive expert care wherever you're located.</p>
       
       <h4>Our Service Network</h4>
       <ul>
@@ -2840,11 +2840,11 @@ export const blogPosts: BlogPost[] = [
       
       <h2>Conclusion</h2>
       
-      <p>Regular professional maintenance, combined with attentive owner care, ensures your suburban golf cart provides reliable service for years. From routine service in <a href="/ohio-golf-carts">Ohio</a> to specialized repairs in <a href="/nevada-golf-carts">Nevada</a>, qualified technicians keep your investment running smoothly.</p>
+      <p>Regular professional maintenance, combined with attentive owner care, ensures your suburban golf cart provides reliable service for years. From routine service in <a href="https://www.suburbangolfcarts.com/ohio-golf-carts">Ohio</a> to specialized repairs in <a href="https://www.suburbangolfcarts.com/nevada-golf-carts">Nevada</a>, qualified technicians keep your investment running smoothly.</p>
       
-      <p>Whether you own a <a href="/denago">DENAGO</a> or <a href="/evolution">Evolution</a> model, establishing a relationship with a trusted service provider is one of the smartest decisions you can make as a golf cart owner.</p>
+      <p>Whether you own a <a href="https://www.suburbangolfcarts.com/denago">DENAGO</a> or <a href="https://www.suburbangolfcarts.com/evolution">Evolution</a> model, establishing a relationship with a trusted service provider is one of the smartest decisions you can make as a golf cart owner.</p>
       
-      <p>Need help finding service in your area? <a href="/contact">Contact Suburban Golf Carts</a> today for service provider recommendations and maintenance guidance tailored to your location and golf cart model.</p>
+      <p>Need help finding service in your area? <a href="https://www.suburbangolfcarts.com/contact">Contact Suburban Golf Carts</a> today for service provider recommendations and maintenance guidance tailored to your location and golf cart model.</p>
     `
   }
 ];
